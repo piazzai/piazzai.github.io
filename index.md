@@ -50,6 +50,7 @@ Vecco, Marilena, and Michele Piazzai (2015). Deaccessioning of museum collection
 ### 2019
 
 -   Mathematics, Physics, and Computation Seminar, Chapman University (invited)  
+-   Strategy, Entrepreneurship, and Innovation Seminar, Maynooth University (invited)  
 -   Strategy Seminar, IE Business School (invited)  
 -   Management and Behavioral Research Seminar, Pompeu Fabra University  
 -   Nagymaros Conference, Stanford University  
@@ -143,4 +144,4 @@ Academy of Management Annual Meeting; Organization Studies
 ## Programming skills
 
 Data manipulation: R, Stata, SQL, VBA  
-Markup: CSS, HTML, Markdown, LaTeX
+Markup: CSS, HTML, LaTeX, Markdown
