@@ -38,6 +38,10 @@ Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apos
 
 Vecco, Marilena, and Michele Piazzai (2015). Deaccessioning of museum collections: What do we know and where do we stand in Europe? _Journal of Cultural Heritage_ 16(2), 221–227. <a href="https://doi.org/10.1016/j.culher.2014.03.007" class="{{ doi }}" title="DOI" id="icon"></a>
 
+## Under review
+
+Piazzai, Michele, Min Liu, and Martina Montauti. On categorization. Revise and resubmit at _Management Science_.
+
 ## Talks
 
 ### 2020
