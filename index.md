@@ -147,5 +147,6 @@ Academy of Management Annual Meeting; Organization Studies
 
 ## Programming skills
 
-Data manipulation: R, Stata, SQL, VBA  
-Markup: CSS, HTML, LaTeX, Markdown
+Data: R, Stata, SQL, VBA  
+Markup: CSS, HTML, Markdown
+Typesetting: LaTeX
