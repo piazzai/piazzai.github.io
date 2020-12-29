@@ -18,19 +18,13 @@
         {{ site.address }}
       </div>
       <div class="right column">
-        <a href="mailto:{{ site.email }}" class="fas fa-2x fa-envelope-square" title="Email" id="icon"></a>
-        {% if site.scholar %}
-        <a href="{{ site.scholar }}" class="ai ai-2x ai-google-scholar-square" title="Google Scholar" id="icon"></a>
-        {% endif %}
-        {% if site.orcid %}
+        <a href="{{ site.scholar }}" class="ai ai-2x ai-google-scholar-square" title="Scholar" id="icon"></a>
         <a href="{{ site.orcid }}" class="ai ai-2x ai-orcid-square" title="ORCID" id="icon"></a>
-        {% endif %}
-        {% if site.lichess %}
+        <a href="{{ site.publons }}" class="ai ai-2x ai-publons-square" title="Publons" id="icon"></a>
+        <a href="{{ site.scopus }}" class="ai ai-2x ai-scopus-square" title="Scopus" id="icon"></a><br />
+        <a href="mailto:{{ site.email }}" class="fas fa-2x fa-envelope-square" title="Email" id="icon"></a>
         <a href="https://lichess.org/@/{{ site.lichess }}" class="nai nai-2x nai-lichess-square" title="Lichess" id="icon"></a>
-        {% endif %}
-        {% if site.github %}
         <a href="https://github.com/{{ site.github }}" class="fab fa-2x fa-github-square" title="GitHub" id="icon"></a>
-        {% endif %}
       </div>
     </div>
   </div>
