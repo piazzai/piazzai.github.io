@@ -16,7 +16,7 @@ navtext:      uc3m
 navlink:      https://business.uc3m.es/en/faculty/profesor/perfil/michele-piazzai
 
 # cv pdf
-cv:           cv.pdf
+# cv:           cv.pdf
 
 # footer buttons
 email:        michele.piazzai@uc3m.es
