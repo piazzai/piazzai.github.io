@@ -127,7 +127,7 @@ National Italian American Foundation Scholarship, Sierra Nevada College (2009)
 
 ## Service
 
-### conferences and workshops
+### Conference organization
 
 Scientific committee of the Nagymaros Conference, ESMT Berlin (2020)  
 Organizer of the Applied Logic Workshop, Delft University of Technology (2018)
@@ -138,9 +138,9 @@ Business Administration Program Committee, University of Amsterdam (2018–2019)
 
 ### Reviews
 
-Academy of Management Annual Meeting; Organization Studies
+Academy of Management Annual Meeting; Organization Studies; Strategy Science
 
-## Programming skills
+## Programming
 
 Data: R, Stata, SQL, VBA  
 Markup: CSS, HTML, Markdown  
