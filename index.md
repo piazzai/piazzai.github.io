@@ -97,12 +97,13 @@ Vecco, Marilena, and Michele Piazzai (2015). Deaccessioning of museum collection
 
 ## Teaching
 
+{% assign info="fas fa-info-circle" %}
 {% assign moodle="ai ai-moodle-square" %}
 
 ### Universidad Carlos III de Madrid
 
-Organizational Design, B.Sc. (2020–) <a href="https://aulaglobal.uc3m.es/course/view.php?id=112211" class="{{ moodle }}" title="Moodle" id="icon"></a>  
-Strategic Management, M.Res. (2020–) <a href="https://aulaglobal.uc3m.es/course/view.php?id=110881" class="{{ moodle }}" title="Moodle" id="icon"></a>
+Organizational Design, B.Sc. (2020–) <!--<a href="orgdesign.pdf" class="{{ info }}" title="Info" id="icon"></a>-->  
+Strategic Management, M.Res. (2020–) <!--<a href="strategy.pdf" class="{{ info }}" title="Info" id="icon"></a>-->
 
 ### University of Amsterdam
 
@@ -138,7 +139,7 @@ Business Administration Program Committee, University of Amsterdam (2018–2019)
 
 ### Reviews
 
-Academy of Management Annual Meeting; Organization Studies; Strategy Science
+Management Science; Organization Studies; Strategy Science
 
 ## Programming
 
