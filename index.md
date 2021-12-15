@@ -29,7 +29,7 @@ B.A. _summa cum laude_, Sierra Nevada College, 2011
 Data Science Specialization, Utrecht University, 2018  
 Medici Summer School in Management Studies, University of Bologna, 2015
 
-## Research
+## Research <a id="research"></a>
 
 ### Journal articles
 
@@ -68,7 +68,7 @@ Logic and Algebra Workshop, University of Johannesburg, 2017
 Entrepreneurship and Innovation Seminar, Amsterdam Business School, 2017  
 Management Seminar, Durham University Business School, 2017
 
-## Teaching
+## Teaching <a id="teaching"></a>
 
 ### Universidad Carlos III de Madrid
 

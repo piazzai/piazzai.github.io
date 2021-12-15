@@ -1,6 +1,6 @@
 # seo tags
 title:        Michele Piazzai
-description:  Michele Piazzai is a computational social scientist and Assistant Professor of Management at Universidad Carlos III de Madrid (UC3M)
+description:  Computational social scientist at Universidad Carlos III de Madrid
 
 # personal info
 firstname:    Michele
@@ -12,8 +12,10 @@ office:       Normante 6.0.23
 phone:        +34 91 624 9322
 
 # navigation
-navtext:      uc3m
-navlink:      https://business.uc3m.es/
+navtext:      Research
+navlink:      "#research"
+navtext2:     Teaching
+navlink2:     "#teaching"
 
 # cv pdf
 # cv:           cv.pdf

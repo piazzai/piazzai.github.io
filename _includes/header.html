@@ -4,9 +4,20 @@
       <div class="left column">
         <a href="{{ site.url }}" id="titlebar">{{ site.firstname }}<span style="display: none;"> </span><b>{{ site.lastname }}</b></a>
       </div>
-      <div class="right column">
+      {% if site.navtext %}
+      {% if site.navlink %}
+      <div class="right column menu">
         <a href="{{ site.navlink }}" id="navbar">{{ site.navtext }}</a>
+        {% if site.navlink2 %}
+        <a href="{{ site.navlink2 }}" id="navbar" style="margin-left: .25em;">{{ site.navtext2 }}</a>
+        {% endif %}
       </div>
+      {% else %}
+      <div class="right column menu">
+        {{ site.navtext }}
+      </div>
+      {% endif %}
+      {% endif %}
     </div>
   </div>
 </header>
