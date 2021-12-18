@@ -91,7 +91,7 @@ Teaching Assistant, Ethics and Engineering, M.Sc. (2015–2017)
 
 ### Grants
 
-I+D+i Project, Spanish Ministry of Science and Innovation (2020, co-applicant)  
+I+D+i Project, Spanish Ministry of Science and Innovation (2021, co-applicant)  
 Undergraduate Scholarship, Sierra Nevada College (2010)  
 Undergraduate Scholarship, National Italian American Foundation (2009)
 
