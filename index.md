@@ -10,7 +10,7 @@ title: CV
 
 ## Bio
 
-I am a social scientist interested in organization, strategy, and decision-making. I study how people use concepts and categories to compete or coordinate in markets. My work weaves together ideas from organization theory, cognitive psychology, behavioral economics, and computer science. My research methods are quantitative and formal, including statistics, deep learning, agent-based simulation, and modal logic.
+I am a social scientist interested in organization, strategy, and decision-making. I study how people use concepts and categories to compete or coordinate in markets. My work weaves together ideas from organizational sociology, cognitive psychology, behavioral economics, and computer science.
 
 ### Academic positions
 
@@ -26,7 +26,7 @@ B.A. _summa cum laude_, Sierra Nevada College (2011)
 ### Other
 
 Data Science Specialization, Utrecht University (2018)  
-Medici Summer School in Management Studies, University of Bologna (2015)
+Medici Summer School, University of Bologna (2015)
 
 ## Research <a id="research"></a>
 
@@ -41,19 +41,19 @@ Vecco M., Piazzai M. (2015). Deaccessioning of museum collections: What do we kn
 
 ### Refereed proceedings
 
-Liu M., Montauti M., Piazzai M. (2018). Old at heart, young at the periphery: An age dependence approach to resource partitioning. _Academy of Management Best Papers Proceedings_. <a href="https://doi.org/10.5465/ambpp.2018.31" class="{{ doi }}" title="DOI" id="icon"></a>
+Liu M., Montauti M., Piazzai M. (2018). Old at heart, young at the periphery: An age dependence approach to resource partitioning. _AOM Best Papers_. <a href="https://doi.org/10.5465/ambpp.2018.31" class="{{ doi }}" title="DOI" id="icon"></a>
 
-Conradie W., Frittella S., Palmigiano A., Piazzai M., Tzimoulis A., Wijnberg N.M. (2017). Toward an epistemic-logical theory of categorization. _Theoretical Aspects of Rationality and Knowledge_. <a href="https://doi.org/10.4204/eptcs.251.12" class="{{ doi }}" title="DOI" id="icon"></a> <a href="https://arxiv.org/pdf/1707.08743.pdf" class="{{ pdf }}" title="PDF" id="icon"></a>
+Conradie W., Frittella S., Palmigiano A., Piazzai M., Tzimoulis A., Wijnberg N.M. (2017). Toward an epistemic-logical theory of categorization. _TARK_. <a href="https://doi.org/10.4204/eptcs.251.12" class="{{ doi }}" title="DOI" id="icon"></a> <a href="https://arxiv.org/pdf/1707.08743.pdf" class="{{ pdf }}" title="PDF" id="icon"></a>
 
-Piazzai M., Wijnberg N.M. (2017). Diversification, proliferation, and firm performance in the U.S. music industry. _Academy of Management Best Papers Proceedings_. <a href="https://doi.org/10.5465/ambpp.2017.29" class="{{ doi }}" title="DOI" id="icon"></a>
+Piazzai M., Wijnberg N.M. (2017). Diversification, proliferation, and firm performance in the U.S. music industry. _AOM Best Papers_. <a href="https://doi.org/10.5465/ambpp.2017.29" class="{{ doi }}" title="DOI" id="icon"></a>
 
-Conradie W., Frittella S., Palmigiano A., Piazzai M., Tzimoulis A., Wijnberg N.M. (2016). Categories: How I learned to stop worrying and love two sorts. _Logic, Language, Information, and Computation_. <a href="https://doi.org/10.1007/978-3-662-52921-8_10" class="{{ doi }}" title="DOI" id="icon"></a> <a href="https://arxiv.org/pdf/1604.00777.pdf" class="{{ pdf }}" title="PDF" id="icon"></a>
+Conradie W., Frittella S., Palmigiano A., Piazzai M., Tzimoulis A., Wijnberg N.M. (2016). Categories: How I learned to stop worrying and love two sorts. _WoLLIC_. <a href="https://doi.org/10.1007/978-3-662-52921-8_10" class="{{ doi }}" title="DOI" id="icon"></a> <a href="https://arxiv.org/pdf/1604.00777.pdf" class="{{ pdf }}" title="PDF" id="icon"></a>
 
 ### Encyclopedia entries
 
 Piazzai M., Vecco M. (2020). Deaccessioning. _Oxford Bibliographies in Anthropology_. <a href="https://doi.org/10.1093/obo/9780199766567-0246" class="{{ doi }}" title="DOI" id="icon"></a>
 
-## Invited seminars
+## Invited talks
 
 Strategy and International Business Seminar, Warwick Business School (2020)  
 Mïnd Area Seminar, Rennes School of Business (2020, postponed)  
