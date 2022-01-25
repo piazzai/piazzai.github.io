@@ -10,7 +10,7 @@ title: CV
 
 ## Bio
 
-I am a social scientist interested in organization, strategy, and decision-making. I study how people use concepts and categories to compete or coordinate in markets. My work weaves together ideas from organizational sociology, cognitive psychology, behavioral economics, and computer science.
+I am a social scientist interested in problems of organization, strategy, and decision-making. My research aims to explain how people use concepts and categories to compete or coordinate in markets. To that end, I weave together ideas from organizational sociology, cognitive psychology, behavioral economics, and computer science.
 
 ### Academic positions
 
@@ -91,13 +91,13 @@ Teaching Assistant, Ethics and Engineering, M.Sc. (2015–2017)
 
 ### Grants
 
-I+D+i Project, Spanish Ministry of Science and Innovation (2021, co-applicant)  
+Knowledge Generation Project, Spanish Ministry of Science and Innovation (2021, co-applicant)  
 Undergraduate Scholarship, Sierra Nevada College (2010)  
 Undergraduate Scholarship, National Italian American Foundation (2009)
 
 ### Awards
 
-UC3M Business Teaching Award (2021) &nbsp;<a href="https://business.uc3m.es/en/news/noticia/310" class="{{ link }}" title="Link" id="icon"></a>  
+UC3M Business Teaching Award (2021)  <a href="https://business.uc3m.es/en/news/noticia/310" class="{{ link }}" title="Link" id="icon"></a>  
 Best Papers in Business Policy and Strategy, Academy of Management (2018)  
 Best Papers in Organization and Management Theory, Academy of Management (2017)  
 Departmental Scholar Award, Sierra Nevada College (2011)  
@@ -115,7 +115,7 @@ Business Administration Program Committee, University of Amsterdam (2018–2019)
 
 ### Peer reviews
 
-Management Science; Organization Studies; Strategy Science
+Management Science; Organization Science; Organization Studies; Strategy Science
 
 ## Programming
 
