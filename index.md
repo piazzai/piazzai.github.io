@@ -10,7 +10,7 @@ title: CV
 
 ## Bio
 
-I am a social scientist interested in problems of organization, strategy, and decision-making. My research aims to explain how people use concepts and categories to compete or coordinate in markets. To that end, I weave together ideas from organizational sociology, cognitive psychology, behavioral economics, and computer science.
+I am a social scientist interested in organization, strategy, and decision-making. My research aims to explain how people use categorization to compete or coordinate in markets. My work weaves together ideas from organizational sociology, cognitive psychology, behavioral economics, and computer science.
 
 ### Academic positions
 
@@ -91,7 +91,7 @@ Teaching Assistant, Ethics and Engineering, M.Sc. (2015–2017)
 
 ### Grants
 
-Knowledge Generation Project, Spanish Ministry of Science and Innovation (2021, co-applicant)  
+Knowledge Generation Grant, Spanish Ministry of Science (2021, co-applicant)  
 Undergraduate Scholarship, Sierra Nevada College (2010)  
 Undergraduate Scholarship, National Italian American Foundation (2009)
 
