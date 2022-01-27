@@ -115,7 +115,7 @@ Business Administration Program Committee, University of Amsterdam (2018–2019)
 
 ### Peer reviews
 
-Management Science; Organization Science; Organization Studies; Strategy Science
+Management Science; Organization Studies; Strategy Science
 
 ## Programming
 
