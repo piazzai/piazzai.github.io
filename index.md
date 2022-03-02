@@ -10,7 +10,7 @@ title: CV
 
 ## Bio
 
-I am a social scientist interested in organization, strategy, and decision-making. My research aims to explain how people use categorization to compete or coordinate in markets. To that end, my work weaves together ideas from organizational sociology, cognitive psychology, behavioral economics, and computer science.
+I am a computational social scientist interested in problems of organization, strategy, and decision-making. My research aims to explain how people use [concepts](https://plato.stanford.edu/entries/concepts/) to compete or coordinate in markets. My work weaves together ideas from organizational sociology, cognitive psychology, behavioral economics, and computer science.
 
 ### Academic positions
 
@@ -23,7 +23,7 @@ Ph.D. _cum laude_, Delft University of Technology (2018)
 M.A. _cum laude_, Erasmus University Rotterdam (2012)  
 B.A. _summa cum laude_, Sierra Nevada College (2011)
 
-### Other
+### Other training
 
 Data Science Specialization, Utrecht University (2018)  
 Medici Summer School, University of Bologna (2015)
@@ -98,8 +98,8 @@ Undergraduate Scholarship, National Italian American Foundation (2009)
 ### Awards
 
 UC3M Business Teaching Award (2021)  <a href="https://business.uc3m.es/en/news/noticia/310" class="{{ link }}" title="Link" id="icon"></a>  
-Best Papers in Business Policy and Strategy, Academy of Management (2018)  
-Best Papers in Organization and Management Theory, Academy of Management (2017)  
+Best Paper in Business Policy and Strategy, Academy of Management (2018)  
+Best Paper in Organization and Management Theory, Academy of Management (2017)  
 Departmental Scholar Award, Sierra Nevada College (2011)  
 
 ## Service
@@ -119,6 +119,8 @@ Management Science; Organization Studies; Strategy Science
 
 ## Programming
 
-Data: Python, R, Stata, SQL, VBA  
-Markup: CSS, HTML, Markdown  
+Scripting: Bash  
+General: Python, Visual Basic  
+Data: R, Stata, SQL  
+Web: CSS, HTML, Markdown  
 Typesetting: LaTeX
