@@ -121,6 +121,6 @@ Management Science; Organization Studies; Strategy Science
 
 Scripting: Bash  
 General: Python, Visual Basic  
-Data: R, Stata, SQL  
 Web: CSS, HTML, Markdown  
+Data: R, Stata, SQL  
 Typesetting: LaTeX
