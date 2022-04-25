@@ -30,9 +30,6 @@ scopus:       https://www.scopus.com/authid/detail.uri?authorId=56123810600
 lichess:      piazzai
 github:       piazzai
 
-# tracking id
-analytics:    G-TXPEKW736P
-
 # repository
 repo:         https://github.com/piazzai/piazzai.github.io
 
