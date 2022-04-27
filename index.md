@@ -104,9 +104,9 @@ Departmental Scholar Award, Sierra Nevada College (2011)
 
 ## Service
 
-### Conference organization
+### Professional activities
 
-Scientific committee of the Nagymaros Conference, ESMT Berlin (2020)  
+Scientific committee member for the Nagymaros Conference, ESMT Berlin (2020)  
 Organizer of the Applied Logic Workshop, Delft University of Technology (2018)
 
 ### Departmental activities
