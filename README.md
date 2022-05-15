@@ -4,4 +4,4 @@ This is the source code of my personal website, developed using the [CVLess](htt
 
 The site's CSS is automatically sourced from the CVLess repository. If you like the theme and want to use it, please read the installation and usage instructions in that repository. Cloning and editing this repository is not recommended as it does not grant control over the CSS.
 
-This repository was lucky enough to be included in the 02/02/2020 GitHub snapshot that was buried in the [Arctic Code Vault](https://archiveprogram.github.com/arctic-vault).
+This repository was lucky enough to be included in the 2020 GitHub snapshot for the [Arctic Code Vault](https://archiveprogram.github.com/arctic-vault).
