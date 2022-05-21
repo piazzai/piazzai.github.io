@@ -13,9 +13,9 @@ phone:        +34 91 624 9322
 
 # navigation
 navtext:      Research
-navlink:      "#research"
+navlink:      index.html#research
 navtext2:     Teaching
-navlink2:     "#teaching"
+navlink2:     index.html#teaching
 
 # cv pdf
 # cv:           cv.pdf
