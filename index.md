@@ -119,8 +119,7 @@ Management Science; Organization Studies; Strategy Science
 
 ## Programming
 
-Scripting: Bash  
-General: Python, Visual Basic  
+Scripting: Bash, Python  
 Web: CSS, HTML, Sass  
 Data: R, Stata, SQL  
 Typesetting: LaTeX
