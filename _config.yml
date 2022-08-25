@@ -8,7 +8,7 @@ lastname:     Piazzai
 organization: Universidad Carlos III de Madrid
 department:   Dpto. Economía de la Empresa
 address:      C/Madrid 126, 28903 Getafe, ES
-office:       Normante 6.0.23
+office:       Edificio Normante, 6.0.23
 phone:        +34 91 624 9322
 
 # navigation
@@ -18,14 +18,14 @@ navtext2:     Teaching
 navlink2:     index.html#teaching
 
 # cv pdf
-# cv:           cv.pdf
+# cv:         cv.pdf
 
 # footer buttons
 email:        michele.piazzai@uc3m.es
 official:     https://business.uc3m.es/en/faculty/profesor/perfil/michele-piazzai
 scholar:      https://scholar.google.com/citations?user=qcJki2MAAAAJ
 orcid:        https://orcid.org/0000-0001-9676-7422
-publons:      https://publons.com/researcher/ABH-6674-2020
+wos:          https://www.webofscience.com/wos/author/rid/ABH-6674-2020
 scopus:       https://www.scopus.com/authid/detail.uri?authorId=56123810600
 lichess:      piazzai
 github:       piazzai
