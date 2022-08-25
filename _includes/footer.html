@@ -24,11 +24,11 @@
         {% if site.orcid %}
         <a href="{{ site.orcid }}" class="ai ai-2x ai-orcid-square" title="ORCID" id="icon"></a>
         {% endif %}
-        {% if site.wos %}
-        <a href="{{ site.wos }}" class="ai ai-2x ai-researcherid-square" title="Web of Science" id="icon"></a>
-        {% endif %}
         {% if site.scopus %}
-        <a href="{{ site.scopus }}" class="ai ai-2x ai-scopus-square" title="Scopus" id="icon"></a>
+        <a href="{{ site.scopus }}" class="nai nai-2x nai-scopus-square" title="Scopus" id="icon"></a>
+        {% endif %}
+        {% if site.wos %}
+        <a href="{{ site.wos }}" class="nai nai-2x nai-clarivate-square" title="Web of Science" id="icon"></a>
         {% endif %}
         <br /><a href="mailto:{{ site.email }}" class="fas fa-2x fa-envelope-square" title="Email" id="icon"></a>
         {% if site.official %}
