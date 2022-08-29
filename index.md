@@ -7,10 +7,6 @@ title: CV
 
 I am a researcher interested in problems of organization, strategy, and decision-making. Through computational and statistical models, I study how people use categorization to compete, coordinate, and make sense of products in markets.
 
-My identity as a researcher is based on strong disciplinary training and a proclivity for interdisciplinary work. The most fascinating thing about human intelligence, I believe, is the mind’s ability to correlate its most disparate contents, establishing new and daring connections between seemingly distant areas of knowledge.
-
-What draws me to academic research is my desire to build new connections that help filling the void between sciences, with particular regard to the social, mathematical, and computational sciences.
-
 ## Academic positions
 
 <!-- Ramón y Cajal Fellow, Carlos III University of Madrid (2023–)   -->
@@ -27,7 +23,6 @@ International Summer School, Chinese University of Hong Kong (2012)
 B.A. _summa cum laude_, Sierra Nevada College (2011)
 
 ### Other training
-
 
 ## Research <a id="research"></a>
 
@@ -81,31 +76,31 @@ Academy of Management Conference, Anaheim (2016)
 European Group for Organizational Studies Conference, Naples (2016)  
 Lorentz Workshop on Unified Correspondence, Leiden (2016)  
 Logic and Algebra Workshop, Johannesburg (2016)  
-European Group for Organizational Studies Conference, Athens (2015)  
 Logic and Algebra Workshop, Johannesburg (2015)  
-International Association for the Study of Popular Music Conference, Rotterdam (2014)  
-European Group for Organizational Studies Conference, Rotterdam (2014)
+European Group for Organizational Studies Conference, Athens (2015)  
+European Group for Organizational Studies Conference, Rotterdam (2014)  
+International Association for the Study of Popular Music Conference, Rotterdam (2014)
 
 ## Teaching <a id="teaching"></a>
 
 ### Carlos III University of Madrid
 
-**Lecturer:** Organizational Design, B.Sc. (2020–)  
-**Lecturer:** Strategic Management, M.Res. (2020–2022)
+*Lecturer:* Organizational Design, B.Sc. (2020–)  
+*Lecturer:* Strategic Management, M.Res. (2020–2022)
 
 ### University of Amsterdam
 
-**Coordinator and lecturer:** Thesis Proposal Workshop, B.Sc./M.Sc. (2019–2020)  
-**Coordinator and lecturer:** Innovation Management, B.Sc. (2018–2020)  
-**Lecturer:** Cases in Creative Entrepreneurship, M.Sc. (2017–2019)  
-**Lecturer:** Cultural Entrepreneurship and Innovation, M.Sc. (2015–2019)  
-**Lecturer:** Strategic Management in the Creative Industries, M.Sc. (2015–2017)
+*Coordinator and lecturer:* Thesis Proposal Workshop, B.Sc./M.Sc. (2019–2020)  
+*Coordinator and lecturer:* Innovation Management, B.Sc. (2018–2020)  
+*Lecturer:* Cases in Creative Entrepreneurship, M.Sc. (2017–2019)  
+*Lecturer:* Cultural Entrepreneurship and Innovation, M.Sc. (2015–2019)  
+*Lecturer:* Strategic Management in the Creative Industries, M.Sc. (2015–2017)
 
 ### Delft University of Technology
 
-**Teaching Assistant:** Formal Methods for Strategic Decision-Making, B.Sc. (2016–2017)  
-**Teaching Assistant:** Economics Law Philosophy and Technology, B.Sc. (2015–2016)  
-**Teaching Assistant:** Ethics and Engineering, M.Sc. (2015–2017)
+*Teaching Assistant:* Formal Methods for Strategic Decision-Making, B.Sc. (2016–2017)  
+*Teaching Assistant:* Economics Law Philosophy and Technology, B.Sc. (2015–2016)  
+*Teaching Assistant:* Ethics and Engineering, M.Sc. (2015–2017)
 
 ## Honors
 
@@ -119,6 +114,8 @@ Undergraduate Scholarship, National Italian American Foundation (2009)
 ### Awards
 
 UC3M Business Teaching Award (2021)  <a href="https://business.uc3m.es/en/news/noticia/310" class="{{ link }}"></a>  
+Selection for Best Papers Proceedings, Academy of Management (2018)  
+Selection for Best Papers Proceedings, Academy of Management (2017)  
 Departmental Scholar Award, Sierra Nevada College (2011)
 
 ## Service
@@ -126,7 +123,7 @@ Departmental Scholar Award, Sierra Nevada College (2011)
 ### Conference organization
 
 Member of the scientific committee for the Nagymaros Conference (2020)  
-Organizer of the Applied Logic Workshop on Categories (2018)
+Organizer of the Applied Logic Workshop (2018)
 
 ### Departmental activities
 
@@ -141,8 +138,5 @@ Strategy Science
 
 ## Languages
 
-**Natural:** Italian, English, Spanish  
-**Scripting:** Bash, Python, VBA  
-**Web:** HTML, Sass/CSS, JavaScript  
-**Data:** R, Stata, SQL  
-**Typesetting:** LaTeX
+Italian, English, Spanish  
+Bash, HTML, JavaScript, LaTeX, Python, R, Sass/CSS, Stata, SQL, VBA
