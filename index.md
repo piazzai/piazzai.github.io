@@ -22,8 +22,6 @@ M.A. _cum laude_, Erasmus University Rotterdam (2012)
 International Summer School, Chinese University of Hong Kong (2012)  
 B.A. _summa cum laude_, Sierra Nevada College (2011)
 
-### Other training
-
 ## Research <a id="research"></a>
 
 ### Journal articles
