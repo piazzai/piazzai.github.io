@@ -116,7 +116,7 @@ University of Johannesburg, 2015
 Graduate School of Social Sciences and Humanities  
 Erasmus University Rotterdam, 2013
 
-## Courses taught
+## Courses
 
 ### Carlos III University of Madrid
 
@@ -137,7 +137,7 @@ Formal Methods for Strategic Decision, 2016--2017[^fn-ta]
 Economics, Philosophy, and Technology, 2015--2016[^fn-ta]  
 Ethics and Engineering, 2015--2017[^fn-ta]
 
-[^fn-coord]: As course coordinator
+[^fn-coord]: As coordinator
 [^fn-ta]: As teaching assistant
 
 ## Honors
