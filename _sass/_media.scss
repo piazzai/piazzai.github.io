@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px) {
+  .particles-title {
+    font-size: 3.5em;
+  }
+
+  .particles-subtitle {
+    font-size: 2em;
+  }
+
+  .particles-icon {
+    margin: 0 1em;
+
+    svg {
+      -webkit-transform: scale(2.5);
+      transform: scale(2.5);
+    }
+  }
+
+  .particles-scroll svg {
+    -webkit-transform: scale(3.5);
+    transform: scale(3.5);
+  }
+}
+
+@media only print {
+  body {
+    font-size: 10pt;
+    background-color: white;
+    color: black;
+  }
+
+  a {
+    color: black;
+  }
+
+  dd {
+    padding-left: 1.5em;
+  }
+
+  .pagination {
+    display: none;
+  }
+
+  #cv {
+    header {
+      margin: 0;
+    }
+
+    .site-title {
+      font-size: 1.5em;
+    }
+
+    small {
+      display: none;
+    }
+
+    .li-icon,
+    .reversefootnote,
+    a.iconlink {
+      display: none;
+    }
+  }
+}
