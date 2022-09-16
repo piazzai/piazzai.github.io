@@ -1,19 +1,17 @@
 # site settings
 
-title:          cvless
-tagline:        Jekyll theme for a beautiful online CV
-url:            https://cvless.netlify.app
+title:          Michele Piazzai
+tagline:        Computational Social Science
+url:            https://piazzai.github.io
 baseurl:        /
 permalink:      pretty
-repo:           https://github.com/username/username.github.io
-version:        2.1.0
+repo:           https://github.com/piazzai/piazzai.github.io
 
 # author settings
 
 author:
-  name:         Place Holder
-  email:        username@domain.com
-photo:          /assets/photo.jpg
+  name:         Michele Piazzai
+  email:        michele.piazzai@uc3m.es
 
 # build settings
 
