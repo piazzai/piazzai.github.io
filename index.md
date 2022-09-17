@@ -5,14 +5,12 @@ title: Home
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+I am a researcher interested in problems of organization, strategy, and decision-making. I develop statistical and computational models to study how the limits of human cognition affect people's behavior in markets.
 
-This is the home page. It can be used for a short introduction. [Click here](/cv) to see the full CV, and [here](/cv.pdf) to download a print version. The theme also ships with a blog: [click here](/posts) to scroll posts from the most recent. Finally, [click here](/404) to see a page that can't be found.
+I completed my PhD in the Applied Logic Group at [Delft University of Technology](https://www.tudelft.nl/en/) (2018) with a thesis on formal logics for product categorization. I am currently Assistant Professor of Management at [Carlos III University of Madrid](https://www.uc3m.es/), where I teach organizational design. My work is funded by the [State Research Agency](https://www.aei.gob.es/en) through a competitive Ramón y Cajal Fellowship (2023--2028, € 236 350).
 
-By default, the theme only contains these few pages in order to stay lean and flexible. However, it can be easily extended to accommodate more pages, [collections](https://jekyllrb.com/docs/collections/), [categories, and tags](https://jekyllrb.com/docs/posts/#tags-and-categories).
+My identity as a researcher is based on strong disciplinary training and a proclivity for interdisciplinary work. The most fascinating thing about human intelligence, in my view, is the mind’s ability to correlate its most disparate contents, establishing new and daring connections between seemingly distant areas of knowledge. What draws me to academic research is my desire to build new connections that help filling the void between sciences, with particular regard to the social, mathematical, and computational sciences. See [my CV](cv) for an overview of my work.
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Whenever I am not working or entertaining my daughter, I read about typography and code things like [Jekyll websites](https://github.com/piazzai/cvless) and [LaTeX packages](https://github.com/piazzai/arguelles). I also regularly play online chess. Sometimes I do [research about chess](https://lichess.org/@/piazzai/blog) to figure out why I play so poorly.
 
-Below is a list of blog posts included for illustrative purposes. Make sure to delete or modify them before deploying your website.
-
-{% include archive.html %}
+Feel free to get in touch with me at [michele.piazzai@uc3m.es](mailto:michele.piazzai@uc3m.es).
