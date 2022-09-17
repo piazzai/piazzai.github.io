@@ -1,7 +1,5 @@
 # piazzai.github.io
 
-This is the source code of my personal website, developed using the [CVLess](https://github.com/piazzai/cvless) theme for [Jekyll](https://jekyllrb.com). I use it to host my CV and, occasionally, temporary files and course materials.
+This are the source files of my personal website, built with the [cvless](https://github.com/piazzai/cvless) theme for [Jekyll](https://jekyllrb.com). I use it to host my CV, draft documents, and course materials.
 
-The site's CSS is automatically sourced from the CVLess repository. If you like the theme and want to use it, please read the installation and usage instructions in that repository. Cloning and editing this repository is not recommended as it does not grant control over the CSS.
-
-This repository was lucky enough to be included in the 2020 GitHub snapshot for the [Arctic Code Vault](https://archiveprogram.github.com/arctic-vault).
+Because of a fork network, this repository was lucky enough to be included in the 2020 GitHub snapshot for the [Arctic Code Vault](https://archiveprogram.github.com/arctic-vault). I apologize to posterity for the buggy code and self-promotion.
