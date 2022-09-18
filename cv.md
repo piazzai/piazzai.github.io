@@ -136,7 +136,7 @@ Strategic Management, 2020--22
 Thesis Proposal Workshop, 2019--20[^fn-coord]  
 Innovation Management, 2018--20[^fn-coord]  
 Cases in Creative Entrepreneurship, 2017--19  
-Cultural Entrepreneurship and Innovation, 2015--19  
+Cultural Innovation, 2015--19  
 Strategy in the Creative Industries, 2015--17
 
 ### Delft University of Technology
