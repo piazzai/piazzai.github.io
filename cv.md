@@ -179,10 +179,10 @@ Sierra Nevada College, 2011
 
 ### Professional activities
 
-Member of the scientific committee  
+Scientific Committee  
 Nagymaros Conference, 2020
 
-Local organizer  
+Organizing Committee  
 Applied Logic Workshop, 2018
 
 ### Departmental activities
