@@ -10,10 +10,10 @@ title: CV
 ## Academic positions
 
 Ramón y Cajal Fellow  
-Carlos III University of Madrid, 2023--
+Universidad Carlos III de Madrid, 2023--
 
 Assistant Professor of Management  
-Carlos III University of Madrid, 2020--
+Universidad Carlos III de Madrid, 2020--
 
 Assistant Professor of Innovation  
 University of Amsterdam, 2017--20
@@ -69,7 +69,7 @@ Piazzai and Vecco, 2020. Deaccessioning. *Oxford Bibliographies Online*.
 ### Invited seminars
 
 University of Warwick, 2020  
-Carlos III University of Madrid, 2019  
+Universidad Carlos III de Madrid, 2019  
 NOVA University of Lisbon, 2019  
 Pompeu Fabra University, 2019  
 IE University, 2019  
@@ -126,7 +126,7 @@ Erasmus University Rotterdam, 2013
 
 ## Courses
 
-### Carlos III University of Madrid
+### Universidad Carlos III de Madrid
 
 Organizational Design, 2020--  
 Strategic Management, 2020--22
@@ -169,7 +169,7 @@ National Italian American Foundation, 2009
 ### Awards
 
 UC3M Business Teaching Award    
-Carlos III University of Madrid, 2021  
+Universidad Carlos III de Madrid, 2021  
 {% include iconlink.html icon="svg/open-in-browser.svg" href="https://business.uc3m.es/en/news/noticia/310" %}
 
 Departmental Scholar Award  
