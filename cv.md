@@ -200,7 +200,7 @@ Strategy Science
 ## Languages
 
 Natural: Italian, English, Spanish  
-General scripting; Bash, Python  
-Web development: HTML, Sass, JavaScript  
-Data analysis: R, Stata, SQL, VBA  
+Scripting: Bash, Python  
+Web: HTML, CSS, Sass, JavaScript  
+Data: R, Stata, SQL, VBA  
 Typesetting: LaTeX
