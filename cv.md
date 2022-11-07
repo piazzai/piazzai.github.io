@@ -169,6 +169,10 @@ National Italian American Foundation, 2009
 ### Awards
 
 UC3M Business Teaching Award    
+Universidad Carlos III de Madrid, 2022  
+{% include iconlink.html icon="svg/open-in-browser.svg" href="https://business.uc3m.es/en/news/noticia/328" %}
+
+UC3M Business Teaching Award    
 Universidad Carlos III de Madrid, 2021  
 {% include iconlink.html icon="svg/open-in-browser.svg" href="https://business.uc3m.es/en/news/noticia/310" %}
 
