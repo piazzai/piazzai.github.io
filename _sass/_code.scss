@@ -2,14 +2,10 @@ pre,code {
   font-family: var(--type-mono);
 }
 
-code {
-  color: var(--color-code);
-}
-
 .highlight {
   padding: 0 1em;
   border-radius: 0.25em;
-  background-color: var(--color-background);
+  color: var(--color-chunk);
 
   pre {
     padding: 0;
