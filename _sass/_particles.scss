@@ -34,7 +34,7 @@
   width: 50%;
   border-radius: 50%;
   margin: auto;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 .particles-title {
@@ -48,13 +48,6 @@
   margin: 0 0 1em 0;
   font-size: 1.5em;
   font-weight: 400;
-}
-
-.particles-lead {
-  margin-bottom: 2.25em;
-  font-size: 1.25em;
-  white-space: normal;
-  color: var(--color-background);
 }
 
 .nowrap {
@@ -82,7 +75,6 @@
 
     svg circle,
     svg path {
-      stroke: var(--color-background);
       stroke-width: 0.075em;
     }
   }
