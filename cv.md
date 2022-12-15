@@ -83,7 +83,7 @@ University of Amsterdam, 2017
 Nagymaros Conference, 2021  
 Nagymaros Conference, 2020  
 Nagymaros Conference, 2019  
-AOM Conference, Boston, 2019  
+AOM Conference, 2019  
 Nagymaros Conference, 2018  
 Applied Logic Workshop, 2018  
 SMS Conference, 2017  
