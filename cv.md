@@ -104,19 +104,19 @@ IASPM Conference, 2014
 ## Research visits
 
 Pompeu Fabra University  
-Dept. of Economics and Business  
+Dept. Economics and Business  
 2019
 
 Chapman University  
-Dept. of Mathematics and Computer Science  
+Dept. Mathematics and Computer Science  
 2019
 
 University of Johannesburg  
-Dept. of Pure and Applied Mathematics  
+Dept. Pure and Applied Mathematics  
 2017
 
 University of Johannesburg  
-Dept. of Pure and Applied Mathematics  
+Dept. Pure and Applied Mathematics  
 2016
 
 Stanford University  
@@ -124,7 +124,7 @@ Graduate School of Business
 2016
 
 University of Johannesburg  
-Dept. of Pure and Applied Mathematics  
+Dept. Pure and Applied Mathematics  
 2015
 
 Erasmus University Rotterdam  
