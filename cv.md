@@ -10,11 +10,11 @@ title: CV
 ## Academic positions
 
 Ramón y Cajal Fellow  
-Universidad Carlos III de Madrid  
+Carlos III University of Madrid  
 2023--
 
 Assistant Professor of Management  
-Universidad Carlos III de Madrid  
+Carlos III University of Madrid  
 2020--
 
 Assistant Professor of Innovation  
@@ -69,7 +69,7 @@ Piazzai, Michele, and Marilena Vecco, 2020. Deaccessioning. *Oxford Bibliographi
 
 UNED Madrid, 2023  
 University of Warwick, 2020  
-Universidad Carlos III de Madrid, 2019  
+Carlos III University of Madrid, 2019  
 NOVA University of Lisbon, 2019  
 Pompeu Fabra University, 2019  
 IE University, 2019  
@@ -133,7 +133,7 @@ Graduate School of Social Sciences
 
 ## Courses
 
-### Universidad Carlos III de Madrid
+### Carlos III University of Madrid
 
 Organizational Design, 2020--  
 Strategic Management, 2020--2022
@@ -180,11 +180,11 @@ National Italian American Foundation
 ### Awards
 
 UC3M Business Teaching Award    
-Universidad Carlos III de Madrid  
+Carlos III University of Madrid  
 2022
 
 UC3M Business Teaching Award    
-Universidad Carlos III de Madrid  
+Carlos III University of Madrid  
 2021
 
 Departmental Scholar Award  
