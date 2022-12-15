@@ -149,7 +149,7 @@ Strategy in Creative Industries, 2015--2017
 ### Delft University of Technology
 
 Strategic Decision-Making, 2016--2017[^fn-ta]  
-Economics, Law, and Technology, 2015--2016[^fn-ta]  
+Philosophy and Technology, 2015--2016[^fn-ta]  
 Ethics and Engineering, 2015--2017[^fn-ta]
 
 [^fn-coord]: As coordinator
