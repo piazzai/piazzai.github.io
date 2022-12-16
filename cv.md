@@ -67,7 +67,7 @@ Piazzai, Michele, and Marilena Vecco (2020). Deaccessioning. *Oxford Bibliograph
 
 ### Invited seminars
 
-UNED Madrid, 2023  
+UNED Madrid, 2023 (scheduled)  
 University of Warwick, 2020  
 Carlos III University of Madrid, 2019  
 NOVA University of Lisbon, 2019  
@@ -205,7 +205,7 @@ Applied Logic Workshop
 
 ### Departmental activities
 
-Business Program Committee  
+BSc Business Program Committee  
 University of Amsterdam  
 2018--2019
 
