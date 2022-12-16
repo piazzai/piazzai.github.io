@@ -53,11 +53,11 @@ Vecco, Marilena, and Michele Piazzai (2015). Deaccessioning of museum collection
 
 Liu, Min, Martina Montauti, and Michele Piazzai (2018). Old at heart, young at the periphery: An age-dependence approach to resource partitioning. *Academy of Management Proceedings: Best Papers* 2018(1), 11589. [[doi]](https://doi.org/10.5465/ambpp.2018.31)
 
-Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M. Wijnberg (2017). Toward an epistemic-logical theory of categorization. *Theoretical Aspects of Rationality and Knowledge*, EPTCS 251, 167--186. [[doi]](https://doi.org/10.4204/eptcs.251.12) [[pdf]](https://arxiv.org/pdf/1707.08743.pdf)
+Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M. Wijnberg (2017). Toward an epistemic-logical theory of categorization. *Theoretical Aspects of Rationality and Knowledge*, Electronic Proceedings in Theoretical Computer Science 251, 167--186. [[doi]](https://doi.org/10.4204/eptcs.251.12) [[pdf]](https://arxiv.org/pdf/1707.08743.pdf)
 
 Piazzai, Michele, and Nachoem M. Wijnberg (2017). Diversification, proliferation, and firm performance in the US music industry. *Academy of Management Proceedings: Best Papers* 2017(1), 16538. [[doi]](https://doi.org/10.5465/ambpp.2017.29)
 
-Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M. Wijnberg (2016). Categories: How I learned to stop worrying and love two sorts. *Workshop on Logic, Language, Information, and Computation*, LNCS 9803, 145--164. [[doi]](https://doi.org/10.1007/978-3-662-52921-8_10) [[pdf]](https://arxiv.org/pdf/1604.00777.pdf)
+Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M. Wijnberg (2016). Categories: How I learned to stop worrying and love two sorts. *Workshop on Logic, Language, Information, and Computation*, Lecture Notes in Computer Science 9803, 145--164. [[doi]](https://doi.org/10.1007/978-3-662-52921-8_10) [[pdf]](https://arxiv.org/pdf/1604.00777.pdf)
 
 ### Encyclopedia entries
 
