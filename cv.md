@@ -179,11 +179,11 @@ National Italian American Foundation
 
 ### Awards
 
-UC3M Business Teaching Award    
+UC3M Business Teaching Award  
 Carlos III University of Madrid  
 2022
 
-UC3M Business Teaching Award    
+UC3M Business Teaching Award  
 Carlos III University of Madrid  
 2021
 
