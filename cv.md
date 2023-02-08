@@ -213,6 +213,7 @@ University of Amsterdam
 
 AOM Conference  
 Management Science  
+Organization Science  
 Organization Studies  
 Strategy Science
 
