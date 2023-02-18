@@ -42,11 +42,11 @@ Liu, Min, Martina Montauti, and Michele Piazzai (2018). Old at heart, young at t
 
 Vecco, Marilena, Andrej Srakar, and Michele Piazzai (2017). Visitor attitudes toward deaccessioning in Italian public museums: An econometric analysis. *Poetics* 63, 33--46. [[doi]](https://doi.org/10.1016/j.poetic.2017.05.001)
 
-Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M. Wijnberg (2017). Toward an epistemic-logical theory of categorization. *Theoretical Aspects of Rationality and Knowledge*, Electronic Proceedings in Theoretical Computer Science 251, 167--186. [[doi]](https://doi.org/10.4204/eptcs.251.12) [[pdf]](https://arxiv.org/pdf/1707.08743.pdf)
+Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M. Wijnberg (2017). Toward an epistemic-logical theory of categorization. In Jérõme Lang (Ed.), *Theoretical Aspects of Rationality and Knowledge*, Electronic Proceedings in Theoretical Computer Science 251, 167--186. [[doi]](https://doi.org/10.4204/eptcs.251.12) [[pdf]](https://arxiv.org/pdf/1707.08743.pdf)
 
 Piazzai, Michele, and Nachoem M. Wijnberg (2017). Diversification, proliferation, and firm performance in the US music industry. *Academy of Management Best Papers Proceedings* 2017(1), 16538. [[doi]](https://doi.org/10.5465/ambpp.2017.29)
 
-Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M. Wijnberg (2016). Categories: How I learned to stop worrying and love two sorts. *Workshop on Logic, Language, Information, and Computation*, Lecture Notes in Computer Science 9803, 145--164. [[doi]](https://doi.org/10.1007/978-3-662-52921-8_10) [[pdf]](https://arxiv.org/pdf/1604.00777.pdf)
+Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M. Wijnberg (2016). Categories: How I learned to stop worrying and love two sorts. In Jouko Väänänen, Åsa Hirvonen, and Ruy de Queiroz (Eds.), *Workshop on Logic, Language, Information, and Computation*, Lecture Notes in Computer Science 9803, 145--164. [[doi]](https://doi.org/10.1007/978-3-662-52921-8_10) [[pdf]](https://arxiv.org/pdf/1604.00777.pdf)
 
 Vecco, Marilena, and Michele Piazzai (2015). Deaccessioning of museum collections: What do we know and where do we stand in Europe? *Journal of Cultural Heritage* 16(2), 221--227. [[doi]](https://doi.org/10.1016/j.culher.2014.03.007)
 
