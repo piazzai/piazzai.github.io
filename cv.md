@@ -9,7 +9,7 @@ title: CV
 
 ## Academic positions
 
-Ramón y Cajal Fellow  
+Ramón y Cajal Researcher  
 Carlos III University of Madrid, 2023--
 
 Assistant Professor of Management  
@@ -23,13 +23,13 @@ University of Amsterdam, 2017--2020
 Data Science Specialization  
 Utrecht University, 2018
 
-PhD in Applied Logic, *cum laude*  
+PhD Applied Logic, *cum laude*  
 Delft University of Technology, 2018
 
-MA in Cultural Economics, *cum laude*  
+MA Cultural Economics, *cum laude*  
 Erasmus University Rotterdam, 2012
 
-BA in Humanities, *summa cum laude*  
+BA Humanities, *summa cum laude*  
 Sierra Nevada College, 2011
 
 ## Publications
