@@ -160,18 +160,16 @@ Carlos III University of Madrid, 2021
 Departmental Scholar Award  
 Sierra Nevada College, 2011
 
-## Conference organization
+## Service
 
 Scientific Committee  
 Nagymaros Conference, 2020
 
-Organizing Committee  
-Applied Logic Workshop, 2018
-
-## Departmental service
-
 BSc Business Program Committee  
 University of Amsterdam, 2018--2019
+
+Organizing Committee  
+Applied Logic Workshop, 2018
 
 ## Peer reviews
 
