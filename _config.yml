@@ -1,18 +1,19 @@
 # site settings
 
-title:          Michele Piazzai
-tagline:        Universidad Carlos III de Madrid
-tagshort:       UC3M
-url:            https://piazzai.github.io
-baseurl:        ""
-permalink:      pretty
-repo:           https://github.com/piazzai/piazzai.github.io
+title: Michele Piazzai
+description: Universidad Carlos III de Madrid
+tagline: Universidad Carlos III de Madrid
+tagshort: UC3M
+url: https://piazzai.github.io
+baseurl: ""
+permalink: pretty
+repo: https://github.com/piazzai/piazzai.github.io
 
 # author settings
 
 author:
-  name:         Michele Piazzai
-  email:        michele.piazzai@uc3m.es
+  name: Michele Piazzai
+  email: michele.piazzai@uc3m.es
 
 # build settings
 
@@ -34,18 +35,18 @@ exclude:
   - vendor
 
 sass:
-  sass_dir:     _sass
-  sourcemap:    never
+  sass_dir: _sass
+  sourcemap: never
 
 feed:
-  path:         atom.xml
+  path: atom.xml
 
 autopages:
-  enabled:      false
+  enabled: false
 
 pagination:
-  enabled:      false
-  per_page:     1
+  enabled: false
+  per_page: 1
   sort_reverse: true
-  permalink:    /:num/
-  title:        ":title &middot; Page :num"
+  permalink: /:num/
+  title: ":title &middot; Page :num"
