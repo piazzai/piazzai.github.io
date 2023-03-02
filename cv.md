@@ -52,7 +52,7 @@ Vecco, Marilena, and Michele Piazzai (2015). Deaccessioning of museum collection
 
 ## Invited seminars
 
-UNED Madrid, 2023 (scheduled)  
+UNED Madrid, 2023  
 University of Warwick, 2020  
 Carlos III University of Madrid, 2019  
 NOVA University of Lisbon, 2019  
