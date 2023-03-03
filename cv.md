@@ -11,47 +11,47 @@ title: CV
 
 Assistant Professor of Management  
 Carlos III University of Madrid  
-_2020--_
+2020--
 
 Assistant Professor of Innovation  
 University of Amsterdam  
-_2017--2020_
+2017--2020
 
 ## Education
 
 Data Science Specialization  
 Utrecht University  
-_2018_
+2018
 
 PhD Applied Logic, _cum laude_  
 Delft University of Technology  
-_2015--2018_
+2015--2018
 
 MA Cultural Economics, _cum laude_  
 Erasmus University Rotterdam  
-_2011--2012_
+2011--2012
 
 BA Humanities, _summa cum laude_  
 Sierra Nevada College  
-_2009--2011_
+2009--2011
 
 ## Publications
 
 Piazzai, Michele, and Marilena Vecco (2020). Deaccessioning. _Oxford Bibliographies in Anthropology_, Oxford Bibliographies Online. {% include iconlink.html href="https://doi.org/10.1093/obo/9780199766567-0246" icon="svg/open-in-browser.svg" %}
 
-Piazzai, Michele, and Nachoem Wijnberg (2019). Product proliferation, complexity, and deterrence to imitation in differentiated-product oligopolies. _Strategic Management Journal_ 40(6):945--958. {% include iconlink.html href="https://doi.org/10.1002/smj.3002" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/smj.3002" icon="svg/download-square-outline.svg" %}
+Piazzai, Michele, and Nachoem Wijnberg (2019). Product proliferation, complexity, and deterrence to imitation in differentiated-product oligopolies. _Strategic Management Journal_ 40(6), 945--958. {% include iconlink.html href="https://doi.org/10.1002/smj.3002" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/smj.3002" icon="svg/download-square-outline.svg" %}
 
-Liu, Min, Martina Montauti, and Michele Piazzai (2018). Old at heart, young at the periphery: An age-dependence approach to resource partitioning. _Academy of Management Best Papers Proceedings_ 2018(1):11589. {% include iconlink.html href="https://doi.org/10.5465/ambpp.2018.31" icon="svg/open-in-browser.svg" %}
+Liu, Min, Martina Montauti, and Michele Piazzai (2018). Old at heart, young at the periphery: An age-dependence approach to resource partitioning. _Academy of Management Best Papers Proceedings_ 2018(1), 11589. {% include iconlink.html href="https://doi.org/10.5465/ambpp.2018.31" icon="svg/open-in-browser.svg" %}
 
-Vecco, Marilena, Andrej Srakar, and Michele Piazzai (2017). Visitor attitudes toward deaccessioning in Italian public museums: An econometric analysis. _Poetics_ 63:33--46. {% include iconlink.html href="https://doi.org/10.1016/j.poetic.2017.05.001" icon="svg/open-in-browser.svg" %}
+Vecco, Marilena, Andrej Srakar, and Michele Piazzai (2017). Visitor attitudes toward deaccessioning in Italian public museums: An econometric analysis. _Poetics_ 63, 33--46. {% include iconlink.html href="https://doi.org/10.1016/j.poetic.2017.05.001" icon="svg/open-in-browser.svg" %}
 
-Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2017). Toward an epistemic-logical theory of categorization. _Theoretical Aspects of Rationality and Knowledge_, Electronic Proceedings in Theoretical Computer Science 251:167--186. {% include iconlink.html href="https://doi.org/10.4204/eptcs.251.12" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://arxiv.org/pdf/1707.08743.pdf" icon="svg/download-square-outline.svg" %}
+Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2017). Toward an epistemic-logical theory of categorization. _Theoretical Aspects of Rationality and Knowledge_, Electronic Proceedings in Theoretical Computer Science 251, 167--186. {% include iconlink.html href="https://doi.org/10.4204/eptcs.251.12" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://arxiv.org/pdf/1707.08743.pdf" icon="svg/download-square-outline.svg" %}
 
-Piazzai, Michele, and Nachoem M. Wijnberg (2017). Diversification, proliferation, and firm performance in the US music industry. _Academy of Management Best Papers Proceedings_ 2017(1):16538. {% include iconlink.html href="https://doi.org/10.5465/ambpp.2017.29" icon="svg/open-in-browser.svg" %}
+Piazzai, Michele, and Nachoem M. Wijnberg (2017). Diversification, proliferation, and firm performance in the US music industry. _Academy of Management Best Papers Proceedings_ 2017(1), 16538. {% include iconlink.html href="https://doi.org/10.5465/ambpp.2017.29" icon="svg/open-in-browser.svg" %}
 
-Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2016). Categories: How I learned to stop worrying and love two sorts. _Workshop on Logic, Language, Information, and Computation_, Lecture Notes in Computer Science 9803:145--164. {% include iconlink.html href="https://doi.org/10.1007/978-3-662-52921-8_10" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://arxiv.org/pdf/1604.00777.pdf" icon="svg/download-square-outline.svg" %}
+Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2016). Categories: How I learned to stop worrying and love two sorts. _Workshop on Logic, Language, Information, and Computation_, Lecture Notes in Computer Science 9803, 145--164. {% include iconlink.html href="https://doi.org/10.1007/978-3-662-52921-8_10" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://arxiv.org/pdf/1604.00777.pdf" icon="svg/download-square-outline.svg" %}
 
-Vecco, Marilena, and Michele Piazzai (2015). Deaccessioning of museum collections: What do we know and where do we stand in Europe? _Journal of Cultural Heritage_ 16(2):221--227. {% include iconlink.html href="https://doi.org/10.1016/j.culher.2014.03.007" icon="svg/open-in-browser.svg" %}
+Vecco, Marilena, and Michele Piazzai (2015). Deaccessioning of museum collections: What do we know and where do we stand in Europe? _Journal of Cultural Heritage_ 16(2), 221--227. {% include iconlink.html href="https://doi.org/10.1016/j.culher.2014.03.007" icon="svg/open-in-browser.svg" %}
 
 ## Invited seminars
 
@@ -127,19 +127,19 @@ Ethics and Engineering, 2015--2017[^fn-ta]
 
 Ramón y Cajal Fellowship  
 Spanish Ministry of Science  
-_2023--2027_
+2023--2027
 
 Knowledge Generation Project[^fn-coapp]  
 Spanish Ministry of Science  
-_2021--2024_
+2021--2024
 
 Undergraduate scholarship  
 Sierra Nevada College  
-_2010--2011_
+2010--2011
 
 Undergraduate scholarship  
 National Italian American Foundation  
-_2009--2010_
+2009--2010
 
 [^fn-coapp]: As co-applicant
 
@@ -147,29 +147,29 @@ _2009--2010_
 
 UC3M Business Teaching Award  
 Carlos III University of Madrid  
-_2021--2022_
+2021--2022
 
 UC3M Business Teaching Award  
 Carlos III University of Madrid  
-_2020--2021_
+2020--2021
 
 Departmental Scholar Award  
 Sierra Nevada College  
-_2011_
+2011
 
 ## Service
 
 Scientific Committee  
 Nagymaros Conference  
-_2020_
+2020
 
 BSc Business Program Committee  
 University of Amsterdam  
-_2018--2019_
+2018--2019
 
 Organizing Committee  
 Applied Logic Workshop  
-_2018_
+2018
 
 ## Peer reviews
 
