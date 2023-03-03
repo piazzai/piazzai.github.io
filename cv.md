@@ -9,46 +9,49 @@ title: CV
 
 ## Academic positions
 
-Ramón y Cajal Researcher  
-Carlos III University of Madrid, 2023--
-
 Assistant Professor of Management  
-Carlos III University of Madrid, 2020--
+Carlos III University of Madrid  
+_2020--_
 
 Assistant Professor of Innovation  
-University of Amsterdam, 2017--2020
+University of Amsterdam  
+_2017--2020_
 
 ## Education
 
 Data Science Specialization  
-Utrecht University, 2018
+Utrecht University  
+_2018_
 
-PhD Applied Logic, *cum laude*  
-Delft University of Technology, 2018
+PhD Applied Logic, _cum laude_  
+Delft University of Technology  
+_2015--2018_
 
-MA Cultural Economics, *cum laude*  
-Erasmus University Rotterdam, 2012
+MA Cultural Economics, _cum laude_  
+Erasmus University Rotterdam  
+_2011--2012_
 
-BA Humanities, *summa cum laude*  
-Sierra Nevada College, 2011
+BA Humanities, _summa cum laude_  
+Sierra Nevada College  
+_2009--2011_
 
 ## Publications
 
-Piazzai, Michele, and Marilena Vecco (2020). Deaccessioning. *Oxford Bibliographies in Anthropology*, Oxford Bibliographies Online. [[doi]](https://doi.org/10.1093/obo/9780199766567-0246)
+Piazzai, Michele, and Marilena Vecco (2020). Deaccessioning. _Oxford Bibliographies in Anthropology_, Oxford Bibliographies Online. {% include iconlink.html href="https://doi.org/10.1093/obo/9780199766567-0246" icon="svg/open-in-browser.svg" %}
 
-Piazzai, Michele, and Nachoem Wijnberg (2019). Product proliferation, complexity, and deterrence to imitation in differentiated-product oligopolies. *Strategic Management Journal* 40(6), 945--958. [[doi]](https://doi.org/10.1002/smj.3002) [[pdf]](https://onlinelibrary.wiley.com/doi/epdf/10.1002/smj.3002) [[data]](https://github.com/piazzai/smj-18-19552)
+Piazzai, Michele, and Nachoem Wijnberg (2019). Product proliferation, complexity, and deterrence to imitation in differentiated-product oligopolies. _Strategic Management Journal_ 40(6), 945--958. {% include iconlink.html href="https://doi.org/10.1002/smj.3002" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/smj.3002" icon="svg/download-square-outline.svg" %}
 
-Liu, Min, Martina Montauti, and Michele Piazzai (2018). Old at heart, young at the periphery: An age-dependence approach to resource partitioning. *Academy of Management Best Papers Proceedings* 2018(1), 11589. [[doi]](https://doi.org/10.5465/ambpp.2018.31)
+Liu, Min, Martina Montauti, and Michele Piazzai (2018). Old at heart, young at the periphery: An age-dependence approach to resource partitioning. _Academy of Management Best Papers Proceedings_ 2018(1), 11589. {% include iconlink.html href="https://doi.org/10.5465/ambpp.2018.31" icon="svg/open-in-browser.svg" %}
 
-Vecco, Marilena, Andrej Srakar, and Michele Piazzai (2017). Visitor attitudes toward deaccessioning in Italian public museums: An econometric analysis. *Poetics* 63, 33--46. [[doi]](https://doi.org/10.1016/j.poetic.2017.05.001)
+Vecco, Marilena, Andrej Srakar, and Michele Piazzai (2017). Visitor attitudes toward deaccessioning in Italian public museums: An econometric analysis. _Poetics_ 63, 33--46. {% include iconlink.html href="https://doi.org/10.1016/j.poetic.2017.05.001" icon="svg/open-in-browser.svg" %}
 
-Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2017). Toward an epistemic-logical theory of categorization. *Theoretical Aspects of Rationality and Knowledge*, EPTCS 251, 167--186. [[doi]](https://doi.org/10.4204/eptcs.251.12) [[pdf]](https://arxiv.org/pdf/1707.08743.pdf)
+Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2017). Toward an epistemic-logical theory of categorization. _Theoretical Aspects of Rationality and Knowledge_, EPTCS 251, 167--186. {% include iconlink.html href="https://doi.org/10.4204/eptcs.251.12" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://arxiv.org/pdf/1707.08743.pdf" icon="svg/download-square-outline.svg" %}
 
-Piazzai, Michele, and Nachoem M. Wijnberg (2017). Diversification, proliferation, and firm performance in the US music industry. *Academy of Management Best Papers Proceedings* 2017(1), 16538. [[doi]](https://doi.org/10.5465/ambpp.2017.29)
+Piazzai, Michele, and Nachoem M. Wijnberg (2017). Diversification, proliferation, and firm performance in the US music industry. _Academy of Management Best Papers Proceedings_ 2017(1), 16538. {% include iconlink.html href="https://doi.org/10.5465/ambpp.2017.29" icon="svg/open-in-browser.svg" %}
 
-Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2016). Categories: How I learned to stop worrying and love two sorts. *Workshop on Logic, Language, Information, and Computation*, LNCS 9803, 145--164. [[doi]](https://doi.org/10.1007/978-3-662-52921-8_10) [[pdf]](https://arxiv.org/pdf/1604.00777.pdf)
+Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2016). Categories: How I learned to stop worrying and love two sorts. _Workshop on Logic, Language, Information, and Computation_, LNCS 9803, 145--164. {% include iconlink.html href="https://doi.org/10.1007/978-3-662-52921-8_10" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://arxiv.org/pdf/1604.00777.pdf" icon="svg/download-square-outline.svg" %}
 
-Vecco, Marilena, and Michele Piazzai (2015). Deaccessioning of museum collections: What do we know and where do we stand in Europe? *Journal of Cultural Heritage* 16(2), 221--227. [[doi]](https://doi.org/10.1016/j.culher.2014.03.007)
+Vecco, Marilena, and Michele Piazzai (2015). Deaccessioning of museum collections: What do we know and where do we stand in Europe? _Journal of Cultural Heritage_ 16(2), 221--227. {% include iconlink.html href="https://doi.org/10.1016/j.culher.2014.03.007" icon="svg/open-in-browser.svg" %}
 
 ## Invited seminars
 
@@ -88,25 +91,12 @@ IASPM Conference, 2014
 
 ## Research visits
 
-Dept. Economics and Business  
-Pompeu Fabra University, 2019
-
-Dept. Mathematics and Computer Science  
-Chapman University, 2019
-
-Dept. Pure and Applied Mathematics  
-University of Johannesburg, 2017
-
-Dept. Pure and Applied Mathematics  
-University of Johannesburg, 2016
-
-Graduate School of Business  
-Stanford University, 2016
-
-Dept. Pure and Applied Mathematics  
-University of Johannesburg, 2015
-
-Graduate School of Social Sciences  
+Pompeu Fabra University, 2019  
+Chapman University, 2019  
+University of Johannesburg, 2017  
+University of Johannesburg, 2016  
+Stanford University, 2016  
+University of Johannesburg, 2015  
 Erasmus University Rotterdam, 2013
 
 ## Courses
@@ -136,40 +126,50 @@ Ethics and Engineering, 2015--2017[^fn-ta]
 ## Grants
 
 Ramón y Cajal Fellowship  
-Spanish Ministry of Science, 2021
+Spanish Ministry of Science  
+_2023--2027_
 
 Knowledge Generation Project[^fn-coapp]  
-Spanish Ministry of Science, 2020  
-
-Undergraduate scholarship   
-Sierra Nevada College, 2010
+Spanish Ministry of Science  
+_2021--2024_
 
 Undergraduate scholarship  
-National Italian American Foundation, 2009
+Sierra Nevada College  
+_2010--2011_
+
+Undergraduate scholarship  
+National Italian American Foundation  
+_2009--2010_
 
 [^fn-coapp]: As co-applicant
 
 ## Awards
 
 UC3M Business Teaching Award  
-Carlos III University of Madrid, 2022
+Carlos III University of Madrid  
+_2021--2022_
 
 UC3M Business Teaching Award  
-Carlos III University of Madrid, 2021
+Carlos III University of Madrid  
+_2020--2021_
 
 Departmental Scholar Award  
-Sierra Nevada College, 2011
+Sierra Nevada College  
+_2011_
 
 ## Service
 
 Scientific Committee  
-Nagymaros Conference, 2020
+Nagymaros Conference  
+_2020_
 
 BSc Business Program Committee  
-University of Amsterdam, 2018--2019
+University of Amsterdam  
+_2018--2019_
 
 Organizing Committee  
-Applied Logic Workshop, 2018
+Applied Logic Workshop  
+_2018_
 
 ## Peer reviews
 
@@ -183,6 +183,6 @@ Strategy Science
 
 Natural: Italian, English, Spanish  
 Scripting: Bash, Python  
-Web: HTML, CSS, Sass, JavaScript  
+Web: HTML, CSS, JavaScript  
 Data: R, Stata, SQL, VBA  
 Typesetting: LaTeX
