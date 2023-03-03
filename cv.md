@@ -173,7 +173,6 @@ _2018_
 
 ## Peer reviews
 
-AOM Conference  
 Management Science  
 Organization Science  
 Organization Studies  
