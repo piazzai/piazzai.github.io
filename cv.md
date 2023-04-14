@@ -68,6 +68,7 @@ University of Amsterdam, 2017
 
 ## Conferences and workshops
 
+Nagymaros Workshop, 2023  
 Nagymaros Workshop, 2021  
 Nagymaros Workshop, 2020  
 Nagymaros Workshop, 2019  
