@@ -10,6 +10,10 @@ exclude:
   - LICENSE
   - README.md
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 whitelist:
   - jekyll-sitemap
 
