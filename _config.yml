@@ -10,6 +10,9 @@ exclude:
   - LICENSE
   - README.md
 
+whitelist:
+  - jekyll-sitemap
+
 sass:
   sass_dir: _sass
   sourcemap: never
