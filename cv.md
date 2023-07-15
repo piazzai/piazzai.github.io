@@ -6,6 +6,7 @@ title: CV
 # Curriculum Vitæ
 
 {% include contact.html %}
+{% include identifiers.html %}
 
 ## Academic positions
 

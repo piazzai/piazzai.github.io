@@ -42,13 +42,18 @@ dd {
 }
 
 .archive ul,
-.contact ul {
+.contact ul,
+.identifiers ul {
   list-style-type: none;
   padding: 0;
 }
 
 .li-icon {
   margin-right: 0.25em;
+}
+
+.li-text {
+  display: none;
 }
 
 a.iconlink {
