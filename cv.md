@@ -161,6 +161,10 @@ Sierra Nevada College
 
 ## Service
 
+Organizing Committee
+Nagymaros Workshop
+2024
+
 Research Funding Group  
 Carlos III University of Madrid  
 2023--
