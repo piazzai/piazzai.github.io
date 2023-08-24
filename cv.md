@@ -161,8 +161,8 @@ Sierra Nevada College
 
 ## Service
 
-Organizing Committee
-Nagymaros Conference
+Organizing Committee  
+Nagymaros Conference  
 2024
 
 Research Funding Group  
