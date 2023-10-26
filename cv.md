@@ -161,7 +161,7 @@ Sierra Nevada College
 
 ## Service
 
-Organizing Committee  
+Co-organizer  
 Nagymaros Conference  
 2024
 
@@ -177,7 +177,7 @@ BSc Business Program Committee
 University of Amsterdam  
 2018--2019
 
-Organizing Committee  
+Organizer  
 Applied Logic Workshop  
 2018
 
