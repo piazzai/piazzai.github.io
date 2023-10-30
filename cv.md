@@ -183,10 +183,10 @@ Applied Logic Workshop
 
 ## Peer reviews
 
-Management Science (1)  
-Organization Science (2)  
-Organization Studies (1)  
-Strategy Science (1)
+Management Science  
+Organization Science  
+Organization Studies  
+Strategy Science
 
 ## Languages
 
