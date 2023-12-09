@@ -149,14 +149,8 @@ National Italian American Foundation
 
 UC3M Business Teaching Award  
 Carlos III University of Madrid  
-2022--2023
-
-UC3M Business Teaching Award  
-Carlos III University of Madrid  
-2021--2022 {% include iconlink.html href="https://business.uc3m.es/en/news/noticia/328" icon="svg/open-in-browser.svg" %}
-
-UC3M Business Teaching Award  
-Carlos III University of Madrid  
+2022--2023 {% include iconlink.html href="https://business.uc3m.es/en/news/noticia/345" icon="svg/open-in-browser.svg" %}  
+2021--2022 {% include iconlink.html href="https://business.uc3m.es/en/news/noticia/328" icon="svg/open-in-browser.svg" %}  
 2020--2021 {% include iconlink.html href="https://business.uc3m.es/en/news/noticia/310" icon="svg/open-in-browser.svg" %}
 
 Departmental Scholar Award  
