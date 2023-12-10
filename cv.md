@@ -159,11 +159,11 @@ Sierra Nevada College
 
 ## Service
 
-Co-organizer  
+Organizing Committee  
 Nagymaros Conference  
 2024
 
-Research Funding Group  
+Strategic Funding Group  
 Carlos III University of Madrid  
 2023--
 
@@ -171,11 +171,11 @@ Scientific Committee
 Nagymaros Conference  
 2020
 
-BSc Business Program Committee  
+Business Program Committee  
 University of Amsterdam  
 2018--2019
 
-Organizer  
+Organizing Committee  
 Applied Logic Workshop  
 2018
 
