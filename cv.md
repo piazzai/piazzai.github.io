@@ -38,6 +38,8 @@ Sierra Nevada College
 
 ## Publications
 
+Piazzai, Michele, Min Liu, and Martina Montauti (2024). Cognitive economy and product categorization. _Organization Science_, forthcoming.
+
 Piazzai, Michele, and Marilena Vecco (2020). Deaccessioning. _Oxford Bibliographies in Anthropology_, Oxford Bibliographies Online. {% include iconlink.html href="https://doi.org/10.1093/obo/9780199766567-0246" icon="svg/open-in-browser.svg" %}
 
 Piazzai, Michele, and Nachoem Wijnberg (2019). Product proliferation, complexity, and deterrence to imitation in differentiated-product oligopolies. _Strategic Management Journal_ 40(6), 945--958. {% include iconlink.html href="https://doi.org/10.1002/smj.3002" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/smj.3002" icon="svg/download-square-outline.svg" %}
@@ -149,8 +151,14 @@ National Italian American Foundation
 
 UC3M Business Teaching Award  
 Carlos III University of Madrid  
-2022--2023 {% include iconlink.html href="https://business.uc3m.es/en/news/noticia/345" icon="svg/open-in-browser.svg" %}  
-2021--2022 {% include iconlink.html href="https://business.uc3m.es/en/news/noticia/328" icon="svg/open-in-browser.svg" %}  
+2022--2023 {% include iconlink.html href="https://business.uc3m.es/en/news/noticia/345" icon="svg/open-in-browser.svg" %}
+
+UC3M Business Teaching Award  
+Carlos III University of Madrid  
+2021--2022 {% include iconlink.html href="https://business.uc3m.es/en/news/noticia/328" icon="svg/open-in-browser.svg" %}
+
+UC3M Business Teaching Award  
+Carlos III University of Madrid  
 2020--2021 {% include iconlink.html href="https://business.uc3m.es/en/news/noticia/310" icon="svg/open-in-browser.svg" %}
 
 Departmental Scholar Award  
