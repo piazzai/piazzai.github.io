@@ -38,7 +38,7 @@ Sierra Nevada College
 
 ## Publications
 
-Piazzai, Michele, Min Liu, and Martina Montauti (2024). Cognitive economy and product categorization. _Organization Science_, forthcoming.
+Piazzai, Michele, Min Liu, and Martina Montauti (2024). Cognitive economy and product categorization. _Organization Science_, in press. {% include iconlink.html href="https://doi.org/10.1287/orsc.2021.15751" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://pubsonline.informs.org/doi/pdf/10.1287/orsc.2021.15751" icon="svg/download-square-outline.svg" %}
 
 Piazzai, Michele, and Marilena Vecco (2020). Deaccessioning. _Oxford Bibliographies in Anthropology_, Oxford Bibliographies Online. {% include iconlink.html href="https://doi.org/10.1093/obo/9780199766567-0246" icon="svg/open-in-browser.svg" %}
 
