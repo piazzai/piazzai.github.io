@@ -42,7 +42,7 @@ Piazzai, Michele, Min Liu, and Martina Montauti (2024). Cognitive economy and pr
 
 Piazzai, Michele, and Marilena Vecco (2020). Deaccessioning. _Oxford Bibliographies in Anthropology_, Oxford Bibliographies Online. {% include iconlink.html href="https://doi.org/10.1093/obo/9780199766567-0246" icon="svg/open-in-browser.svg" %}
 
-Piazzai, Michele, and Nachoem Wijnberg (2019). Product proliferation, complexity, and deterrence to imitation in differentiated-product oligopolies. _Strategic Management Journal_ 40(6), 945--958. {% include iconlink.html href="https://doi.org/10.1002/smj.3002" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/smj.3002" icon="svg/download-square-outline.svg" %}
+Piazzai, Michele, and Nachoem Wijnberg (2019). Product proliferation, complexity, and deterrence to imitation in differentiated-product oligopolies. _Strategic Management Journal_ 40(6), 945--958. {% include iconlink.html href="https://doi.org/10.1002/smj.3002" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/smj.3002" icon="svg/download-square-outline.svg" %}
 
 Liu, Min, Martina Montauti, and Michele Piazzai (2018). Old at heart, young at the periphery: An age-dependence approach to resource partitioning. _Academy of Management Best Papers Proceedings_ 2018(1), 11589. {% include iconlink.html href="https://doi.org/10.5465/ambpp.2018.31" icon="svg/open-in-browser.svg" %}
 
