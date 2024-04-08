@@ -40,17 +40,23 @@ BA Humanities, _summa cum laude_
 Sierra Nevada College  
 2009--2011
 
-## Publications
+## Selected publications
 
-Piazzai, Michele, Min Liu, and Martina Montauti (2024). Cognitive economy and product categorization. _Organization Science_, in press. {% include iconlink.html href="https://doi.org/10.1287/orsc.2021.15751" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://pubsonline.informs.org/doi/pdf/10.1287/orsc.2021.15751" icon="svg/download-square-outline.svg" %}
-
-Piazzai, Michele, and Marilena Vecco (2020). Deaccessioning. _Oxford Bibliographies in Anthropology_, Oxford Bibliographies Online. {% include iconlink.html href="https://doi.org/10.1093/obo/9780199766567-0246" icon="svg/open-in-browser.svg" %}
+Piazzai, Michele, Min Liu, and Martina Montauti (2024). Cognitive economy and product categorization. _Organization Science_. {% include iconlink.html href="https://doi.org/10.1287/orsc.2021.15751" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://pubsonline.informs.org/doi/pdf/10.1287/orsc.2021.15751" icon="svg/download-square-outline.svg" %}
 
 Piazzai, Michele, and Nachoem Wijnberg (2019). Product proliferation, complexity, and deterrence to imitation in differentiated-product oligopolies. _Strategic Management Journal_ 40(6), 945--958. {% include iconlink.html href="https://doi.org/10.1002/smj.3002" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/smj.3002" icon="svg/download-square-outline.svg" %}
 
-Liu, Min, Martina Montauti, and Michele Piazzai (2018). Old at heart, young at the periphery: An age-dependence approach to resource partitioning. _Academy of Management Best Papers Proceedings_ 2018(1), 11589. {% include iconlink.html href="https://doi.org/10.5465/ambpp.2018.31" icon="svg/open-in-browser.svg" %}
+## Other publications
+
+### Journal articles
 
 Vecco, Marilena, Andrej Srakar, and Michele Piazzai (2017). Visitor attitudes toward deaccessioning in Italian public museums: An econometric analysis. _Poetics_ 63, 33--46. {% include iconlink.html href="https://doi.org/10.1016/j.poetic.2017.05.001" icon="svg/open-in-browser.svg" %}
+
+Vecco, Marilena, and Michele Piazzai (2015). Deaccessioning of museum collections: What do we know and where do we stand in Europe? _Journal of Cultural Heritage_ 16(2), 221--227. {% include iconlink.html href="https://doi.org/10.1016/j.culher.2014.03.007" icon="svg/open-in-browser.svg" %}
+
+### Conference proceedings
+
+Liu, Min, Martina Montauti, and Michele Piazzai (2018). Old at heart, young at the periphery: An age-dependence approach to resource partitioning. _Academy of Management Best Papers Proceedings_ 2018(1), 11589. {% include iconlink.html href="https://doi.org/10.5465/ambpp.2018.31" icon="svg/open-in-browser.svg" %}
 
 Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2017). Toward an epistemic-logical theory of categorization. _Theoretical Aspects of Rationality and Knowledge_, Electronic Proceedings in Theoretical Computer Science 251, 167--186. {% include iconlink.html href="https://doi.org/10.4204/eptcs.251.12" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://arxiv.org/pdf/1707.08743.pdf" icon="svg/download-square-outline.svg" %}
 
@@ -58,7 +64,11 @@ Piazzai, Michele, and Nachoem M. Wijnberg (2017). Diversification, proliferation
 
 Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2016). Categories: How I learned to stop worrying and love two sorts. _Workshop on Logic, Language, Information, and Computation_, Lecture Notes in Computer Science 9803, 145--164. {% include iconlink.html href="https://doi.org/10.1007/978-3-662-52921-8_10" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://arxiv.org/pdf/1604.00777.pdf" icon="svg/download-square-outline.svg" %}
 
+### Online
+
 Tomaselli, Angelo, Oguz Acar, Michele Piazzai, and Nachoem Wijnberg (2024). When more is more. _California Management Review Insights_.
+
+Piazzai, Michele, and Marilena Vecco (2020). Deaccessioning. _Oxford Bibliographies in Anthropology_, Oxford Bibliographies Online. {% include iconlink.html href="https://doi.org/10.1093/obo/9780199766567-0246" icon="svg/open-in-browser.svg" %}
 
 ## Invited seminars
 
