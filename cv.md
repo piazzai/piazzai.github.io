@@ -142,11 +142,11 @@ Knowledge Generation Project[^fn-coapp]
 Spanish Ministry of Science  
 2021--2024
 
-Undergraduate scholarship  
+Undergraduate Scholarship  
 Sierra Nevada College  
 2010--2011
 
-Undergraduate scholarship  
+Undergraduate Scholarship  
 National Italian American Foundation  
 2009--2010
 
@@ -156,8 +156,14 @@ National Italian American Foundation
 
 UC3M Business Teaching Award  
 Carlos III University of Madrid  
-2022--2023 {% include iconlink.html href="https://business.uc3m.es/en/news/noticia/345" icon="svg/open-in-browser.svg" %}  
-2021--2022 {% include iconlink.html href="https://business.uc3m.es/en/news/noticia/328" icon="svg/open-in-browser.svg" %}  
+2022--2023 {% include iconlink.html href="https://business.uc3m.es/en/news/noticia/345" icon="svg/open-in-browser.svg" %}
+
+UC3M Business Teaching Award  
+Carlos III University of Madrid  
+2021--2022 {% include iconlink.html href="https://business.uc3m.es/en/news/noticia/328" icon="svg/open-in-browser.svg" %}
+
+UC3M Business Teaching Award  
+Carlos III University of Madrid  
 2020--2021 {% include iconlink.html href="https://business.uc3m.es/en/news/noticia/310" icon="svg/open-in-browser.svg" %}
 
 Departmental Scholar Award  
