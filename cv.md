@@ -10,6 +10,10 @@ title: CV
 
 ## Academic positions
 
+Ramón y Cajal Fellow  
+Carlos III University of Madrid  
+2023--
+
 Assistant Professor of Management  
 Carlos III University of Madrid  
 2020--
@@ -54,7 +58,7 @@ Piazzai, Michele, and Nachoem M. Wijnberg (2017). Diversification, proliferation
 
 Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2016). Categories: How I learned to stop worrying and love two sorts. _Workshop on Logic, Language, Information, and Computation_, Lecture Notes in Computer Science 9803, 145--164. {% include iconlink.html href="https://doi.org/10.1007/978-3-662-52921-8_10" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://arxiv.org/pdf/1604.00777.pdf" icon="svg/download-square-outline.svg" %}
 
-Vecco, Marilena, and Michele Piazzai (2015). Deaccessioning of museum collections: What do we know and where do we stand in Europe? _Journal of Cultural Heritage_ 16(2), 221--227. {% include iconlink.html href="https://doi.org/10.1016/j.culher.2014.03.007" icon="svg/open-in-browser.svg" %}
+Tomaselli, Angelo, Oguz Acar, Michele Piazzai, and Nachoem Wijnberg (2024). When more is more. _California Management Review Insights_.
 
 ## Invited seminars
 
@@ -71,6 +75,7 @@ University of Amsterdam, 2017
 
 ## Conferences and workshops
 
+EGOS Conference, 2024  
 Nagymaros Conference, 2023  
 Nagymaros Conference, 2021  
 Nagymaros Conference, 2020  
@@ -107,7 +112,7 @@ Erasmus University Rotterdam, 2013
 
 ### Carlos III University of Madrid
 
-Organizational Design, 2020--  
+Organizational Design, 2020--[^fn-coord]  
 Strategic Management, 2020--2022
 
 ### University of Amsterdam
