@@ -64,7 +64,7 @@ Piazzai, Michele, and Nachoem M. Wijnberg (2017). Diversification, proliferation
 
 Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2016). Categories: How I learned to stop worrying and love two sorts. _Workshop on Logic, Language, Information, and Computation_, Lecture Notes in Computer Science 9803, 145--164. {% include iconlink.html href="https://doi.org/10.1007/978-3-662-52921-8_10" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://arxiv.org/pdf/1604.00777.pdf" icon="svg/download-square-outline.svg" %}
 
-### Online
+### Online articles
 
 Tomaselli, Angelo, Oguz Acar, Michele Piazzai, and Nachoem Wijnberg (2024). When more is more. _California Management Review Insights_.
 
