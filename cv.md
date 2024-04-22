@@ -62,7 +62,7 @@ Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apos
 
 Piazzai, Michele, and Nachoem M. Wijnberg (2017). Diversification, proliferation, and firm performance in the US music industry. _Academy of Management Best Papers Proceedings_ 2017(1), 16538. {% include iconlink.html href="https://doi.org/10.5465/ambpp.2017.29" icon="svg/open-in-browser.svg" %}
 
-Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2016). Categories: How I learned to stop worrying and love two sorts. _Workshop on Logic, Language, Information, and Computation_, Lecture Notes in Computer Science 9803, 145--164. {% include iconlink.html href="https://doi.org/10.1007/978-3-662-52921-8_10" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://arxiv.org/pdf/1604.00777.pdf" icon="svg/download-square-outline.svg" %}
+Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2016). Categories: How I learned to stop worrying and love two sorts. _Logic, Language, Information, and Computation_, Lecture Notes in Computer Science 9803, 145--164. {% include iconlink.html href="https://doi.org/10.1007/978-3-662-52921-8_10" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://arxiv.org/pdf/1604.00777.pdf" icon="svg/download-square-outline.svg" %}
 
 ### Online articles
 
