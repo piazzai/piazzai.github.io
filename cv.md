@@ -66,9 +66,9 @@ Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apos
 
 ### Online articles
 
-Tomaselli, Angelo, Oguz Acar, Michele Piazzai, and Nachoem Wijnberg (2024). When more is more. _California Management Review Insights_.
+Tomaselli, Angelo, Oguz Acar, Michele Piazzai, and Nachoem Wijnberg (2024). When more is more. _California Management Review Insights_. {% include iconlink.html href="https://cmr.berkeley.edu/2024/04/when-more-is-more/" icon="svg/open-in-browser.svg" %}
 
-Piazzai, Michele, and Marilena Vecco (2020). Deaccessioning. _Oxford Bibliographies in Anthropology_, Oxford Bibliographies Online. {% include iconlink.html href="https://doi.org/10.1093/obo/9780199766567-0246" icon="svg/open-in-browser.svg" %}
+Piazzai, Michele, and Marilena Vecco (2020). Deaccessioning. _Oxford Bibliographies in Anthropology_. {% include iconlink.html href="https://doi.org/10.1093/obo/9780199766567-0246" icon="svg/open-in-browser.svg" %}
 
 ## Invited seminars
 
