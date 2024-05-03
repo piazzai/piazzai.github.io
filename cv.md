@@ -60,7 +60,7 @@ Liu, Min, Martina Montauti, and Michele Piazzai (2018). Old at heart, young at t
 
 Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2017). Toward an epistemic-logical theory of categorization. _Theoretical Aspects of Rationality and Knowledge_, Electronic Proceedings in Theoretical Computer Science 251, 167--186. {% include iconlink.html href="https://doi.org/10.4204/eptcs.251.12" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://arxiv.org/pdf/1707.08743.pdf" icon="svg/download-square-outline.svg" %}
 
-Piazzai, Michele, and Nachoem M. Wijnberg (2017). Diversification, proliferation, and firm performance in the US music industry. _Academy of Management Best Papers Proceedings_ 2017(1), 16538. {% include iconlink.html href="https://doi.org/10.5465/ambpp.2017.29" icon="svg/open-in-browser.svg" %}
+Piazzai, Michele, and Nachoem Wijnberg (2017). Diversification, proliferation, and firm performance in the US music industry. _Academy of Management Best Papers Proceedings_ 2017(1), 16538. {% include iconlink.html href="https://doi.org/10.5465/ambpp.2017.29" icon="svg/open-in-browser.svg" %}
 
 Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem Wijnberg (2016). Categories: How I learned to stop worrying and love two sorts. _Logic, Language, Information, and Computation_, Lecture Notes in Computer Science 9803, 145--164. {% include iconlink.html href="https://doi.org/10.1007/978-3-662-52921-8_10" icon="svg/open-in-browser.svg" -%} {%- include iconlink.html href="https://arxiv.org/pdf/1604.00777.pdf" icon="svg/download-square-outline.svg" %}
 
