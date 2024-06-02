@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "FiraMono";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../webfonts/FiraMono-Regular.woff2") format("woff2");
+}
+
+body {
+    font-family: "FiraMono", monospace;
+}
