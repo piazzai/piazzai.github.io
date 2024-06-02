@@ -1,0 +1,19 @@
+title: Hacked Jekyll
+description: Jekyll microtheme that looks like JSON
+baseurl: /hacked-jekyll
+url: https://piazzai.github.io
+
+theme: hacked-jekyll
+
+exclude:
+  - LICENSE
+  - README.md
+  - vendor/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sourcemap: never
+  
