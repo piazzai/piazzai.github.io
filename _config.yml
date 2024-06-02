@@ -1,23 +1,23 @@
-title: Michele Piazzai
-description: Assistant Professor and Ramón y Cajal Researcher at Carlos III University of Madrid
-taglong: Carlos III University of Madrid
-tagshort: UC3M
+title: Hacked Jekyll
+description: Jekyll microtheme that looks like JSON
+baseurl: /hacked-jekyll
 url: https://piazzai.github.io
-permalink: pretty
-repo: https://github.com/piazzai/piazzai.github.io
+
+theme: hacked-jekyll
+
+color_key: green-9
+lowercase: keys
+quotes: values
 
 exclude:
   - LICENSE
   - README.md
+  - vendor/
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-whitelist:
-  - jekyll-sitemap
-
 sass:
-  sass_dir: _sass
-  style: compressed
   sourcemap: never
+  
