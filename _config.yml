@@ -5,6 +5,10 @@ url: https://piazzai.github.io
 
 theme: hacked-jekyll
 
+color_key: green-9
+lowercase: keys
+quotes: values
+
 exclude:
   - LICENSE
   - README.md
