@@ -23,7 +23,7 @@
       url: "mailto:michele.piazzai@uc3m.es"
 - key: Identifiers
   value:
-    - key: ORCID
+    - key: ORCiD
       value: 0000-0001-9676-7422
       url: https://orcid.org/0000-0001-9676-7422
     - key: WoS
