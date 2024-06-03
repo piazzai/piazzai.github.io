@@ -9,9 +9,9 @@
   typed: true
 - key: Address
   value:
-    - Universidad Carlos III de Madrid
-    - Depto. Economía de la Empresa
-    - c/ Madrid 126, 28903 Getafe, ES
+    - Carlos III University of Madrid
+    - Dept. of Business Administration
+    - Calle Madrid 126, 28903 Getafe, ES
 - key: Contact
   value:
     - key: Office
