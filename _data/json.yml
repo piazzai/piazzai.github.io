@@ -7,9 +7,6 @@
     - decision making
     - creative industries
   typed: true
-# - key: CV
-#   value: cv.pdf
-#   url: /cv.pdf
 - key: Address
   value:
     - Universidad Carlos III de Madrid
@@ -45,3 +42,6 @@
       url: https://lichess.org/@/piazzai
     - value: github.com
       url: https://github.com/piazzai
+- key: CV
+  value: cv.pdf
+  url: /cv.pdf
