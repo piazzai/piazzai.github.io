@@ -1,0 +1,17 @@
+title: Michele Piazzai
+description: Universidad Carlos III de Madrid
+baseurl: ""
+url: https://piazzai.github.io
+
+exclude:
+  - Gemfile
+  - LICENSE
+  - README.md
+  - vendor/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sourcemap: never
