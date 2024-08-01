@@ -4,6 +4,7 @@ baseurl: ""
 url: https://piazzai.github.io
 
 exclude:
+  - cv.tex
   - Gemfile
   - LICENSE
   - README.md
