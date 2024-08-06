@@ -1,6 +1,5 @@
 title: Michele Piazzai
 description: Universidad Carlos III de Madrid
-baseurl: ""
 url: https://piazzai.github.io
 
 exclude:
@@ -13,6 +12,3 @@ exclude:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-
-sass:
-  sourcemap: never
