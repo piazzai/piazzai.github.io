@@ -6,8 +6,7 @@ layout: default
     {% include header.html %}
     <main class="px-3">
         <img src="{{ 'assets/img/profile.png' | relative_url }}" class="mx-auto mb-5 rounded-circle w-50" alt="{{ site.author }}" loading="lazy" />
-        <h1 class="display-5 fw-bold mb-3">Hello!</h1>
-        <p class="lead mb-4">I am a researcher interested in problems of organization, strategy, and decision-making, particularly in the context of creative product markets. I am currently Senior Lecturer in Creative Industries at the University of Edinburgh Business School.</p>
+        {{ content }}
         <ul class="nav justify-content-center list-unstyled">
             {% for profile in site.data.profiles %}
             {% unless forloop.first %}
