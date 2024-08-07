@@ -2,15 +2,26 @@
 layout: default
 ---
 
-<main>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-6" style="border: 1px solid green;">
-                {{ content }}
-            </div>
-            <div class="col-12 col-lg-6" style="border: 1px solid blue;">
-                {{ content }}
-            </div>
-        </div>
-    </div>
-</main>
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    {% include header.html %}
+    <main class="px-3">
+        <img src="{{ 'assets/img/profile.png' | relative_url }}" class="mx-auto mb-5 rounded-circle w-50" alt="{{ site.author }}" loading="lazy" />
+        <h1 class="display-5 fw-bold mb-3">Hello!</h1>
+        <p class="lead mb-4">I am a researcher interested in problems of organization, strategy, and decision-making, particularly in the context of creative product markets. I am currently Senior Lecturer in Creative Industries at the University of Edinburgh Business School.</p>
+        <ul class="nav justify-content-center list-unstyled">
+            {% for profile in site.data.profiles %}
+            {% unless forloop.first %}
+            {% assign margin = "ms-3" %}
+            {% endunless %}
+            <li class="{{ margin }}">
+                <a class="text-white" href="{{ profile.url }}">
+                    <svg class="bi" width="36" height="36" fill="currentColor">
+                        <use xlink:href="#{{ profile.icon }}" />
+                    </svg>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </main>
+    {% include footer.html %}
+</div>

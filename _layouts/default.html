@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="utf-8" />
@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="{{ 'assets/css/styles.css' | relative_url }}" />
 </head>
 
-<body>
+{% include svg.html %}
+
+<body class="d-flex h-100 text-center text-bg-dark">
     {{ content }}
     <script src="{{ 'assets/js/bootstrap.js' | relative_url }}"></script>
 </body>
