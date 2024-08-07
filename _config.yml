@@ -2,6 +2,7 @@ title: Michele Piazzai
 author: Michele Piazzai
 description: The University of Edinburgh
 url: https://piazzai.github.io
+permalink: pretty
 
 exclude:
   - Gemfile
