@@ -7,7 +7,6 @@ exclude:
   - Gemfile
   - LICENSE
   - README.md
-  - cv/
   - vendor/
 
 plugins:
