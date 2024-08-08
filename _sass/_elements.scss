@@ -8,9 +8,13 @@ p a {
     font-weight: bold;
     color: var(--oc-gray-0);
     text-decoration: none;
+
+    &:hover {
+        color: var(--oc-gray-3);
+        text-decoration: underline;
+    }
 }
 
-p a:hover,
 a svg:hover {
     color: var(--oc-gray-3);
 }
