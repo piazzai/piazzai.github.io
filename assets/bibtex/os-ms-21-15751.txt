@@ -1,7 +1,0 @@
-@article{PLM24,
-  author  = {Michele Piazzai and Min Liu and Martina Montauti},
-  journal = {Organization Science},
-  title   = {Cognitive economy and product categorization},
-  volume  = {forthcoming},
-  year    = {2024}
-}

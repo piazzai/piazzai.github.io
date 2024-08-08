@@ -1,9 +1,0 @@
-@article{PW19,
-  author  = {Michele Piazzai and Nachoem M. Wijnberg},
-  journal = {Strategic Management Journal},
-  number  = {6},
-  pages   = {945--958},
-  title   = {Product proliferation, complexity, and deterrence to imitation in differentiated-product oligopolies},
-  volume  = {40},
-  year    = {2019}
-}
