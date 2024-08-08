@@ -9,4 +9,7 @@ order: 1
 # Hello!
 
 {: .lead .mb-4 }
-I am a researcher interested in problems of organization, strategy, and decision-making, particularly in the context of creative product markets. I am currently Senior Lecturer in Creative Industries at the University of Edinburgh Business School.
+I am a researcher interested in problems of organization, strategy, and
+decision-making, particularly in the context of creative product markets. I am
+currently Senior Lecturer in Creative Industries at the University of Edinburgh
+Business School.
