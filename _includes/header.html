@@ -1,12 +1,14 @@
 <header class="mb-auto">
-    <a class="h3 float-md-start mb-0 text-decoration-none" href="/">
-        <span class="fw-light">{{ site.author | split: " " | first }}</span>
-        <span class="fw-semibold">{{ site.author | split: " " | last }}</span>
-    </a>
+    <div class="float-md-start mb-0">
+        <a class="h3 text-decoration-none" href="/">
+            <span class="fw-light">{{ site.author | split: " " | first }}</span>
+            <span class="fw-semibold">{{ site.author | split: " " | last }}</span>
+        </a>
+    </div>
     <nav class="nav nav-masthead justify-content-center float-md-end">
         {% assign links = site.pages | where_exp: "page", "page.name contains '.md'" %}
         {% for link in links %}
-        {% unless link.layout == 404 %}
+        {% unless link.name contains 404 %}
         {% if link.url == page.url %}
         <a class="nav-link fw-bold fst-italic py-1 px-0 active" aria-current="page" href="{{ link.url }}">{{ link.title | upcase }}</a>
         {% else %}
