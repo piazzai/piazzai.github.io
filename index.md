@@ -9,5 +9,5 @@ title: About
 {: .lead .mb-4 }
 I am a researcher interested in problems of organization, strategy, and
 decision-making, particularly in the context of creative product markets. I am
-currently Senior Lecturer in Creative Industries at the University of Edinburgh
-Business School.
+currently Assistant Professor of Management and Ramón y Cajal Fellow at
+Universidad Carlos III de Madrid.
