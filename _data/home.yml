@@ -1,10 +1,4 @@
 icons:
-  - title: Faculty Profile
-    id: person-circle
-    url: https://business.uc3m.es/en/faculty/profesor/perfil/michele-piazzai
-  - title: Email
-    id: envelope-fill
-    url: mailto:michele.piazzai@uc3m.es
   - title: Google Scholar
     id: google-scholar
     url: https://scholar.google.com/citations?user=L3yiAMcAAAAJ
