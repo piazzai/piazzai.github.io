@@ -38,8 +38,7 @@
 
 \newcommand\makecvheader{
     \begin{center}
-        \interlight
-        \scalebox{3}{\interextralight\firstname\,\normalfont\lastname} \\[\bigskipamount]
+        \scalebox{3}{\interlight\firstname\,\intersemibold\lastname} \\[\bigskipamount]
         \university \\ \department \\[\bigskipamount]
         \small\faIcon{map-marker-alt}\hspace{.5em}{\mail}\hspace{1em}
         \faIcon{door-open}\hspace{.5em}{\office} \\
@@ -54,10 +53,10 @@
 
 \newcommand\cvsection[1]{\bigskip{\bfseries\itshape\uppercase{#1}}\hspace{.5em}\hrulefill\smallskip}
 \newcommand\cvsubsection[1]{\smallskip{\bfseries#1}\smallskip}
-\newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=1em]\interlight}{\end{itemize}}
-\newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]\interlight}{\end{itemize}}
-\newcommand\cvtext[1]{{\interlight#1}}
-\newcommand\cvpub[7][.]{\item #2 (#3). #4#1 {\bfseries\itshape#5}\ifthenelse{\isempty{#6}}{}{#6}. \url{https://#7}}
+\newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}}
+\newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}}
+\newcommand\cvtext[1]{#1}
+\newcommand\cvpub[7][.]{\item #2 (#3). #4#1 {\intersemibold\itshape#5}\ifthenelse{\isempty{#6}}{}{#6}. \url{https://#7}}
 \newcommand\cvline[4][,]{\item #2#1 #3\hfill{\intertabular#4}}
 
 \begin{document}
