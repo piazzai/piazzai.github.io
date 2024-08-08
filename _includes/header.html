@@ -8,12 +8,12 @@
             {% for link in links %}
             {% unless link.layout == 404 %}
             {% if link.url == page.url %}
-            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="{{ link.url }}">{{ link.title }}</a>
+        <a class="nav-link fw-bold fst-italic py-1 px-0 active" aria-current="page" href="{{ link.url }}">{{ link.title | upcase }}</a>
             {% else %}
-            <a class="nav-link fw-bold py-1 px-0" href="{{ link.url }}">{{ link.title }}</a>
+        <a class="nav-link fw-bold fst-italic py-1 px-0" href="{{ link.url }}">{{ link.title | upcase }}</a>
             {% endif %}
             {% endunless %}
             {% endfor %}
-            <a class="nav-link fw-bold py-1 px-0" href="{{ 'cv.pdf' | relative_url }}">CV</a>
+        <a class="nav-link fw-bold fst-italic py-1 px-0" href="{{ 'cv.pdf' | relative_url }}">CV</a>
         </nav>
 </header>
