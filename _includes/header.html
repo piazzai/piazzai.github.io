@@ -4,7 +4,7 @@
         <span class="fw-semibold">{{ site.author | split: " " | last }}</span>
     </a>
     <nav class="nav nav-masthead justify-content-center float-md-end">
-        {% assign links = site.pages | where: "nav", "true" | sort: "order" %}
+        {% assign links = site.pages | where_exp: "page", "page.name contains '.md'" %}
         {% for link in links %}
         {% unless link.layout == 404 %}
         {% if link.url == page.url %}

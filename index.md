@@ -1,8 +1,6 @@
 ---
 layout: home
 title: About
-nav: true
-order: 1
 ---
 
 {: .display-5 .fw-bold .mb-3 }
