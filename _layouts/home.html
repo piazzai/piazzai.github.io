@@ -1,26 +1,20 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    {% include header.html %}
-    <main class="px-3">
-        <img src="{{ 'assets/img/profile.png' | relative_url }}" class="mx-auto mb-5 rounded-circle w-50" alt="{{ site.author }}" loading="lazy" />
-        {{ content }}
-        <ul class="nav justify-content-center list-unstyled">
-            {% for profile in site.data.profiles %}
-            {% unless forloop.first %}
-            {% assign margin = "ms-3" %}
-            {% endunless %}
-            <li class="{{ margin }}">
-                <a class="text-gray-0" href="{{ profile.url }}">
-                    <svg width="36" height="36" fill="currentColor">
-                        <use xlink:href="#{{ profile.icon }}" />
-                    </svg>
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
-    </main>
-    {% include footer.html %}
-</div>
+<img src="{{ 'assets/img/profile.png' | relative_url }}" class="mx-auto mb-5 rounded-circle w-50" alt="{{ site.author }}" loading="lazy" />
+{{ content }}
+<ul class="nav justify-content-center list-unstyled">
+    {% for profile in site.data.profiles %}
+    {% unless forloop.first %}
+    {% assign margin = "ms-3" %}
+    {% endunless %}
+    <li class="{{ margin }}">
+        <a class="text-gray-0" href="{{ profile.url }}">
+            <svg width="36" height="36" fill="currentColor">
+                <use xlink:href="#{{ profile.icon }}" />
+            </svg>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
