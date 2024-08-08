@@ -3,3 +3,7 @@ body {
     text-shadow: 0 .05rem .1rem rgba(black, .5);
     box-shadow: inset 0 0 5rem rgba(black, .5);
 }
+
+a svg:hover {
+    color: var(--oc-gray-5);
+}
