@@ -4,13 +4,7 @@
 {% include head.html %}
 
 <body class="d-flex h-100 text-center bg-gray-9 text-gray-0">
-    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-        {% for icon in site.data.icons %}
-        <symbol id="{{ icon.id }}" viewBox="0 0 24 24">
-            <path d="{{ icon.path }}" />
-        </symbol>
-        {% endfor %}
-    </svg>
+    {% include svg.html %}
     {{ content }}
     <script src="{{ 'assets/js/bootstrap.js' | relative_url }}"></script>
 </body>
