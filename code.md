@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Code
+nav: true
 order: 2
 ---
 

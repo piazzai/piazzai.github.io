@@ -1,6 +1,7 @@
 ---
 layout: home
 title: About
+nav: true
 order: 1
 ---
 
