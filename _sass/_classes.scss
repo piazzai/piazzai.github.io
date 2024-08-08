@@ -1,0 +1,22 @@
+.cover-container {
+    max-width: 42em;
+}
+
+.nav-masthead .nav-link {
+    color: var(--oc-gray-6);
+    border-bottom: .25rem solid transparent;
+
+    &:hover,
+    &:focus {
+        border-bottom-color: var(--oc-gray-7);
+    }
+
+    &+.nav-link {
+        margin-left: 1rem;
+    }
+}
+
+.nav-masthead .active {
+    color: var(--oc-gray-0);
+    border-bottom-color: var(--oc-gray-0);
+}

@@ -1,23 +1,22 @@
 title: Michele Piazzai
-description: Assistant Professor and Ramón y Cajal Fellow at Carlos III University of Madrid
-baseurl: ""
+description: Universidad Carlos III de Madrid
 url: https://piazzai.github.io
-
-theme: hacked-jekyll
-
-color_key: green-9
-lowercase: keys
-quotes: values
+author: Michele Piazzai
+permalink: pretty
 
 exclude:
+  - Gemfile
   - LICENSE
   - README.md
   - vendor/
+  - cv.aux
+  - cv.fdb_latexmk
+  - cv.fls
+  - cv.log
+  - cv.out
+  - cv.synctex.gz
+  - cv.tex
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-
-sass:
-  sourcemap: never
-  

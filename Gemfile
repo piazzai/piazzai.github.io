@@ -1,3 +1,4 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'hacked-jekyll', '~> 3.0'
+gem "github-pages", "~> 231"
+gem "webrick", "~> 1.8", ">= 1.8.1"
