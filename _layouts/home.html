@@ -5,11 +5,12 @@ layout: page
 <img src="{{ 'assets/img/profile.png' | relative_url }}" class="mx-auto mb-5 rounded-circle w-50" alt="{{ site.author }}" loading="lazy" />
 {{ content }}
 <ul class="nav justify-content-center list-unstyled">
-    {% for profile in site.data.profiles %}
+    {% for icon in site.data.home.icons %}
     <li class="mx-2">
-        <a class="text-gray-0" href="{{ profile.url }}">
+        <a class="text-gray-0" href="{{ icon.url }}">
             <svg width="36" height="36" fill="currentColor">
-                <use xlink:href="#{{ profile.icon }}" />
+                <title>{{ icon.title }}</title>
+                <use xlink:href="#{{ icon.id }}" />
             </svg>
         </a>
     </li>

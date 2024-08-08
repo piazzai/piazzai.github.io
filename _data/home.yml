@@ -1,0 +1,25 @@
+icons:
+  - title: Faculty Profile
+    id: person-circle
+    url: https://business.uc3m.es/en/faculty/profesor/perfil/michele-piazzai
+  - title: Email
+    id: envelope-fill
+    url: mailto:michele.piazzai@uc3m.es
+  - title: Google Scholar
+    id: google-scholar
+    url: https://scholar.google.com/citations?user=L3yiAMcAAAAJ
+  - title: ORCID
+    id: orcid
+    url: https://orcid.org/0000-0001-9676-7422
+  - title: Web of Science
+    id: clarivate
+    url: https://www.webofscience.com/wos/author/record/ABH-6674-2020
+  - title: Scopus
+    id: scopus
+    url: https://www.scopus.com/authid/detail.uri?authorId=56123810600
+  - title: GitHub
+    id: github
+    url: https://github.com/piazzai
+  - title: Lichess
+    id: lichess
+    url: https://lichess.org/@/piazzai
