@@ -33,20 +33,3 @@ $colors: (
     }
   }
 }
-
-.btn-outline-gray {
-  --bs-btn-color: var(--oc-gray-0);
-  --bs-btn-border-color: var(--oc-gray-0);
-  --bs-btn-hover-color: var(--oc-gray-9);
-  --bs-btn-hover-bg: var(--oc-gray-0);
-  --bs-btn-hover-border-color: var(--oc-gray-0);
-  --bs-btn-focus-shadow-rgb: black;
-  --bs-btn-active-color: var(--oc-gray-9);
-  --bs-btn-active-bg: var(--oc-gray-0);
-  --bs-btn-active-border-color: var(--oc-gray-0);
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(black 0.125);
-  --bs-btn-disabled-color: var(--oc-gray-0);
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: var(--oc-gray-0);
-  --bs-gradient: none;
-}
