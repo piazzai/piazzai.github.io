@@ -7,7 +7,7 @@ layout: page
 <ul class="nav justify-content-center list-unstyled">
     {% for icon in site.data.home.icons %}
     <li class="mx-2">
-        <a class="text-gray-0" href="{{ icon.url }}">
+        <a class="icon-link" href="{{ icon.url }}">
             <svg width="36" height="36" fill="currentColor">
                 <title>{{ icon.title }}</title>
                 <use xlink:href="#{{ icon.id }}" />
