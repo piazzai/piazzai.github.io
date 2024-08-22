@@ -21,7 +21,8 @@
     border-bottom-color: var(--oc-gray-0);
 }
 
-.icon-link {
+.icon-link,
+.title-link {
     color: var(--oc-gray-2);
 
     &:hover {
