@@ -1,11 +1,11 @@
 <header class="mb-auto">
     <div class="float-md-start mb-0">
-        <a class="title-link h3 text-decoration-none" href="/">
+        <a class="h3 text-decoration-none" href="/">
             <span class="fw-light">{{ site.author | split: " " | first }}</span>
             <span class="fw-semibold">{{ site.author | split: " " | last }}</span>
         </a>
     </div>
-    <nav class="nav nav-masthead justify-content-center float-md-end">
+    <nav class="nav justify-content-center float-md-end">
         {% assign links = site.pages | where_exp: "page", "page.name contains '.md'" %}
         {% for link in links %}
         {% unless link.name contains 404 %}
