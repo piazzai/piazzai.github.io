@@ -1,3 +1,15 @@
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.cover-container {
+    max-width: 42em;
+}
+
 .nav .nav-link {
     border-bottom: .25rem solid transparent;
 
@@ -14,16 +26,4 @@
         color: var(--bs-body-color);
         border-bottom-color: var(--bs-body-color);
     }
-}
-
-.background {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-.cover-container {
-    max-width: 42em;
 }
