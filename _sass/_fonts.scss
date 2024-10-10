@@ -1,13 +1,39 @@
-@font-face {
-    font-family: InterVariable;
-    font-style: normal;
-    font-weight: 100 900;
-    src: url("../fonts/InterVariable.woff2?v=4.0") format("woff2");
+$weights: (
+  "Light": 300,
+  "Medium": 500,
+  "SemiBold": 600,
+  "Bold": 700,
+);
+
+$styles: (
+  normal: "",
+  italic: "Italic",
+);
+
+@each $style, $style-value in $styles {
+  @each $weight, $weight-value in $weights {
+    @font-face {
+      font-family: "Inter";
+      font-display: block;
+      font-style: #{$style};
+      font-weight: #{$weight-value};
+      src: url("../fonts/Inter-#{$weight}#{$style-value}.woff2") format("woff2");
+    }
+  }
 }
 
 @font-face {
-    font-family: InterVariable;
-    font-style: italic;
-    font-weight: 100 900;
-    src: url("../fonts/InterVariable-Italic.woff2?v=4.0") format("woff2");
+  font-family: "Inter";
+  font-display: block;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-display: block;
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/Inter-Italic.woff2") format("woff2");
 }
