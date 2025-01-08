@@ -7,7 +7,7 @@ title: About
 # Hello!
 
 {: .lead .mb-3 }
-I am a researcher interested in problems of organization, strategy, and decision-making, particularly in the context of creative product markets. I am currently [Assistant Professor and Ramón y Cajal Fellow](https://business.uc3m.es/en/faculty/profesor/perfil/michele-piazzai) at Universidad Carlos III de Madrid.
+I am a researcher interested in problems of organization, strategy, and decision-making, particularly in the context of creative product markets. I am currently Senior Lecturer in Creative Industries at the University of Edinburgh.
 
 {: .lead .mb-4 }
-You can reach me at [michele.piazzai@uc3m.es](mailto:michele.piazzai@uc3m.es).
+You can reach me at [michele.piazzai@ed.ac.uk](mailto:michele.piazzai@ed.ac.uk).
