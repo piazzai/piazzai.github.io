@@ -7,7 +7,7 @@
 \usepackage[american]{babel}
 \usepackage[margin=1in]{geometry}
 \usepackage[hidelinks]{hyperref}
-\usepackage[sfdefault]{inter}
+\usepackage[sfdefault,lining]{FiraSans}
 \usepackage{microtype}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
@@ -15,55 +15,50 @@
 \usepackage{graphicx}
 \usepackage{xifthen}
 \usepackage{enumitem}
+\usepackage{xurl}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
-
 \urlstyle{same}
-
 \pagestyle{fancy}
 \setlength\headheight{15pt}
 \renewcommand\headrulewidth{0pt}
-\cfoot{\interlight\scriptsize \today\ | Page \thepage\ of \pageref{LastPage}}
 
 \newcommand\firstname{Michele}
 \newcommand\lastname{Piazzai}
-\newcommand\department{Business School | Strategy Group}
+\newcommand\department{Business School \textbullet\ Strategy Group}
 \newcommand\university{The University of Edinburgh}
 \newcommand\mail{29 Buccleuch Place, Edinburgh, EH8 9JS}
-\newcommand\office{2.02}
-% \newcommand\phone{}
+\newcommand\office{Room 2.02}
 \newcommand\email{michele.piazzai@ed.ac.uk}
 \newcommand\homepage{piazzai.github.io}
 
 \newcommand\makecvheader{
     \begin{center}
-        \scalebox{3}{\interextralight\firstname\ \intermedium\lastname} \\[\bigskipamount]
+        \scalebox{3}{\textit{\firaextralight\firstname}\ {\firamedium\lastname}} \\[\bigskipamount]
         \university \\ \department \\[\bigskipamount]
-        \small
         {\faIcon{map-marker-alt}}\,\ {\mail}\hspace{1em}
         {\faIcon{door-open}}\,\ {\office} \\
-        % {\faIcon{phone-alt}}\,\ {\phone}\hspace{1em}
         {\faIcon{envelope}}\,\ {\href{mailto:\email}{\email}}\hspace{1em}
         {\faIcon{globe}}\,\ {\href{https://\homepage}{https://\homepage}}\hspace{1em} \\[\bigskipamount]
-        \footnotesize
-        ORCID: \href{https://orcid.org/0000-0001-9676-7422}{0000-0001-9676-7422}\hfill
+        \small
         Web of Science: \href{https://www.webofscience.com/wos/author/record/ABH-6674-2020}{ABH-6674-2020}\hfill
-        Scopus: \href{https://www.scopus.com/authid/detail.uri?authorId=56123810600}{56123810600}
+        Scopus: \href{https://www.scopus.com/authid/detail.uri?authorId=56123810600}{56123810600}\hfill
+        ORCID: \href{https://orcid.org/0000-0001-9676-7422}{0000-0001-9676-7422}
     \end{center}
 }
 
-\newcommand\cvsection[1]{\bigskip{\bfseries\itshape\uppercase{#1}}\hspace{.5em}\hrulefill\smallskip}
-\newcommand\cvsubsection[1]{\medskip{\intersemibold#1}\smallskip}
-\newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}}
-\newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}}
-\newcommand\cvpub[7][.]{\item #2 (#3). #4#1 {\intersemibold\itshape#5}\ifthenelse{\isempty{#6}}{}{#6}. \url{https://#7}}
-\newcommand\cvline[4][,]{\item #2#1 #3\hfill{\intertabular#4}}
+\newcommand\cvsection[1]{\bigskip\textit{\uppercase{\firamedium#1}}\hspace{.5em}\hrulefill\smallskip}
+\newcommand\cvsubsection[1]{\medskip{\firamedium#1}\smallskip}
+\newenvironment{cvpubs}{\begin{itemize}[nosep]\firalight}{\end{itemize}}
+\newenvironment{cvlines}{\begin{itemize}[nosep]\firalight}{\end{itemize}}
+\newcommand\cvpub[6][.]{\item #2 (#3). #4#1 \textit{\firamedium#5}. \url{https://#6}}
+\newcommand\cvline[4][,]{\item #2#1 #3\hfill{\firatabular#4}}
+\cfoot{\footnotesize\firalight\today\ \textbullet\ Page \thepage\ of \pageref{LastPage}}
 
 \begin{document}
 
 \makecvheader
-\interlight
 
 \cvsection{Academic positions}
 
@@ -81,33 +76,33 @@
     \cvline{BA \textit{summa cum laude} in Humanities}{Sierra Nevada College}{2009--2011}
 \end{cvlines}
 
-\cvsubsection{Additional coursework}
+\cvsubsection{Additional training}
 
 \begin{cvlines}
-    \cvline{Data Science Specialization}{Utrecht University}{2018}
+    \cvline{Data Science Specialization}{Utrecht University}{2017--2018}
     \cvline{Medici Summer School in Management Studies}{University of Bologna}{2015}
-    \cvline{Erasmus Winter Program}{Netherlands Institute of Health Sciences}{2014}
+    \cvline{Erasmus Winter Programme}{Netherlands Institute of Health Sciences}{2014}
     \cvline{International Summer School}{The Chinese University of Hong Kong}{2012}
 \end{cvlines}
 
 \cvsection{Selected publications}
 
 \begin{cvpubs}
-    \cvpub{Michele Piazzai, Min Liu, and Martina Montauti}{2024}{Cognitive economy and product categorization}{Organization Science}{\ 35(5), 1866--1889}{doi.org/10.1287/orsc.2021.15751}
-    \cvpub{Michele Piazzai and Nachoem M.\ Wijnberg}{2019}{Product proliferation, complexity, and deterrence to imitation in differentiated-product oligopolies}{Strategic Management Journal}{\ 40(6), 945--958}{doi.org/10.1002/smj.3002}
+    \cvpub{Michele Piazzai, Min Liu, and Martina Montauti}{2024}{Cognitive economy and product categorization}{Organization Science}{doi.org/10.1287/orsc.2021.15751}
+    \cvpub{Michele Piazzai and Nachoem M.\ Wijnberg}{2019}{Product proliferation, complexity, and deterrence to imitation in differentiated-product oligopolies}{Strategic Management Journal}{doi.org/10.1002/smj.3002}
 \end{cvpubs}
 
 \cvsection{Other publications}
 
 \begin{cvpubs}
-    \cvpub{Angelo Tomaselli, Oguz A.\ Acar, Michele Piazzai, and Nachoem M.\ Wijnberg}{2024}{When more is more}{California Management Review Insights}{}{cmr.berkeley.edu/2024/04/when-more-is-more}
-    \cvpub{Michele Piazzai and Marilena Vecco}{2020}{Deaccessioning}{Oxford Bibliographies in Anthropology}{}{doi.org/10.1093/obo/9780199766567-0246}
-    \cvpub{Min Liu, Martina Montauti, and Michele Piazzai}{2018}{Old at heart, young at the periphery: An age-dependence approach to resource partitioning}{Academy of Management Best Papers Proceedings}{\ 2018(1), 11589}{doi.org/10.5465/AMBPP.2018.31}
-    \cvpub{Marilena Vecco, Andrej Srakar, and Michele Piazzai}{2017}{Visitor attitudes toward de-accessioning in Italian public museums: An econometric analysis}{Poetics}{\ 63, 33--46}{doi.org/10.1016/j.poetic.2017.05.001}
-    \cvpub{Willem Conradie, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M.\ Wijnberg}{2017}{Toward an epistemic-logical theory of categorization}{Theoretical Aspects of Rationality and Knowledge}{. Electronic Proceedings in Theoretical Computer Science 251, 167--186}{doi.org/10.4204/eptcs.251.12}
-    \cvpub{Michele Piazzai and Nachoem M.\ Wijnberg}{2017}{Diversification, proliferation, and firm performance in the US music industry}{Academy of Management Best Papers Proceedings}{\ 2017(1), 16528}{doi.org/10.5465/AMBPP.2017.29}
-    \cvpub{Willem Conradie, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M.\ Wijnberg}{2016}{Categories: How I learned to stop worrying and love two sorts}{Logic, Language, Information, and Computation}{. Lecture Notes in Computer Science 9803, 145--164}{doi.org/10.1007/978-3-662-52921-8_10}
-    \cvpub[?]{Marilena Vecco and Michele Piazzai}{2015}{Deaccessioning of museum collections: What do we know and where do we stand in Europe}{Journal of Cultural Heritage}{\ 16(2), 221--227}{doi.org/10.1016/j.culher.2014.03.007}
+    \cvpub{Angelo Tomaselli, Oguz A.\ Acar, Michele Piazzai, and Nachoem M.\ Wijnberg}{2024}{When more is more}{California Management Review Insights}{cmr.berkeley.edu/2024/04/when-more-is-more}
+    \cvpub{Michele Piazzai and Marilena Vecco}{2020}{Deaccessioning}{Oxford Bibliographies Online}{doi.org/10.1093/obo/9780199766567-0246}
+    \cvpub{Min Liu, Martina Montauti, and Michele Piazzai}{2018}{Old at heart, young at the periphery: An age-dependence approach to resource partitioning}{Academy of Management Best Papers Proceedings}{doi.org/10.5465/AMBPP.2018.31}
+    \cvpub{Marilena Vecco, Andrej Srakar, and Michele Piazzai}{2017}{Visitor attitudes toward deaccessioning in Italian public museums: An econometric analysis}{Poetics}{doi.org/10.1016/j.poetic.2017.05.001}
+    \cvpub{Willem Conradie, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M.\ Wijnberg}{2017}{Toward an epistemic-logical theory of categorization}{Electronic Proceedings in Theoretical Computer Science}{doi.org/10.4204/eptcs.251.12}
+    \cvpub{Michele Piazzai and Nachoem M.\ Wijnberg}{2017}{Diversification, proliferation, and firm performance in the US music industry}{Academy of Management Best Papers Proceedings}{doi.org/10.5465/AMBPP.2017.29}
+    \cvpub{Willem Conradie, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M.\ Wijnberg}{2016}{Categories: How I learned to stop worrying and love two sorts}{Lecture Notes in Computer Science}{doi.org/10.1007/978-3-662-52921-8_10}
+    \cvpub[?]{Marilena Vecco and Michele Piazzai}{2015}{Deaccessioning of museum collections: What do we know and where do we stand in Europe}{Journal of Cultural Heritage}{doi.org/10.1016/j.culher.2014.03.007}
 \end{cvpubs}
 
 \cvsection{Courses taught}
@@ -197,22 +192,22 @@
     \cvline{Graduate School of Business}{Stanford University}{2016}
     \cvline{Department of Pure and Applied Mathematics}{University of Johannesburg}{2016}
     \cvline{Department of Pure and Applied Mathematics}{University of Johannesburg}{2015}
-    \cvline{Department of Arts and Culture Studies}{Erasmus University Rotterdam}{2013}
+    \cvline{School of History, Culture, and Communication}{Erasmus University Rotterdam}{2013}
 \end{cvlines}
 
 \cvsection{Grants}
 
 \begin{cvlines}
-    \cvline{Ramón y Cajal Fellowship, 236\,350 EUR}{Spanish Ministry of Science}{2021}
-    \cvline{I+D+i Project (co-applicant), 41\,420 EUR}{Spanish Ministry of Science}{2020}
-    \cvline{Undergraduate scholarship}{Sierra Nevada College}{2010}
-    \cvline{Undergraduate scholarship}{National Italian American Foundation}{2009}
+    \cvline{Ramón y Cajal Fellowship, €\,236350}{Spanish Ministry of Science}{2021}
+    \cvline{I+D+i Project (co-applicant), €\,41420}{Spanish Ministry of Science}{2020}
+    \cvline{Undergraduate scholarship, \$\,34265}{Camille and Larry Ruvo}{2010}
+    \cvline{Undergraduate scholarship, \$\,31892}{National Italian American Foundation}{2009}
 \end{cvlines}
 
 \cvsection{Awards}
 
 \begin{cvlines}
-    \cvline{Bachelor's Thesis Prize (advisor)}{Spanish Economic Association}{2024}
+    \cvline{Bachelor's Thesis Prize (supervisor)}{Spanish Economic Association}{2024}
     \cvline{Business Teaching Award}{Carlos III University of Madrid}{2024}
     \cvline{Business Teaching Award}{Carlos III University of Madrid}{2023}
     \cvline{Business Teaching Award}{Carlos III University of Madrid}{2022}
@@ -271,7 +266,7 @@
     \cvline[:]{Scripting}{Bash, Python}{}
     \cvline[:]{Web}{HTML, CSS, JavaScript}{}
     \cvline[:]{Data}{R, Stata, SQL, VBA}{}
-    \cvline[:]{Typesetting}{\LaTeX}{}
+    \cvline[:]{Typesetting}{LaTeX}{}
 \end{cvlines}
 
 \end{document}
