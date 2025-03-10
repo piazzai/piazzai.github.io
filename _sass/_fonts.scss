@@ -13,27 +13,27 @@ $styles: (
 @each $style, $style-value in $styles {
   @each $weight, $weight-value in $weights {
     @font-face {
-      font-family: "Inter";
+      font-family: "Fira Sans";
       font-display: block;
       font-style: #{$style};
       font-weight: #{$weight-value};
-      src: url("../fonts/Inter-#{$weight}#{$style-value}.woff2") format("woff2");
+      src: url("../fonts/FiraSans-#{$weight}#{$style-value}.woff2") format("woff2");
     }
   }
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: "Fira Sans";
   font-display: block;
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/Inter-Regular.woff2") format("woff2");
+  src: url("../fonts/FiraSans-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: "Fira Sans";
   font-display: block;
   font-style: italic;
   font-weight: 400;
-  src: url("../fonts/Inter-Italic.woff2") format("woff2");
+  src: url("../fonts/FiraSans-Italic.woff2") format("woff2");
 }
