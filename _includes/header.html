@@ -1,8 +1,8 @@
 <header class="mb-auto">
     <div class="float-md-start mb-0">
         <a class="h3 text-decoration-none" href="/">
-            <span class="fw-light">{{ site.author | split: " " | first }}</span>
-            <span class="fw-semibold">{{ site.author | split: " " | last }}</span>
+            <span class="fst-italic fw-light">{{ site.author | split: " " | first }}</span>
+            <span class="fw-medium">{{ site.author | split: " " | last }}</span>
         </a>
     </div>
     <nav class="nav justify-content-center float-md-end">
@@ -10,12 +10,12 @@
         {% for link in links %}
         {% unless link.name contains 404 %}
         {% if link.url == page.url %}
-        <a class="nav-link fw-bold fst-italic py-1 px-0 active" aria-current="page" href="{{ link.url }}">{{ link.title | upcase }}</a>
+        <a class="nav-link fst-italic fw-medium py-1 px-0 active" aria-current="page" href="{{ link.url }}">{{ link.title | upcase }}</a>
         {% else %}
-        <a class="nav-link fw-bold fst-italic py-1 px-0" href="{{ link.url }}">{{ link.title | upcase }}</a>
+        <a class="nav-link fst-italic fw-medium py-1 px-0" href="{{ link.url }}">{{ link.title | upcase }}</a>
         {% endif %}
         {% endunless %}
         {% endfor %}
-        <a class="nav-link fw-bold fst-italic py-1 px-0" href="{{ 'cv.pdf' | relative_url }}">CV</a>
+        <a class="nav-link fst-italic fw-medium py-1 px-0" href="{{ 'cv.pdf' | relative_url }}">CV</a>
     </nav>
 </header>
