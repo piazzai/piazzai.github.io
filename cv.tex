@@ -53,7 +53,7 @@
 \newcommand\cvsubsection[1]{\medskip\textit{\textmd{#1}}\smallskip}
 \newenvironment{cvpubs}{\begin{itemize}[nosep]\firalight}{\end{itemize}}
 \newenvironment{cvlines}{\begin{itemize}[nosep]\firalight}{\end{itemize}}
-\newcommand\cvpub[6][.]{\item #2 (#3). #4#1 \textit{\textmd{#5}}. \url{https://#6}}
+\newcommand\cvpub[6][.]{\item #2 (#3). #4#1 \textit{\textmd{#5}}. \ifthenelse{\isempty{#6}}{Forthcoming.}{\url{https://#6}}}
 \newcommand\cvline[4][,]{\item #2#1 #3\hfill{\firatabular#4}}
 \cfoot{\footnotesize\firalight\today\ \textbullet\ Page \thepage\ of \pageref{LastPage}}
 
@@ -96,6 +96,7 @@
 \cvsection{Other publications}
 
 \begin{cvpubs}
+    \cvpub{Michele Piazzai}{2025}{Cognitive fluency and product evaluation}{Academy of Management Best Papers Proceedings}{}
     \cvpub{Angelo Tomaselli, Oguz A.\ Acar, Michele Piazzai, and Nachoem M.\ Wijnberg}{2024}{When more is more}{California Management Review Insights}{cmr.berkeley.edu/2024/04/when-more-is-more}
     \cvpub{Michele Piazzai and Marilena Vecco}{2020}{Deaccessioning}{Oxford Bibliographies Online}{doi.org/10.1093/obo/9780199766567-0246}
     \cvpub{Min Liu, Martina Montauti, and Michele Piazzai}{2018}{Old at heart, young at the periphery: An age-dependence approach to resource partitioning}{Academy of Management Best Papers Proceedings}{doi.org/10.5465/AMBPP.2018.31}
@@ -222,7 +223,7 @@
 \cvsubsection{Departmental activities}
 
 \begin{cvlines}
-    \cvline{Co-director of the MSc in Creative Industries}{University of Edinburgh}{2024--\phantom{0000}}
+    \cvline{Director of the MSc in Creative Industries}{University of Edinburgh}{2024--\phantom{0000}}
     \cvline{Member of the Strategic Funding Group}{Carlos III University of Madrid}{2023--2025}
     \cvline{Member of the Business Program Committee}{University of Amsterdam}{2018--2019}
 \end{cvlines}
