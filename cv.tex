@@ -43,7 +43,7 @@
         {\faIcon{envelope}}\,\ {\href{mailto:\email}{\email}}\hspace{1em}
         {\faIcon{globe}}\,\ {\href{https://\homepage}{https://\homepage}}\hspace{1em} \\[\bigskipamount]
         \small
-        ORCID: \href{https://orcid.org/0000-0001-9676-7422}{0000-0001-9676-7422}\hfill
+        ORCiD: \href{https://orcid.org/0000-0001-9676-7422}{0000-0001-9676-7422}\hfill
         Scopus: \href{https://www.scopus.com/authid/detail.uri?authorId=56123810600}{56123810600}\hfill
         Web of Science: \href{https://www.webofscience.com/wos/author/record/ABH-6674-2020}{ABH-6674-2020}
     \end{center}
@@ -51,11 +51,11 @@
 
 \newcommand\cvsection[1]{\bigskip\textit{\uppercase{\firamedium#1}}\hspace{.5em}\hrulefill\smallskip}
 \newcommand\cvsubsection[1]{\medskip\textit{\mdseries #1}\smallskip}
-\newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=1em]\firalight}{\end{itemize}}
-\newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]\firalight}{\end{itemize}}
+\newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=1em]\firabook}{\end{itemize}}
+\newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]\firabook}{\end{itemize}}
 \newcommand\cvpub[6][.]{\item #2 (#3). #4#1 \textmd{#5}. \ifthenelse{\isempty{#6}}{Forthcoming.}{\url{https://#6}}}
 \newcommand\cvline[4][,]{\item #2#1 #3\hfill{\firatabular#4}}
-\cfoot{\footnotesize\firalight\today\ \textbullet\ Page \thepage\ of \pageref{LastPage}}
+\cfoot{\footnotesize\firabook\today\ \textbullet\ Page \thepage\ of \pageref{LastPage}}
 
 \begin{document}
 
