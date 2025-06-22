@@ -1,5 +1,7 @@
 .background {
-    position: absolute;
+    text-shadow: 0 .05rem .1rem rgba(black, .5);
+    box-shadow: inset 0 0 5rem rgba(black, .5);
+    position: fixed;
     width: 100vw;
     height: 100vh;
     display: block;
