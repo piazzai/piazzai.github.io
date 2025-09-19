@@ -8,6 +8,7 @@ exclude:
   - Gemfile
   - LICENSE
   - README.md
+  - docs/
   - vendor/
   - cv.aux
   - cv.fdb_latexmk
