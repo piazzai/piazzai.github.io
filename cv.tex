@@ -1,20 +1,20 @@
-%!TEX TS-program = pdflatex
+%!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
-\documentclass[11pt,a4paper]{article}
+\documentclass[a4paper]{article}
 
 \PassOptionsToPackage{hyphens}{url}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[american]{babel}
+\usepackage[australian]{babel}
 \usepackage[margin=1in]{geometry}
 \usepackage[hidelinks]{hyperref}
-\usepackage[sfdefault,lining]{FiraSans}
+\usepackage{fontspec}
 \usepackage{microtype}
+\usepackage{makecell}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
-\usepackage{fontawesome5}
-\usepackage{graphicx}
+\usepackage{svg}
 \usepackage{xifthen}
 \usepackage{enumitem}
 
@@ -25,114 +25,184 @@
 \setlength\headheight{15pt}
 \renewcommand\headrulewidth{0pt}
 
-\newcommand\firstname{Michele}
-\newcommand\lastname{Piazzai}
-\newcommand\department{Business School \textbullet\ Strategy Group \\ Edinburgh Futures Institute}
-\newcommand\university{The University of Edinburgh}
-\newcommand\mail{29 Buccleuch Place, Edinburgh, EH8 9JS}
-\newcommand\office{2.02}
-\newcommand\email{michele@piazzai.addy.io}
-\newcommand\homepage{piazzai.github.io}
+\setromanfont[
+  Path=assets/fonts/IosevkaSlabPropo/,
+  UprightFont=*-Regular.ttf,
+  BoldFont=*-Bold.ttf,
+  ItalicFont=*-Italic.ttf,
+  BoldItalicFont=*-BoldItalic.ttf,
+  Ligatures=TeX
+]{IosevkaSlabPropo}
+
+\setsansfont[
+  Path=assets/fonts/IosevkaSansPropo/,
+  UprightFont=*-Regular.ttf,
+  BoldFont=*-Bold.ttf,
+  ItalicFont=*-Italic.ttf,
+  BoldItalicFont=*-BoldItalic.ttf,
+  Ligatures=TeX
+]{IosevkaSansPropo}
+
+\setmonofont[
+  Path=assets/fonts/IosevkaSansFixed/,
+  UprightFont=*-Regular.ttf,
+  BoldFont=*-Bold.ttf,
+  ItalicFont=*-Italic.ttf,
+  BoldItalicFont=*-BoldItalic.ttf,
+  Ligatures=TeX
+]{IosevkaSansFixed}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\newfontfamily{\IosevkaSlabPropoLight}[
+  Path=assets/fonts/IosevkaSlabPropo/,
+  UprightFont=*-Light.ttf,
+  ItalicFont=*-LightItalic.ttf,
+  Ligatures=TeX
+]{IosevkaSlabPropo}
+
+\newfontfamily{\IosevkaSlabPropoMedium}[
+  Path=assets/fonts/IosevkaSlabPropo/,
+  UprightFont=*-Medium.ttf,
+  ItalicFont=*-MediumItalic.ttf,
+  Ligatures=TeX
+]{IosevkaSlabPropo}
+
+\newfontfamily{\IosevkaSansPropoSemiBold}[
+  Path=assets/fonts/IosevkaSansPropo/,
+  UprightFont=*-SemiBold.ttf,
+  ItalicFont=*-SemiBoldItalic.ttf,
+  Ligatures=TeX
+]{IosevkaSansPropo}
+
+\newenvironment{cvname}{\centering}{\par}
+\newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em]\raggedright}{\end{itemize}}
+\newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}}
+\newcommand\cvsection[1]{\textbf{\uppercase{#1}}\hspace{.5em}\hrulefill\par}
+\newcommand\cvsubsection[1]{\textbf{#1}\par}
+\newcommand\cvpub[7][.]{\item[] {#2 (#3). #4#1 \textit{\bfseries#5}\ifthenelse{\isempty{#6}}{.}{ #6.} \ifthenelse{\isempty{#7}}{Forthcoming.}{\url{#7}}}}
+\newcommand\cvline[4][,]{\item[\textperiodcentered] {#2#1 #3\hfill{\texttt{#4}}}}
+
+\cfoot{\footnotesize\today\ \textperiodcentered\ Page \thepage\ of \pageref{LastPage}}
 
 \newcommand\makecvheader{
-    \begin{center}
-        \scalebox{3}{\textit{\firalight\firstname}~{\firamedium\lastname}}\\[\bigskipamount]
-        \university\\\department\\[\bigskipamount]
-        {\faIcon{map-marker-alt}}\,~{\mail}\hspace{1em}
-        {\faIcon{door-open}}\,~{\office}\\
-        {\faIcon{envelope}}\,~{\href{mailto:\email}{\email}}\hspace{1em}
-        {\faIcon{globe}}\,~{\href{https://\homepage}{https://\homepage}}\hspace{1em}\\[\bigskipamount]
-        ORCID:~\href{https://orcid.org/0000-0001-9676-7422}{0000-0001-9676-7422}\hfill
-        Scopus:~\href{https://www.scopus.com/authid/detail.uri?authorId=56123810600}{56123810600}\hfill
-        Web of Science:~\href{https://www.webofscience.com/wos/author/record/ABH-6674-2020}{ABH-6674-2020}
-    \end{center}
+  \begin{cvname}
+    \scalebox{3}{\textit{\IosevkaSlabPropoLight Michele} \textbf{\IosevkaSlabPropoMedium Piazzai}}\par
+    \bigskip
+    Senior Lecturer in Creative Industries \par
+    University of Edinburgh Business School \par\medskip
+    Director of the MSc Creative Industries \par
+    Edinburgh Futures Institute
+  \end{cvname}
+  \bigskip
+  \begin{minipage}{.7475\textwidth}
+    \begin{tabular}{|p{.3\textwidth}|p{.3\textwidth}p{.3\textwidth}}
+      \textbf{\uppercase{Address}} & \multicolumn{2}{l}{\textbf{\uppercase{Contact}}} \\
+      \href{https://www.openstreetmap.org/way/5325198}{\makecell[l]{29 Buccleuch Place \\ Edinburgh, EH8 9JS}} &
+      \multicolumn{2}{l}{
+        \makecell[l]{\href{mailto:michele@piazzai.addy.io}{michele@piazzai.addy.io} \\
+        \href{https://piazzai.github.io}{https://piazzai.github.io}}}
+    \end{tabular}
+    \par\bigskip
+    \begin{tabular}{|p{.3\textwidth}|p{.3\textwidth}|p{.3\textwidth}}
+      \textbf{\uppercase{ORCID}} & \textbf{\uppercase{Scopus Author ID}} & \textbf{\uppercase{Researcher ID}} \\
+      \href{https://orcid.org/0000-0001-9676-7422}{0000-0001-9676-7422} &
+      \href{https://www.scopus.com/authid/detail.uri?authorId=56123810600}{56123810600} &
+      \href{https://www.webofscience.com/wos/author/record/ABH-6674-2020}{ABH-6674-2020}
+    \end{tabular}
+  \end{minipage}
+  \begin{minipage}{.2475\textwidth}
+    \hfill\href{https://www.business-school.ed.ac.uk/staff/michele-piazzai}{\includesvg[width=.7475\textwidth]{assets/img/qrcode}}
+  \end{minipage}
 }
 
-\newcommand\cvsection[1]{\bigskip\textit{\uppercase{\firasemibold#1}}\hspace{.5em}\hrulefill\smallskip}
-\newcommand\cvsubsection[1]{\medskip\textit{\firamedium#1}\smallskip}
-\newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em]\firabook}{\end{itemize}}
-\newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]\firabook}{\end{itemize}}
-\newcommand\cvpub[6][.]{\item[] #2 (#3). #4#1 \textit{\firamedium#5}. \ifthenelse{\isempty{#6}}{Forthcoming.}{\url{https://#6}}}
-\newcommand\cvline[4][,]{\item #2#1 #3\hfill{\firatabular#4}}
-\cfoot{\footnotesize\firabook\today\ \textbullet\ Page \thepage\ of \pageref{LastPage}}
-
 \begin{document}
-
-\makecvheader
-
-\cvsection{Academic positions}
-
+\makecvheader\par
+\bigskip
+\medskip
+\cvsection{Academic Positions}
+\smallskip
 \begin{cvlines}
   \cvline{Senior Lecturer in Creative Industries}{University of Edinburgh}{2025--\phantom{0000}}
   \cvline{Assistant Professor of Management}{Carlos III University of Madrid}{2020--2025}
   \cvline{Assistant Professor of Innovation}{University of Amsterdam}{2017--2020}
 \end{cvlines}
-
+\bigskip
 \cvsection{Education}
-
+\smallskip
 \cvsubsection{Degrees}
-
+\smallskip
 \begin{cvlines}
   \cvline{PhD \textit{cum laude} in Applied Logic}{Delft University of Technology}{2013--2018}
   \cvline{MA \textit{cum laude} in Cultural Economics}{Erasmus University Rotterdam}{2011--2012}
   \cvline{BA \textit{summa cum laude} in Humanities}{Sierra Nevada College}{2009--2011}
 \end{cvlines}
-
+\medskip
 \cvsubsection{Certificates}
-
+\smallskip
 \begin{cvlines}
   \cvline{Methodology and Statistics of Data Science}{Utrecht University}{2017--2018}
 \end{cvlines}
-
+\medskip
 \cvsubsection{Other}
-
+\smallskip
 \begin{cvlines}
   \cvline{Medici Summer School}{University of Bologna}{2015}
   \cvline{Erasmus Winter Programme}{Erasmus University Rotterdam}{2014}
   \cvline{International Summer School}{Chinese University of Hong Kong}{2012}
 \end{cvlines}
-
+\bigskip
 \cvsection{Selected publications}
-
+\smallskip
 \begin{cvpubs}
-  \cvpub{Piazzai, Michele, Min Liu, and Martina Montauti}{2024}{Cognitive economy and product categorization}{Organization Science}{doi.org/10.1287/orsc.2021.15751}\smallskip
-  \cvpub{Piazzai, Michele, and Nachoem M.\ Wijnberg}{2019}{Product proliferation, complexity, and deterrence to imitation in differentiated-product oligopolies}{Strategic Management Journal}{doi.org/10.1002/smj.3002}
+  \cvpub{Michele Piazzai, Min Liu, and Martina Montauti}{2024}{Cognitive economy and product categorization}{Organization Science}{35(5), 1866--1889}{https://doi.org/10.1287/orsc.2021.15751}
+  \smallskip
+  \cvpub{Michele Piazzai and Nachoem M.\ Wijnberg}{2019}{Product proliferation, complexity, and deterrence to imitation in differentiated-product oligopolies}{Strategic Management Journal}{40(6), 945--958}{https://doi.org/10.1002/smj.3002}
 \end{cvpubs}
-
+\bigskip
 \cvsection{Other publications}
-
+\smallskip
 \begin{cvpubs}
-  \cvpub{Piazzai, Michele}{2025}{Cognitive fluency and product evaluation}{Academy of Management Best Papers Proceedings}{doi.org/10.5465/AMPROC.2025.109bp}\smallskip
-  \cvpub{Fernández Cuesta, José Alejandro, Michele Piazzai, and Umberto Rivieccio}{2025}{Quantum logics in cognition: A proposal}{Synthese}{doi.org/10.1007/s11229-025-05090-8}\smallskip
-  \cvpub{Tomaselli, Angelo, Oguz A.\ Acar, Michele Piazzai, and Nachoem M.\ Wijnberg}{2024}{When more is more}{CMR Insights}{cmr.berkeley.edu/2024/04/when-more-is-more}\smallskip
-  \cvpub{Piazzai, Michele, and Marilena Vecco}{2020}{Deaccessioning}{Oxford Bibliographies Online}{doi.org/10.1093/obo/9780199766567-0246}\smallskip
-  \cvpub{Liu, Min, Martina Montauti, and Michele Piazzai}{2018}{Old at heart, young at the periphery: An age-dependence approach to resource partitioning}{Academy of Management Best Papers Proceedings}{doi.org/10.5465/AMBPP.2018.31}\smallskip
-  \cvpub{Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M.\ Wijnberg}{2017}{Toward an epistemic-logical theory of categorization}{Electronic Proceedings in Theoretical Computer Science}{doi.org/10.4204/eptcs.251.12}\smallskip
-  \cvpub{Vecco, Marilena, Andrej Srakar, and Michele Piazzai}{2017}{Visitor attitudes toward deaccessioning in Italian public museums: An econometric analysis}{Poetics}{doi.org/10.1016/j.poetic.2017.05.001}\smallskip
-  \cvpub{Piazzai, Michele, and Nachoem M.\ Wijnberg}{2017}{Diversification, proliferation, and firm performance in the US music industry}{Academy of Management Best Papers Proceedings}{doi.org/10.5465/AMBPP.2017.29}\smallskip
-  \cvpub{Conradie, Willem, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M.\ Wijnberg}{2016}{Categories: How I learned to stop worrying and love two sorts}{Lecture Notes in Computer Science}{doi.org/10.1007/978-3-662-52921-8_10}\smallskip
-  \cvpub[?]{Vecco, Marilena, and Michele Piazzai}{2015}{Deaccessioning of museum collections: What do we know and where do we stand in Europe}{Journal of Cultural Heritage}{doi.org/10.1016/j.culher.2014.03.007}
+  \cvpub{Michele Piazzai}{2025}{Cognitive fluency and product evaluation}{Academy of Management Best Papers Proceedings}{2025(1), 19322}{https://journals.aom.org/doi/abs/10.5465/AMPROC.2025.109bp}
+  \smallskip
+  \cvpub{José Alejandro Fernández Cuesta, Michele Piazzai, and Umberto Rivieccio}{2025}{Quantum logics in cognition: A proposal}{Synthese}{206, 25}{https://doi.org/10.1007/s11229-025-05090-8}
+  \smallskip
+  \cvpub{Angelo Tomaselli, Oguz A.\ Acar, Michele Piazzai, and Nachoem M.\ Wijnberg}{2024}{When more is more}{CMR Insights}{}{https://cmr.berkeley.edu/2024/04/when-more-is-more}
+  \smallskip
+  \cvpub{Michele Piazzai and Marilena Vecco}{2020}{Deaccessioning}{Oxford Bibliographies}{}{https://doi.org/10.1093/obo/9780199766567-0246}
+  \smallskip
+  \cvpub{Min Liu, Martina Montauti, and Michele Piazzai}{2018}{Old at heart, young at the periphery: An~age-dependence approach to resource partitioning}{Academy of Management Best Papers Proceedings}{2018(1), 11589}{https://doi.org/10.5465/AMBPP.2018.31}
+  \smallskip
+  \cvpub{Willem Conradie, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M.\ Wijnberg}{2017}{Toward an epistemic-logical theory of categorization}{Electronic Proceedings in Theoretical Computer Science}{251, 167--186}{https://doi.org/10.4204/eptcs.251.12}
+  \smallskip
+  \cvpub{Marilena Vecco, Andrej Srakar, and Michele Piazzai}{2017}{Visitor attitudes toward deaccessioning in Italian public museums: An econometric analysis}{Poetics}{63, 33--46}{https://doi.org/10.1016/j.poetic.2017.05.001}
+  \smallskip
+  \cvpub{Michele Piazzai and Nachoem M.\ Wijnberg}{2017}{Diversification, proliferation, and firm performance in the US music industry}{Academy of Management Best Papers Proceedings}{2017(1), 16528}{https://doi.org/10.5465/AMBPP.2017.29}
+  \smallskip
+  \cvpub{Willem Conradie, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M.\ Wijnberg}{2016}{Categories: How I learned to stop worrying and love two sorts}{Lecture Notes in Computer Science}{9803, 145--164}{https://doi.org/10.1007/978-3-662-52921-8\_10}
+  \smallskip
+  \cvpub[?]{Marilena Vecco and Michele Piazzai}{2015}{Deaccessioning of museum collections: What do we know and where do we stand in Europe}{Journal of Cultural Heritage}{16(2), 221--227}{https://doi.org/10.1016/j.culher.2014.03.007}
 \end{cvpubs}
-
+\bigskip
 \cvsection{Courses taught}
-
+\smallskip
 \cvsubsection{University of Edinburgh}
-
+\smallskip
 \begin{cvlines}
   \cvline{Client Consulting Project}{MSc}{2025--\phantom{0000}}
   \cvline{Creative Industries Team Project}{MSc}{2025--\phantom{0000}}
   \cvline{Knowledge Integration and Project Planning}{MSc}{2025--\phantom{0000}}
 \end{cvlines}
-
+\medskip
 \cvsubsection{Carlos III University of Madrid}
-
+\smallskip
 \begin{cvlines}
   \cvline{Organizational Design}{BSc}{2020--2025}
   \cvline{Strategic Management}{PhD}{2020--2022}
 \end{cvlines}
-
+\medskip
 \cvsubsection{University of Amsterdam}
-
+\smallskip
 \begin{cvlines}
   \cvline{Thesis Proposal in Creative Industries}{MSc}{2019--2020}
   \cvline{Thesis Seminar on Entrepreneurship, Innovation, and Creativity}{BSc}{2019--2020}
@@ -141,17 +211,17 @@
   \cvline{Cultural Entrepreneurship and Innovation}{MSc}{2015--2019}
   \cvline{Strategic Management in the Creative Industries}{MSc}{2015--2017}
 \end{cvlines}
-
+\medskip
 \cvsubsection{Delft University of Technology (TA)}
-
+\smallskip
 \begin{cvlines}
   \cvline{Formal Methods for Strategic Decision-making}{BSc}{2016--2017}
   \cvline{Economics, Law, Philosophy, and Technology}{BSc}{2015--2016}
   \cvline{Ethics and Engineering}{MSc}{2014--2017}
 \end{cvlines}
-
+\bigskip
 \cvsection{Invited talks}
-
+\smallskip
 \begin{cvlines}
   \cvline{Paper Development Workshop}{AOM Annual Meeting}{2025}
   \cvline{Department of Logic, History, and Philosophy of Science}{UNED}{2025}
@@ -167,9 +237,9 @@
   \cvline{Management and Marketing Group}{Durham University}{2017}
   \cvline{Entrepreneurship and Innovation Section}{University of Amsterdam}{2017}
 \end{cvlines}
-
+\bigskip
 \cvsection{Conferences and workshops}
-
+\smallskip
 \begin{cvlines}
   \cvline{AOM Annual Meeting}{Copenhagen}{2025}
   \cvline{Nagymaros Conference}{University of Cambridge}{2025}
@@ -197,9 +267,9 @@
   \cvline{IASPM Benelux Conference}{Erasmus University Rotterdam}{2014}
   \cvline{Music Matters Master Class}{Tilburg University}{2014}
 \end{cvlines}
-
+\bigskip
 \cvsection{Research visits}
-
+\smallskip
 \begin{cvlines}
   \cvline{Department of Economics and Business}{Pompeu Fabra University}{2019}
   \cvline{Department of Mathematics and Computer Science}{Chapman University}{2018}
@@ -209,18 +279,18 @@
   \cvline{Department of Pure and Applied Mathematics}{University of Johannesburg}{2015}
   \cvline{School of History, Culture, and Communication}{Erasmus University Rotterdam}{2013}
 \end{cvlines}
-
+\bigskip
 \cvsection{Grants}
-
+\smallskip
 \begin{cvlines}
   \cvline{Ramón y Cajal Fellowship, €\,236\,350}{Spanish Ministry of Science}{2021}
   \cvline{Knowledge Generation Project (co-applicant), €\,41\,420}{Spanish Ministry of Science}{2020}
   \cvline{Undergraduate scholarship, \$\,34\,265}{Sierra Nevada College}{2010}
   \cvline{Undergraduate scholarship, \$\,31\,892}{National Italian American Foundation}{2009}
 \end{cvlines}
-
+\bigskip
 \cvsection{Awards}
-
+\smallskip
 \begin{cvlines}
   \cvline{Bachelor's Thesis Prize (supervisor)}{Spanish Economic Association}{2024}
   \cvline{Business Teaching Award}{Carlos III University of Madrid}{2024}
@@ -229,42 +299,42 @@
   \cvline{Business Teaching Award}{Carlos III University of Madrid}{2021}
   \cvline{Departmental Scholar Award}{Sierra Nevada College}{2011}
 \end{cvlines}
-
+\bigskip
 \cvsection{Service}
-
-\cvsubsection{Departmental roles}
-
+\smallskip
+\cvsubsection{Departmental Roles}
+\smallskip
 \begin{cvlines}
-  \cvline{Director of the MSc in Creative Industries}{University of Edinburgh}{2025--\phantom{0000}}
-  \cvline{Member of the Strategic Funding Group}{Carlos III University of Madrid}{2023--2025}
-  \cvline{Member of the Business Program Committee}{University of Amsterdam}{2018--2019}
+  \cvline{Program Director, MSc Creative Industries}{University of Edinburgh}{2025--\phantom{0000}}
+  \cvline{Member, Strategic Funding Group}{Carlos III University of Madrid}{2023--2025}
+  \cvline{Member, Business Administration Program Committee}{University of Amsterdam}{2018--2019}
 \end{cvlines}
-
-\cvsubsection{Conference organization}
-
+\medskip
+\cvsubsection{Conference Organization}
+\smallskip
 \begin{cvlines}
-  \cvline{Co-organizer of the Nagymaros Conference}{Carlos III University of Madrid}{2024}
-  \cvline{Scientific committee member for the Nagymaros Conference}{ESMT Berlin}{2020}
-  \cvline{Organizer of the Applied Logic Workshop}{Delft University of Technology}{2018}
+  \cvline{Co-organizer, Nagymaros Conference}{Carlos III University of Madrid}{2024}
+  \cvline{Scientific Committee Member, Nagymaros Conference}{ESMT Berlin}{2020}
+  \cvline{Organizer, Applied Logic Workshop}{Delft University of Technology}{2018}
 \end{cvlines}
-
-\cvsubsection{Professional activities}
-
+\medskip
+\cvsubsection{Professional Activities}
+\smallskip
 \begin{cvlines}
   \cvline{Webmaster}{Nagymaros Group}{2023--\phantom{0000}}
 \end{cvlines}
-
-\cvsubsection{Peer reviews}
-
+\medskip
+\cvsubsection{Peer Reviews}
+\smallskip
 \begin{cvlines}
   \cvline[]{Management Science}{(1)}{}
   \cvline[]{Organization Science}{(4)}{}
   \cvline[]{Organization Studies}{(1)}{}
   \cvline[]{Strategy Science}{(1)}{}
 \end{cvlines}
-
+\bigskip
 \cvsection{Software}
-
+\smallskip
 \begin{cvlines}
   \cvline[]{\url{https://ctan.org/pkg/beamertheme-arguelles}}{}{}
   \cvline[]{\url{https://ctan.org/pkg/opencolor}}{}{}
@@ -273,9 +343,9 @@
   \cvline[]{\url{https://rubygems.org/gems/hacked-jekyll}}{}{}
   \cvline[]{\url{https://rubygems.org/gems/jekyll-nagymaros}}{}{}
 \end{cvlines}
-
+\bigskip
 \cvsection{Languages}
-
+\smallskip
 \begin{cvlines}
   \cvline[:]{Natural}{Italian, English, Spanish}{}
   \cvline[:]{Scripting}{Bash, Python}{}
