@@ -25,55 +25,34 @@
 \setlength\headheight{1.5em}
 \renewcommand\headrulewidth{0em}
 
-\setromanfont[
-  Path=assets/fonts/IosevkaSlabPropo/,
-  UprightFont=*-Regular.ttf,
-  BoldFont=*-Bold.ttf,
-  ItalicFont=*-Italic.ttf,
-  BoldItalicFont=*-BoldItalic.ttf,
-  Ligatures=TeX
-]{IosevkaSlabPropo}
+% \setromanfont[
+%   Path=assets/fonts/,
+%   UprightFont=*-Regular.ttf,
+%   BoldFont=*-Bold.ttf,
+%   ItalicFont=*-Italic.ttf,
+%   BoldItalicFont=*-BoldItalic.ttf,
+%   Ligatures=TeX
+% ]{}
 
-\setsansfont[
-  Path=assets/fonts/IosevkaSansPropo/,
-  UprightFont=*-Regular.ttf,
-  BoldFont=*-Bold.ttf,
-  ItalicFont=*-Italic.ttf,
-  BoldItalicFont=*-BoldItalic.ttf,
-  Ligatures=TeX
-]{IosevkaSansPropo}
+% \setsansfont[
+%   Path=assets/fonts/,
+%   UprightFont=*-Regular.ttf,
+%   BoldFont=*-Bold.ttf,
+%   ItalicFont=*-Italic.ttf,
+%   BoldItalicFont=*-BoldItalic.ttf,
+%   Ligatures=TeX
+% ]{}
 
-\setmonofont[
-  Path=assets/fonts/IosevkaSansFixed/,
-  UprightFont=*-Regular.ttf,
-  BoldFont=*-Bold.ttf,
-  ItalicFont=*-Italic.ttf,
-  BoldItalicFont=*-BoldItalic.ttf,
-  Ligatures=TeX
-]{IosevkaSansFixed}
+% \setmonofont[
+%   Path=assets/fonts/,
+%   UprightFont=*-Regular.ttf,
+%   BoldFont=*-Bold.ttf,
+%   ItalicFont=*-Italic.ttf,
+%   BoldItalicFont=*-BoldItalic.ttf,
+%   Ligatures=TeX
+% ]{}
 
 \renewcommand{\familydefault}{\sfdefault}
-
-\newfontfamily{\IosevkaSlabPropoLight}[
-  Path=assets/fonts/IosevkaSlabPropo/,
-  UprightFont=*-Light.ttf,
-  ItalicFont=*-LightItalic.ttf,
-  Ligatures=TeX
-]{IosevkaSlabPropo}
-
-\newfontfamily{\IosevkaSlabPropoMedium}[
-  Path=assets/fonts/IosevkaSlabPropo/,
-  UprightFont=*-Medium.ttf,
-  ItalicFont=*-MediumItalic.ttf,
-  Ligatures=TeX
-]{IosevkaSlabPropo}
-
-\newfontfamily{\IosevkaSansPropoSemiBold}[
-  Path=assets/fonts/IosevkaSansPropo/,
-  UprightFont=*-SemiBold.ttf,
-  ItalicFont=*-SemiBoldItalic.ttf,
-  Ligatures=TeX
-]{IosevkaSansPropo}
 
 \newenvironment{cvname}{\centering}{\par}
 \newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em]\raggedright}{\end{itemize}}
@@ -87,7 +66,7 @@
 
 \newcommand\makecvheader{
   \begin{cvname}
-    \scalebox{3}{\textit{\IosevkaSlabPropoLight Michele} \textbf{\IosevkaSlabPropoMedium Piazzai}}\par
+    \scalebox{3}{\rmfamily\textit{Michele}~\textbf{Piazzai}}\par
     \bigskip
     Senior Lecturer in Creative Industries \par
     University of Edinburgh Business School \par\medskip
