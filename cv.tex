@@ -55,6 +55,15 @@
   Ligatures=TeX
 ]{SevkaFixed}
 
+\setfontfamily\rmfamilylight[
+  Path=assets/fonts/,
+  UprightFont=*-Light.ttf,
+  BoldFont=*-SemiBold.ttf,
+  ItalicFont=*-LightItalic.ttf,
+  BoldItalicFont=*-SemiBoldItalic.ttf,
+  Ligatures=TeX
+]{SevkaSlab}
+
 \renewcommand{\familydefault}{\sfdefault}
 
 \newenvironment{cvname}{\centering}{\par}
@@ -70,7 +79,7 @@
 
 \newcommand\makecvheader{
   \begin{cvname}
-    \scalebox{3}{\rmfamily\textit{Michele}~\textbf{Piazzai}}\par
+    \scalebox{3}{\rmfamilylight\textit{Michele}~\textbf{Piazzai}}\par
     \medskip
     Senior Lecturer in Creative Industries \par
     University of Edinburgh Business School \par\medskip
