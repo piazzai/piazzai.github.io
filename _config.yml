@@ -10,6 +10,7 @@ exclude:
   - README.md
   - docs/
   - vendor/
+  - assets/fonts/
   - cv.aux
   - cv.fdb_latexmk
   - cv.fls

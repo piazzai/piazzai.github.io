@@ -11,4 +11,5 @@ vendor/
 *.fls
 *.log
 *.out
+*.pdf_tex
 *.synctex.gz
