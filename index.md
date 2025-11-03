@@ -3,7 +3,7 @@ layout: home
 title: About
 ---
 
-{: .display-5 .fw-semibold .mb-3 }
+{: .display-5 .fw-bold .mb-3 }
 # Hello!
 
 {: .fs-5 .mb-3 }
