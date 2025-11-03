@@ -1,6 +1,6 @@
 .background {
-    text-shadow: 0 .05rem .1rem rgba(black, .5);
-    box-shadow: inset 0 0 5rem rgba(black, .5);
+    text-shadow: 0 .05em .1em rgba(black, .5);
+    box-shadow: inset 0 0 5em rgba(black, .5);
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -15,7 +15,7 @@
 }
 
 .nav .nav-link {
-    border-bottom: .25rem solid transparent;
+    border-bottom: .25em solid transparent;
 
     &:hover,
     &:focus {
@@ -23,7 +23,7 @@
     }
 
     &+.nav-link {
-        margin-left: 1rem;
+        margin-left: 1em;
     }
 
     &.active {
