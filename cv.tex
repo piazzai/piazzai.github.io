@@ -67,12 +67,12 @@
 \renewcommand{\familydefault}{\sfdefault}
 
 \newenvironment{cvname}{\centering}{\par}
-\newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em]\raggedright}{\end{itemize}}
-\newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}}
+\newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em,itemsep=\smallskipamount]\raggedright}{\end{itemize}\medskip}
+\newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}\medskip}
 
-\newcommand\cvsection[1]{\textbf{\Large\rmfamily\uppercase{#1}}\hspace{.5em}\hrulefill\par}
-\newcommand\cvsubsection[1]{\textbf{\uppercase{#1}}\par}
-\newcommand\cvpub[7][.]{\item[] {#2 (#3). #4#1 \textit{\textbf{#5}}\ifthenelse{\isempty{#6}}{.}{ #6.} \ifthenelse{\isempty{#7}}{Forthcoming.}{\url{#7}}}}
+\newcommand\cvsection[1]{\smallskip\textbf{\Large\rmfamily\uppercase{#1}}\hspace{.5em}\hrulefill\par\smallskip}
+\newcommand\cvsubsection[1]{\textbf{\uppercase{#1}}\par\smallskip}
+\newcommand\cvpub[7][.]{\item[] {#2 (#3). #4#1 \textit{\textbf{#5}}. \ifthenelse{\isempty{#7}}{Forthcoming.}{\href{https://#7}{#7}}}}
 \newcommand\cvline[4][,]{\item[\textperiodcentered] {#2#1 #3\hfill{#4}}}
 
 \cfoot{\footnotesize Updated \today\ \textperiodcentered\ Page \thepage\ of \pageref{LastPage}}
@@ -105,46 +105,36 @@
   \begin{minipage}{.25\textwidth}
     \hfill\href{https://piazzai.github.io}{\includesvg[width=.65\textwidth]{assets/img/qr}}
   \end{minipage}
+  \par\bigskip
 }
 
 \begin{document}
-\makecvheader\par
-\bigskip
+\makecvheader
 \cvsection{Academic Positions}
-\smallskip
 \begin{cvlines}
   \cvline{Senior Lecturer in Creative Industries}{University of Edinburgh}{2025--\phantom{0000}}
   \cvline{Assistant Professor of Management}{Carlos III University of Madrid}{2020--2025}
   \cvline{Assistant Professor of Innovation}{University of Amsterdam}{2017--2020}
 \end{cvlines}
-\bigskip
 \cvsection{Education}
-\smallskip
 \begin{cvlines}
   \cvline{PhD \textit{cum laude} in Applied Logic}{Delft University of Technology}{2013--2018}
   \cvline{MA \textit{cum laude} in Cultural Economics}{Erasmus University Rotterdam}{2011--2012}
   \cvline{BA \textit{summa cum laude} in Humanities}{Sierra Nevada College}{2009--2011}
 \end{cvlines}
-\medskip
 \cvsubsection{Certificates}
-\smallskip
 \begin{cvlines}
   \cvline{Methodology and Statistics of Data Science}{Utrecht University}{2018}
   \cvline{Medici Summer School}{University of Bologna}{2015}
   \cvline{Erasmus Winter Programme}{Erasmus University Rotterdam}{2014}
   \cvline{International Summer School}{Chinese University of Hong Kong}{2012}
 \end{cvlines}
-\bigskip
 \cvsection{Selected publications}
-\smallskip
 \begin{cvpubs}
-  \cvpub{Michele Piazzai, Min Liu, and Martina Montauti}{2024}{Cognitive economy and product categorization}{Organization Science}{35(5), 1866--1889}{https://doi.org/10.1287/orsc.2021.15751}
-  \smallskip
-  \cvpub{Michele Piazzai and Nachoem Wijnberg}{2019}{Product proliferation, complexity, and deterrence to imitation in differentiated-product oligopolies}{Strategic Management Journal}{40(6), 945--958}{https://doi.org/10.1002/smj.3002}
+  \cvpub{Michele Piazzai, Min Liu, and Martina Montauti}{2024}{Cognitive economy and product categorization}{Organization Science}{35(5), 1866--1889}{doi.org/10.1287/orsc.2021.15751}
+  \cvpub{Michele Piazzai and Nachoem M.\ Wijnberg}{2019}{Product proliferation, complexity, and deterrence to imitation in differentiated-product oligopolies}{Strategic Management Journal}{40(6), 945--958}{doi.org/10.1002/smj.3002}
 \end{cvpubs}
-\bigskip
 \cvsection{Other publications}
-\smallskip
 \begin{cvpubs}
   \cvpub{Michele Piazzai}{2025}{Cognitive fluency and product evaluation}{Academy of Management Best Papers Proceedings}{2025(1), 19322}{https://journals.aom.org/doi/abs/10.5465/AMPROC.2025.109bp}
   \smallskip
@@ -166,26 +156,20 @@
   \smallskip
   \cvpub[?]{Marilena Vecco and Michele Piazzai}{2015}{Deaccessioning of museum collections: What do we know and where do we stand in Europe}{Journal of Cultural Heritage}{16(2), 221--227}{https://doi.org/10.1016/j.culher.2014.03.007}
 \end{cvpubs}
-\bigskip
 \cvsection{Courses taught}
 \smallskip
 \cvsubsection{University of Edinburgh}
-\smallskip
 \begin{cvlines}
   \cvline{Client Consulting Project}{MSc}{2025--\phantom{0000}}
   \cvline{Creative Industries Team Project}{MSc}{2025--\phantom{0000}}
   \cvline{Knowledge Integration and Project Planning}{MSc}{2025--\phantom{0000}}
 \end{cvlines}
-\medskip
 \cvsubsection{Carlos III University of Madrid}
-\smallskip
 \begin{cvlines}
   \cvline{Organizational Design}{BSc}{2020--2025}
   \cvline{Strategic Management}{PhD}{2020--2022}
 \end{cvlines}
-\medskip
 \cvsubsection{University of Amsterdam}
-\smallskip
 \begin{cvlines}
   \cvline{Thesis Proposal: Entrepreneurship and Management in the Creative Industries}{MSc}{2019--2020}
   \cvline{Thesis Seminar: Entrepreneurship, Innovation, and Creativity}{BSc}{2019--2020}
@@ -194,17 +178,13 @@
   \cvline{Cultural Entrepreneurship and Innovation}{MSc}{2015--2019}
   \cvline{Strategic Management and Marketing Theory in the Creative Industries}{MSc}{2015--2017}
 \end{cvlines}
-\medskip
 \cvsubsection{Delft University of Technology (TA)}
-\smallskip
 \begin{cvlines}
   \cvline{Formal Methods for Strategic Decision-Making}{BSc}{2016--2017}
   \cvline{Integration of Economics, Law, Philosophy, and Technology}{BSc}{2015--2016}
   \cvline{Ethics and Engineering}{MSc}{2014--2017}
 \end{cvlines}
-\bigskip
 \cvsection{Invited talks}
-\smallskip
 \begin{cvlines}
   \cvline{Paper Development Workshop on Entertainment Industries}{AOM Annual Meeting}{2025}
   \cvline{Department of Logic, History, and Philosophy of Science}{UNED Madrid}{2025}
@@ -220,9 +200,7 @@
   \cvline{Management and Marketing Group}{Durham University}{2017}
   \cvline{Entrepreneurship and Innovation Section}{University of Amsterdam}{2017}
 \end{cvlines}
-\bigskip
 \cvsection{Conferences and workshops}
-\smallskip
 \begin{cvlines}
   \cvline{AOM Annual Meeting}{Copenhagen}{2025}
   \cvline{Nagymaros Conference}{University of Cambridge}{2025}
@@ -250,9 +228,7 @@
   \cvline{IASPM Benelux Conference}{Erasmus University Rotterdam}{2014}
   \cvline{Music Matters Master Class}{Tilburg University}{2014}
 \end{cvlines}
-\bigskip
 \cvsection{Research visits}
-\smallskip
 \begin{cvlines}
   \cvline{Department of Economics and Business}{Pompeu Fabra University}{2019}
   \cvline{Department of Mathematics and Computer Science}{Chapman University}{2018}
@@ -262,18 +238,14 @@
   \cvline{Department of Pure and Applied Mathematics}{University of Johannesburg}{2015}
   \cvline{School of History, Culture, and Communication}{Erasmus University Rotterdam}{2013}
 \end{cvlines}
-\bigskip
 \cvsection{Grants}
-\smallskip
 \begin{cvlines}
   \cvline{Ramón y Cajal Fellowship, €\,236\,350}{Spanish Ministry of Science}{2021}
   \cvline{Knowledge Generation Project (co-applicant), €\,41\,420}{Spanish Ministry of Science}{2020}
   \cvline{Undergraduate scholarship, \$\,34\,265}{Sierra Nevada College}{2010}
   \cvline{Undergraduate scholarship, \$\,31\,892}{National Italian American Foundation}{2009}
 \end{cvlines}
-\bigskip
 \cvsection{Awards}
-\smallskip
 \begin{cvlines}
   \cvline{BSc Thesis Prize (advisor)}{Spanish Economic Association}{2024}
   \cvline{Business Teaching Award}{Carlos III University of Madrid}{2024}
@@ -282,42 +254,31 @@
   \cvline{Business Teaching Award}{Carlos III University of Madrid}{2021}
   \cvline{Departmental Scholar Award}{Sierra Nevada College}{2011}
 \end{cvlines}
-\bigskip
 \cvsection{Service}
-\smallskip
 \cvsubsection{Departmental roles}
-\smallskip
 \begin{cvlines}
   \cvline{Director of the MSc Creative Industries}{University of Edinburgh}{2025--\phantom{0000}}
   \cvline{Member of the Strategic Funding Group}{Carlos III University of Madrid}{2023--2025}
   \cvline{Member of the Business Administration Program Committee}{University of Amsterdam}{2018--2019}
 \end{cvlines}
-\medskip
 \cvsubsection{Conference organization}
-\smallskip
 \begin{cvlines}
   \cvline{Co-organizer of the Nagymaros Conference}{Carlos III University of Madrid}{2024}
   \cvline{Member of the Scientific Committee of the Nagymaros Conference}{ESMT Berlin}{2020}
   \cvline{Organizer of the Applied Logic Workshop on Categories}{Delft University of Technology}{2018}
 \end{cvlines}
-\medskip
 \cvsubsection{Professional activities}
-\smallskip
 \begin{cvlines}
   \cvline{Webmaster}{Nagymaros Group}{2023--\phantom{0000}}
 \end{cvlines}
-\medskip
 \cvsubsection{Peer reviews}
-\smallskip
 \begin{cvlines}
   \cvline[]{Management Science}{(1)}{}
   \cvline[]{Organization Science}{(5)}{}
   \cvline[]{Organization Studies}{(1)}{}
   \cvline[]{Strategy Science}{(1)}{}
 \end{cvlines}
-\bigskip
 \cvsection{Software projects}
-\smallskip
 \begin{cvlines}
   \cvline[]{\url{https://ctan.org/pkg/beamertheme-arguelles}}{}{}
   \cvline[]{\url{https://ctan.org/pkg/opencolor}}{}{}
@@ -326,9 +287,7 @@
   \cvline[]{\url{https://rubygems.org/gems/hacked-jekyll}}{}{}
   \cvline[]{\url{https://rubygems.org/gems/jekyll-nagymaros}}{}{}
 \end{cvlines}
-\bigskip
 \cvsection{Languages}
-\smallskip
 \begin{cvlines}
   \cvline[:]{Natural}{Italian, English, Spanish}{}
   \cvline[:]{Scripting}{Bash, Python}{}
