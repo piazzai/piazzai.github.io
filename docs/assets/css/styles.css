@@ -19,181 +19,181 @@
 
 @font-face {
   font-family: "Sevka";
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 400;
   src: url("../webfonts/Sevka-Regular.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka";
-  font-display: swap;
+  font-display: block;
   font-style: italic;
   font-weight: 400;
   src: url("../webfonts/Sevka-Italic.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka";
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 300;
   src: url("../webfonts/Sevka-Light.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka";
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 500;
   src: url("../webfonts/Sevka-Medium.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka";
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 600;
   src: url("../webfonts/Sevka-SemiBold.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka";
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 700;
   src: url("../webfonts/Sevka-Bold.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka";
-  font-display: swap;
+  font-display: block;
   font-style: italic;
   font-weight: 300;
   src: url("../webfonts/Sevka-LightItalic.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka";
-  font-display: swap;
+  font-display: block;
   font-style: italic;
   font-weight: 500;
   src: url("../webfonts/Sevka-MediumItalic.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka";
-  font-display: swap;
+  font-display: block;
   font-style: italic;
   font-weight: 600;
   src: url("../webfonts/Sevka-SemiBoldItalic.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka";
-  font-display: swap;
+  font-display: block;
   font-style: italic;
   font-weight: 700;
   src: url("../webfonts/Sevka-BoldItalic.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Slab";
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 400;
   src: url("../webfonts/SevkaSlab-Regular.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Slab";
-  font-display: swap;
+  font-display: block;
   font-style: italic;
   font-weight: 400;
   src: url("../webfonts/SevkaSlab-Italic.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Slab";
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 300;
   src: url("../webfonts/SevkaSlab-Light.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Slab";
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 500;
   src: url("../webfonts/SevkaSlab-Medium.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Slab";
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 600;
   src: url("../webfonts/SevkaSlab-SemiBold.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Slab";
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 700;
   src: url("../webfonts/SevkaSlab-Bold.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Slab";
-  font-display: swap;
+  font-display: block;
   font-style: italic;
   font-weight: 300;
   src: url("../webfonts/SevkaSlab-LightItalic.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Slab";
-  font-display: swap;
+  font-display: block;
   font-style: italic;
   font-weight: 500;
   src: url("../webfonts/SevkaSlab-MediumItalic.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Slab";
-  font-display: swap;
+  font-display: block;
   font-style: italic;
   font-weight: 600;
   src: url("../webfonts/SevkaSlab-SemiBoldItalic.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Slab";
-  font-display: swap;
+  font-display: block;
   font-style: italic;
   font-weight: 700;
   src: url("../webfonts/SevkaSlab-BoldItalic.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Fixed";
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 400;
   src: url("../webfonts/SevkaFixed-Regular.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Fixed";
-  font-display: swap;
+  font-display: block;
   font-style: italic;
   font-weight: 400;
   src: url("../webfonts/SevkaFixed-Italic.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Fixed";
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 300;
   src: url("../webfonts/SevkaFixed-Light.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Fixed";
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 500;
   src: url("../webfonts/SevkaFixed-Medium.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Fixed";
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 600;
   src: url("../webfonts/SevkaFixed-SemiBold.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Fixed";
-  font-display: swap;
+  font-display: block;
   font-style: normal;
   font-weight: 700;
   src: url("../webfonts/SevkaFixed-Bold.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Fixed";
-  font-display: swap;
+  font-display: block;
   font-style: italic;
   font-weight: 300;
   src: url("../webfonts/SevkaFixed-LightItalic.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Fixed";
-  font-display: swap;
+  font-display: block;
   font-style: italic;
   font-weight: 500;
   src: url("../webfonts/SevkaFixed-MediumItalic.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Fixed";
-  font-display: swap;
+  font-display: block;
   font-style: italic;
   font-weight: 600;
   src: url("../webfonts/SevkaFixed-SemiBoldItalic.woff2") format("woff2"); }
 @font-face {
   font-family: "Sevka Fixed";
-  font-display: swap;
+  font-display: block;
   font-style: italic;
   font-weight: 700;
   src: url("../webfonts/SevkaFixed-BoldItalic.woff2") format("woff2"); }
