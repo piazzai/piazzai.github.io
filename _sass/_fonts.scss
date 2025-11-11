@@ -19,7 +19,7 @@ $weights: (
 @each $face, $face-value in $faces {
   @font-face {
     font-family: "#{$face-value}";
-    font-display: swap;
+    font-display: block;
     font-style: normal;
     font-weight: 400;
     src: url("../webfonts/#{$face}-Regular.woff2") format("woff2");
@@ -27,7 +27,7 @@ $weights: (
 
   @font-face {
     font-family: "#{$face-value}";
-    font-display: swap;
+    font-display: block;
     font-style: italic;
     font-weight: 400;
     src: url("../webfonts/#{$face}-Italic.woff2") format("woff2");
@@ -37,7 +37,7 @@ $weights: (
     @each $weight, $weight-value in $weights {
       @font-face {
         font-family: "#{$face-value}";
-        font-display: swap;
+        font-display: block;
         font-style: #{$style};
         font-weight: #{$weight-value};
         src: url("../webfonts/#{$face}-#{$weight}#{$style-value}.woff2") format("woff2");
