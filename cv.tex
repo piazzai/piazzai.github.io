@@ -76,7 +76,7 @@
 \renewcommand{\familydefault}{\sfdefault}
 
 \newenvironment{cvname}{\centering}{\par}
-\newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em,itemsep=\smallskipamount]\raggedright}{\end{itemize}\medskip}
+\newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em,itemsep=\smallskipamount]}{\end{itemize}\medskip}
 \newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}\medskip}
 
 \newcommand\cvsection[1]{\smallskip\textbf{\Large\uppercase{#1}}\hspace{.5em}\hrulefill\par\smallskip}
@@ -120,6 +120,7 @@
 
 \begin{document}
 \makecvheader
+\raggedright
 \cvsection{Academic Positions}
 \begin{cvlines}
   \cvline{Senior Lecturer in Creative Industries}{University of Edinburgh}{2025--\phantom{0000}}
