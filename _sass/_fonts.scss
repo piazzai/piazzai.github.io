@@ -1,15 +1,47 @@
-@font-face {
-  font-family: Firava;
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url("../fonts/Firava.woff2") format("woff2");
-}
+$faces: (
+  Sevka: "Sevka",
+  SevkaSlab: "Sevka Slab",
+  SevkaFixed: "Sevka Fixed",
+);
 
-@font-face {
-  font-family: Firava;
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url("../fonts/FiravaItalic.woff2") format("woff2");
+$styles: (
+  normal: "",
+  italic: "Italic",
+);
+
+$weights: (
+  "Light": 300,
+  "Medium": 500,
+  "SemiBold": 600,
+  "Bold": 700,
+);
+
+@each $face, $face-value in $faces {
+  @font-face {
+    font-family: "#{$face-value}";
+    font-display: block;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../webfonts/#{$face}-Regular.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "#{$face-value}";
+    font-display: block;
+    font-style: italic;
+    font-weight: 400;
+    src: url("../webfonts/#{$face}-Italic.woff2") format("woff2");
+  }
+
+  @each $style, $style-value in $styles {
+    @each $weight, $weight-value in $weights {
+      @font-face {
+        font-family: "#{$face-value}";
+        font-display: block;
+        font-style: #{$style};
+        font-weight: #{$weight-value};
+        src: url("../webfonts/#{$face}-#{$weight}#{$style-value}.woff2") format("woff2");
+      }
+    }
+  }
 }

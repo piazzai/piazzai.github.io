@@ -1,15 +1,14 @@
-%!TEX TS-program = pdflatex
+%!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 \documentclass[a4paper]{article}
 
 \PassOptionsToPackage{hyphens}{url}
 
-\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[american]{babel}
 \usepackage[margin=4.5em,bottom=7.5em]{geometry}
 \usepackage[hidelinks]{hyperref}
-\usepackage[sfdefault,lining]{FiraSans}
+\usepackage{fontspec}
 \usepackage{microtype}
 \usepackage{makecell}
 \usepackage{fancyhdr}
@@ -29,20 +28,67 @@
 \setlength\headheight{1.5em}
 \renewcommand\headrulewidth{0em}
 
+\setromanfont[
+  Path=assets/fonts/,
+  UprightFont=*-Regular.ttf,
+  BoldFont=*-Bold.ttf,
+  ItalicFont=*-Italic.ttf,
+  BoldItalicFont=*-BoldItalic.ttf,
+  Ligatures=TeX
+]{SevkaSlab}
+
+\setsansfont[
+  Path=assets/fonts/,
+  UprightFont=*-Regular.ttf,
+  BoldFont=*-Bold.ttf,
+  ItalicFont=*-Italic.ttf,
+  BoldItalicFont=*-BoldItalic.ttf,
+  Ligatures=TeX
+]{Sevka}
+
+\setmonofont[
+  Path=assets/fonts/,
+  UprightFont=*-Regular.ttf,
+  BoldFont=*-Bold.ttf,
+  ItalicFont=*-Italic.ttf,
+  BoldItalicFont=*-BoldItalic.ttf,
+  Ligatures=TeX
+]{SevkaFixed}
+
+\setfontfamily\sffamilylight[
+  Path=assets/fonts/,
+  UprightFont=*-Light.ttf,
+  BoldFont=*-SemiBold.ttf,
+  ItalicFont=*-LightItalic.ttf,
+  BoldItalicFont=*-SemiBoldItalic.ttf,
+  Ligatures=TeX
+]{Sevka}
+
+\setfontfamily\rmfamilylight[
+  Path=assets/fonts/,
+  UprightFont=*-Light.ttf,
+  BoldFont=*-SemiBold.ttf,
+  ItalicFont=*-LightItalic.ttf,
+  BoldItalicFont=*-SemiBoldItalic.ttf,
+  Ligatures=TeX
+]{SevkaSlab}
+
+\renewcommand{\familydefault}{\sfdefault}
+
 \newenvironment{cvname}{\centering}{\par}
-\newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em,itemsep=\smallskipamount]}{\end{itemize}\medskip}
+\newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em,itemsep=\smallskipamount]\raggedright}{\end{itemize}\medskip}
 \newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}\medskip}
 
-\newcommand\cvsection[1]{\smallskip{\Large\scshape\itshape\bfseries\lowercase{#1}}\hspace{.5em}\hrulefill\par\smallskip}
-\newcommand\cvsubsection[1]{{\itshape#1}\par\smallskip}
-\newcommand\cvpub[7][.]{\item[] {#2 (#3). #4#1 \textit{\textbf{#5}}\ifthenelse{\isempty{#6}}{.}{\ #6.} \ifthenelse{\isempty{#7}}{Forthcoming.}{\url{https://#7}}}}
-\newcommand\cvline[4][,]{\item {#2#1 #3\hfill{\firatabular #4}}}
+\newcommand\cvsection[1]{\smallskip\textbf{\Large\uppercase{#1}}\hspace{.5em}\hrulefill\par\smallskip}
+\newcommand\cvsubsection[1]{\textit{\uppercase{#1}}\par\smallskip}
+\newcommand\cvpub[7][.]{\item[] {#2 (#3). #4#1 \textit{\textbf{#5}}\ifthenelse{\isempty{#6}}{.}{\ #6.} \ifthenelse{\isempty{#7}}{Forthcoming.}{\href{https://#7}{#7}}}}
+\newcommand\cvline[4][,]{\item[\textperiodcentered] {#2#1 #3\hfill{#4}}}
 
 \cfoot{\footnotesize Updated \today\ \textperiodcentered\ Page \thepage\ of \pageref{LastPage}}
 
 \newcommand\makecvheader{
   \begin{cvname}
-    \scalebox{3}{\textit{\firalight Michele}~{\firasemibold Piazzai}}\par
+    \scalebox{3}{\sffamilylight\textit{Michele}~\textbf{Piazzai}}\par
     \medskip
     Senior Lecturer in Creative Industries \par
     University of Edinburgh Business School \par\smallskip
@@ -53,13 +99,13 @@
   \begin{minipage}{.745\textwidth}
     \renewcommand\tabcolsep{0pt}
     \begin{tabular}{p{.33\textwidth}p{.33\textwidth}p{.33\textwidth}}
-      \textbf{Address} & \multicolumn{2}{l}{\textbf{Contact}} \\
+      \textbf{\uppercase{Address}} & \multicolumn{2}{l}{\textbf{\uppercase{Contact}}} \\
       \href{https://www.openstreetmap.org/way/5325198}{\makecell[l]{29 Buccleuch Place \\ Edinburgh, EH8 9JS}} &
       \multicolumn{2}{l}{\makecell[l]{\href{mailto:michele.piazzai@ed.ac.uk}{michele.piazzai@ed.ac.uk} \\ \href{https://www.business-school.ed.ac.uk/staff/michele-piazzai}{business-school.ed.ac.uk/staff/michele-piazzai}}}
     \end{tabular}
     \par\bigskip
     \begin{tabular}{p{.33\textwidth}p{.33\textwidth}p{.33\textwidth}}
-      \textbf{ORCID} & \textbf{Scopus Author ID} & \textbf{Researcher ID} \\
+      \textbf{\uppercase{ORCID}} & \textbf{\uppercase{Scopus Author ID}} & \textbf{\uppercase{Researcher ID}} \\
       \href{https://orcid.org/0000-0001-9676-7422}{0000-0001-9676-7422} &
       \href{https://www.scopus.com/authid/detail.uri?authorId=56123810600}{56123810600} &
       \href{https://www.webofscience.com/wos/author/record/ABH-6674-2020}{ABH-6674-2020}
@@ -67,7 +113,7 @@
   \end{minipage}
   \hfill
   \begin{minipage}{.245\textwidth}
-    \hfill\href{https://www.business-school.ed.ac.uk/staff/michele-piazzai}{\includesvg[width=.65\textwidth]{assets/img/qr}}
+    \hfill\href{https://piazzai.github.io}{\includesvg[width=.65\textwidth]{assets/img/qr}}
   \end{minipage}
   \par\bigskip
 }
@@ -141,9 +187,9 @@
 \cvsection{Invited talks}
 \begin{cvlines}
   \cvline{Paper Development Workshop on Entertainment Industries}{AOM Annual Meeting}{2025}
-  \cvline{Department of Logic, History, and Philosophy of Science}{UNED}{2025}
+  \cvline{Department of Logic, History, and Philosophy of Science}{UNED Madrid}{2025}
   \cvline{Strategy Group}{University of Edinburgh}{2024}
-  \cvline{Department of Logic, History, and Philosophy of Science}{UNED}{2023}
+  \cvline{Department of Logic, History, and Philosophy of Science}{UNED Madrid}{2023}
   \cvline{Strategy and International Business Group}{University of Warwick}{2020}
   \cvline{Department of Business Administration}{Carlos III University of Madrid}{2019}
   \cvline{Strategy and Entrepreneurship Group}{NOVA University Lisbon}{2019}
