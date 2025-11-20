@@ -78,7 +78,7 @@
 \newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em,itemsep=\smallskipamount]}{\end{itemize}\medskip}
 \newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}\medskip}
 
-\newcommand\cvsection[1]{\smallskip\textbf{\Large\uppercase{#1}}\hspace{.5em}\hrulefill\par\smallskip}
+\newcommand\cvsection[1]{\textbf{\Large\uppercase{#1}}\hspace{.5em}\hrulefill\par\medskip}
 \newcommand\cvsubsection[1]{\textit{\uppercase{#1}}\par\smallskip}
 \newcommand\cvpub[7][.]{\item[] {#2 (#3). #4#1 \textit{\textbf{#5}}\ifthenelse{\isempty{#6}}{.}{\ #6.} \ifthenelse{\isempty{#7}}{Forthcoming.}{\href{https://#7}{#7}}}}
 \newcommand\cvline[4][,]{\item[\textperiodcentered] {#2#1 #3\hfill{#4}}}
@@ -264,6 +264,7 @@
   \cvline{Member of the Scientific Committee of the Nagymaros Conference}{ESMT Berlin}{2020}
   \cvline{Organizer of the Applied Logic Workshop on Categories}{Delft University of Technology}{2018}
 \end{cvlines}
+\clearpage
 \cvsubsection{Professional activities}
 \begin{cvlines}
   \cvline{Webmaster}{Nagymaros Group}{2023--\phantom{0000}}
