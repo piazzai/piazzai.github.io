@@ -10,4 +10,4 @@ title: About
 I am a computational social scientist interested in organization, strategy, and decision-making, currently Senior Lecturer in Creative Industries at the University of Edinburgh.
 
 {: .fs-5 .mb-4 }
-You can reach me at [michele.piazzai@ed.ac.uk](mailto:michele.piazzai@ed.ac.uk).
+You can reach me at [michele@piazzai.addy.io](mailto:michele@piazzai.addy.io).
