@@ -12,13 +12,15 @@ exclude:
   - vendor/
   - assets/fonts/
   - svg-inkscape/
-  - cv.aux
-  - cv.fdb_latexmk
-  - cv.fls
-  - cv.log
-  - cv.out
-  - cv.synctex.gz
-  - cv.tex
+  - '*.aux'
+  - '*.fdb_latexmk'
+  - '*.fls'
+  - '*.log'
+  - '*.out'
+  - '*.pdf_tex'
+  - '*.synctex.gz'
+  - '*.xdv'
+  - '*.tex'
 
 plugins:
   - jekyll-seo-tag
