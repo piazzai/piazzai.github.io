@@ -23,7 +23,7 @@
 \setlength\parskip{0em}
 \setlength\smallskipamount{.5em}
 \setlength\medskipamount{1em}
-\setlength\bigskipamount{1.5em}
+\setlength\bigskipamount{2em}
 \setlength\headheight{1.5em}
 \renewcommand\headrulewidth{0em}
 
@@ -79,7 +79,7 @@
 \newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}\medskip}
 
 \newcommand\cvsection[1]{\textbf{\Large\uppercase{#1}}\hspace{.5em}\hrulefill\par\medskip}
-\newcommand\cvsubsection[1]{\textit{\uppercase{#1}}\par\smallskip}
+\newcommand\cvsubsection[1]{\textit{\uppercase{#1}}\par\medskip}
 \newcommand\cvpub[7][.]{\item[] {#2 (#3). #4#1 \textit{\textbf{#5}}\ifthenelse{\isempty{#6}}{.}{\ #6.} \ifthenelse{\isempty{#7}}{Forthcoming.}{\href{https://#7}{#7}}}}
 \newcommand\cvline[4][,]{\item[\textperiodcentered] {#2#1 #3\hfill{#4}}}
 
@@ -90,7 +90,7 @@
     \scalebox{3}{\sflight Michele \textbf{Piazzai}}\par
     \medskip
     Senior Lecturer in Creative Industries \par
-    University of Edinburgh Business School \par\smallskip
+    University of Edinburgh Business School \par\medskip
     Director of the MSc Creative Industries \par
     Edinburgh Futures Institute
   \end{cvname}
@@ -264,7 +264,6 @@
   \cvline{Member of the Scientific Committee of the Nagymaros Conference}{ESMT Berlin}{2020}
   \cvline{Organizer of the Applied Logic Workshop on Categories}{Delft University of Technology}{2018}
 \end{cvlines}
-\clearpage
 \cvsubsection{Professional activities}
 \begin{cvlines}
   \cvline{Webmaster}{Nagymaros Group}{2023--\phantom{0000}}
