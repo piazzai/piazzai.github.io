@@ -13,3 +13,4 @@ vendor/
 *.out
 *.pdf_tex
 *.synctex.gz
+*.xdv
