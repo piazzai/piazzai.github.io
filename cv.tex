@@ -1,14 +1,14 @@
-%!TEX TS-program = xelatex
+%!TEX TS-program = pdflatex
 %!TEX encoding = UTF-8 Unicode
 \documentclass[a4paper]{article}
 
 \PassOptionsToPackage{hyphens}{url}
 
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[american]{babel}
 \usepackage[margin=4.5em,bottom=7.5em]{geometry}
 \usepackage[hidelinks]{hyperref}
-\usepackage{fontspec}
 \usepackage{makecell}
 \usepackage{fancyhdr}
 \usepackage{datetime2}
@@ -27,51 +27,6 @@
 \setlength\headheight{1.5em}
 \renewcommand\headrulewidth{0em}
 
-\setromanfont[
-  Path=assets/fonts/,
-  UprightFont=*-Regular.ttf,
-  BoldFont=*-Bold.ttf,
-  ItalicFont=*-Italic.ttf,
-  BoldItalicFont=*-BoldItalic.ttf,
-  Ligatures=TeX
-]{SevkaSlab}
-
-\setsansfont[
-  Path=assets/fonts/,
-  UprightFont=*-Regular.ttf,
-  BoldFont=*-Bold.ttf,
-  ItalicFont=*-Italic.ttf,
-  BoldItalicFont=*-BoldItalic.ttf,
-  Ligatures=TeX
-]{Sevka}
-
-\setmonofont[
-  Path=assets/fonts/,
-  UprightFont=*-Regular.ttf,
-  BoldFont=*-Bold.ttf,
-  ItalicFont=*-Italic.ttf,
-  BoldItalicFont=*-BoldItalic.ttf,
-  Ligatures=TeX
-]{SevkaFixed}
-
-\setfontfamily\sflight[
-  Path=assets/fonts/,
-  UprightFont=*-Light.ttf,
-  BoldFont=*-SemiBold.ttf,
-  ItalicFont=*-LightItalic.ttf,
-  BoldItalicFont=*-SemiBoldItalic.ttf,
-  Ligatures=TeX
-]{Sevka}
-
-\setfontfamily\rmlight[
-  Path=assets/fonts/,
-  UprightFont=*-Light.ttf,
-  BoldFont=*-SemiBold.ttf,
-  ItalicFont=*-LightItalic.ttf,
-  BoldItalicFont=*-SemiBoldItalic.ttf,
-  Ligatures=TeX
-]{SevkaSlab}
-
 \renewcommand{\familydefault}{\sfdefault}
 
 \newenvironment{cvname}{\centering}{\par}
@@ -87,7 +42,7 @@
 
 \newcommand\makecvheader{
   \begin{cvname}
-    \scalebox{3}{\sflight Michele \textbf{Piazzai}}\par
+    \scalebox{3}{\textit{Michele}~\textbf{Piazzai}}\par
     \medskip
     Senior Lecturer in Creative Industries \par
     University of Edinburgh Business School \par\smallskip
