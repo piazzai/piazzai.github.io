@@ -1,0 +1,50 @@
+$styles: (
+  normal: "",
+  italic: "Italic",
+);
+
+$weights: (
+  "Light": 300,
+  "Medium": 500,
+  "SemiBold": 600,
+  "Bold": 700,
+);
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/FiraSans-Regular-subset.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/FiraSans-Italic-subset.woff2") format("woff2");
+}
+
+@each $style, $style-value in $styles {
+  @each $weight, $weight-value in $weights {
+    @font-face {
+      font-family: "Fira Sans";
+      font-style: #{$style};
+      font-weight: #{$weight-value};
+      src: url("../fonts/FiraSans-#{$weight}#{$style-value}-subset.woff2") format("woff2");
+    }
+  }
+}
+
+@font-face {
+  font-family: "Fira Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/FiraMono-Regular-subset.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fira Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/FiraMono-Bold-subset.woff2") format("woff2");
+}
