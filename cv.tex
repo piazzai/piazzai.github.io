@@ -1,17 +1,19 @@
-%!TEX TS-program = xelatex
+%!TEX TS-program = pdflatex
 %!TEX encoding = UTF-8 Unicode
 \documentclass[a4paper]{article}
 
 \PassOptionsToPackage{hyphens}{url}
 
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[american]{babel}
-\usepackage[margin=4.5em,bottom=7.5em]{geometry}
+\usepackage[margin=1in]{geometry}
+\usepackage[sfdefault,lining]{FiraSans}
 \usepackage[hidelinks]{hyperref}
-\usepackage{fontspec}
+\usepackage{xurl}
+\usepackage{microtype}
 \usepackage{makecell}
 \usepackage{fancyhdr}
-\usepackage{datetime2}
 \usepackage{lastpage}
 \usepackage[usetransparent=false]{svg}
 \usepackage{xifthen}
@@ -21,73 +23,23 @@
 \pagestyle{fancy}
 \setlength\parindent{0em}
 \setlength\parskip{0em}
-\setlength\smallskipamount{.5em}
-\setlength\medskipamount{1em}
-\setlength\bigskipamount{2em}
 \setlength\headheight{1.5em}
 \renewcommand\headrulewidth{0em}
-
-\setromanfont[
-  Path=assets/fonts/,
-  UprightFont=*-Regular.ttf,
-  BoldFont=*-Bold.ttf,
-  ItalicFont=*-Italic.ttf,
-  BoldItalicFont=*-BoldItalic.ttf,
-  Ligatures=TeX
-]{SevkaSlab}
-
-\setsansfont[
-  Path=assets/fonts/,
-  UprightFont=*-Regular.ttf,
-  BoldFont=*-Bold.ttf,
-  ItalicFont=*-Italic.ttf,
-  BoldItalicFont=*-BoldItalic.ttf,
-  Ligatures=TeX
-]{Sevka}
-
-\setmonofont[
-  Path=assets/fonts/,
-  UprightFont=*-Regular.ttf,
-  BoldFont=*-Bold.ttf,
-  ItalicFont=*-Italic.ttf,
-  BoldItalicFont=*-BoldItalic.ttf,
-  Ligatures=TeX
-]{SevkaFixed}
-
-\setfontfamily\sflight[
-  Path=assets/fonts/,
-  UprightFont=*-Light.ttf,
-  BoldFont=*-SemiBold.ttf,
-  ItalicFont=*-LightItalic.ttf,
-  BoldItalicFont=*-SemiBoldItalic.ttf,
-  Ligatures=TeX
-]{Sevka}
-
-\setfontfamily\rmlight[
-  Path=assets/fonts/,
-  UprightFont=*-Light.ttf,
-  BoldFont=*-SemiBold.ttf,
-  ItalicFont=*-LightItalic.ttf,
-  BoldItalicFont=*-SemiBoldItalic.ttf,
-  Ligatures=TeX
-]{SevkaSlab}
-
-\renewcommand{\familydefault}{\sfdefault}
 
 \newenvironment{cvname}{\centering}{\par}
 \newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em,itemsep=\smallskipamount]}{\end{itemize}\medskip}
 \newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}\medskip}
+\newcommand\cvfield[1]{\firasemibold#1}
+\newcommand\cvsection[1]{\medskip\textbf{\Large\itshape\uppercase{#1}}\hspace{.5em}\hrulefill\par\medskip}
+\newcommand\cvsubsection[1]{\smallskip\textit{\large\firamedium#1}\par\smallskip}
+\newcommand\cvpub[7][.]{\item[] {#2 (#3). #4#1 \textit{\firasemibold#5}\ifthenelse{\isempty{#6}}{.}{\ #6.} \ifthenelse{\isempty{#7}}{Forthcoming.}{\url{https://#7}}}}
+\newcommand\cvline[4][,]{\item {#2#1 #3\hfill{\firatabular#4}}}
 
-\newcommand\cvsection[1]{\textbf{\Large\uppercase{#1}}\hspace{.5em}\hrulefill\par\medskip}
-\newcommand\cvsubsection[1]{\textit{\uppercase{#1}}\par\medskip}
-\newcommand\cvpub[7][.]{\item[] {#2 (#3). #4#1 \textit{\textbf{#5}}\ifthenelse{\isempty{#6}}{.}{\ #6.} \ifthenelse{\isempty{#7}}{Forthcoming.}{\href{https://#7}{#7}}}}
-\newcommand\cvline[4][,]{\item[\textperiodcentered] {#2#1 #3\hfill{#4}}}
-
-\cfoot{\footnotesize Updated \today\ \textperiodcentered\ Page \thepage\ of \pageref{LastPage}}
+\cfoot{\footnotesize \today\ \textperiodcentered\ Page \thepage\ of \pageref{LastPage}}
 
 \newcommand\makecvheader{
   \begin{cvname}
-    \scalebox{3}{\sflight Michele \textbf{Piazzai}}\par
+    \scalebox{3}{\textit{\firalight Michele}~{\firamedium Piazzai}}\par
     \medskip
     Senior Lecturer in Creative Industries \par
     University of Edinburgh Business School \par\smallskip
@@ -97,11 +49,11 @@
   \bigskip
   \begin{minipage}{.745\textwidth}
     \renewcommand\tabcolsep{0pt}
-    \begin{tabular}{p{.38\textwidth}p{.38\textwidth}l}
-      \textbf{\uppercase{Email}} & \multicolumn{2}{l}{\textbf{\uppercase{Address}}} \\
+    \begin{tabular}{p{.4\textwidth}p{.4\textwidth}l}
+      \cvfield{Email} & \multicolumn{2}{l}{\cvfield{Address}} \\
       \href{mailto:michele.piazzai@ed.ac.uk}{michele.piazzai@ed.ac.uk} &
       \multicolumn{2}{l}{\href{https://www.openstreetmap.org/way/5325198}{29 Buccleuch Place, Edinburgh, EH8 9JS}} \\[\bigskipamount]
-      \textbf{\uppercase{ORCID}} & \textbf{\uppercase{Scopus Author ID}} & \textbf{\uppercase{Researcher ID}} \\
+      \cvfield{ORCID} & \cvfield{Scopus Author ID} & \cvfield{Researcher ID} \\
       \href{https://orcid.org/0000-0001-9676-7422}{0000-0001-9676-7422} &
       \href{https://www.scopus.com/authid/detail.uri?authorId=56123810600}{56123810600} &
       \href{https://www.webofscience.com/wos/author/record/ABH-6674-2020}{ABH-6674-2020}
@@ -116,7 +68,6 @@
 
 \begin{document}
 \makecvheader
-\raggedright
 \cvsection{Academic Positions}
 \begin{cvlines}
   \cvline{Senior Lecturer in Creative Industries}{University of Edinburgh}{2025--\phantom{0000}}
@@ -154,7 +105,7 @@
   \cvpub{Willem Conradie, Sabine Frittella, Alessandra Palmigiano, Michele Piazzai, Apostolos Tzimoulis, and Nachoem M.\ Wijnberg}{2016}{Categories: How I learned to stop worrying and love two sorts}{Lecture Notes in Computer Science}{9803, 145--164}{doi.org/10.1007/978-3-662-52921-8\_10}
   \cvpub[?]{Marilena Vecco and Michele Piazzai}{2015}{Deaccessioning of museum collections: What do we know and where do we stand in Europe}{Journal of Cultural Heritage}{16(2), 221--227}{doi.org/10.1016/j.culher.2014.03.007}
 \end{cvpubs}
-\cvsection{Courses taught}
+\cvsection{Teaching}
 \cvsubsection{University of Edinburgh}
 \begin{cvlines}
   \cvline{Client Consulting Project}{MSc}{2025--\phantom{0000}}
@@ -168,18 +119,18 @@
 \end{cvlines}
 \cvsubsection{University of Amsterdam}
 \begin{cvlines}
-  \cvline{Thesis Proposal: Entrepreneurship and Management in the Creative Industries}{MSc}{2019--2020}
+  \cvline{Thesis Proposal: Entrepreneurship and Management in Creative Industries}{MSc}{2019--2020}
   \cvline{Thesis Seminar: Entrepreneurship, Innovation, and Creativity}{BSc}{2019--2020}
   \cvline{Innovation Management}{BSc}{2018--2020}
   \cvline{Cases in Creative Entrepreneurship}{MSc}{2017--2019}
   \cvline{Cultural Entrepreneurship and Innovation}{MSc}{2015--2019}
   \cvline{Strategic Management and Marketing Theory in the Creative Industries}{MSc}{2015--2017}
 \end{cvlines}
-\cvsubsection{Delft University of Technology (TA)}
+\cvsubsection{Delft University of Technology}
 \begin{cvlines}
-  \cvline{Formal Methods for Strategic Decision-making}{BSc}{2016--2017}
-  \cvline{Integration of Economics, Law, Philosophy, and Technology}{BSc}{2015--2016}
-  \cvline{Ethics and Engineering}{MSc}{2014--2017}
+  \cvline{Formal Methods for Strategic Decision-making (TA)}{BSc}{2016--2017}
+  \cvline{Integration of Economics, Law, Philosophy, and Technology (TA)}{BSc}{2015--2016}
+  \cvline{Ethics and Engineering (TA)}{MSc}{2014--2017}
 \end{cvlines}
 \cvsection{Invited talks}
 \begin{cvlines}
@@ -252,23 +203,23 @@
   \cvline{Departmental Scholar Award}{Sierra Nevada College}{2011}
 \end{cvlines}
 \cvsection{Service}
-\cvsubsection{Departmental roles}
+\cvsubsection{Departmental Roles}
 \begin{cvlines}
   \cvline{Director of the MSc Creative Industries}{University of Edinburgh}{2025--\phantom{0000}}
   \cvline{Member of the Strategic Funding Group}{Carlos III University of Madrid}{2023--2025}
-  \cvline{Member of the Business Administration Program Committee}{University of Amsterdam}{2018--2019}
+  \cvline{Member of the Business Program Committee}{University of Amsterdam}{2018--2019}
 \end{cvlines}
-\cvsubsection{Conference organization}
+\cvsubsection{Scientific Activities}
 \begin{cvlines}
   \cvline{Co-organizer of the Nagymaros Conference}{Carlos III University of Madrid}{2024}
   \cvline{Member of the Scientific Committee of the Nagymaros Conference}{ESMT Berlin}{2020}
   \cvline{Organizer of the Applied Logic Workshop on Categories}{Delft University of Technology}{2018}
 \end{cvlines}
-\cvsubsection{Professional activities}
+\cvsubsection{Professional Activities}
 \begin{cvlines}
   \cvline{Webmaster}{Nagymaros Group}{2023--\phantom{0000}}
 \end{cvlines}
-\cvsubsection{Peer reviews}
+\cvsubsection{Peer Reviews}
 \begin{cvlines}
   \cvline[]{Management Science}{(1)}{}
   \cvline[]{Organization Science}{(5)}{}

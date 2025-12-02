@@ -13,190 +13,79 @@
   --bs-link-hover-color-rgb: var(--oc-blue-4-rgb);
   --bs-nav-link-color: var(--oc-gray-6);
   --bs-nav-link-color-rgb: var(--oc-gray-6-rgb);
-  --bs-body-font-family: "Sevka", var(--bs-font-sans-serif);
+  --bs-body-font-family: "Fira Sans", var(--bs-font-sans-serif);
   --bs-nav-link-hover-color: var(--bs-secondary-color);
   --bs-nav-link-hover-color-rgb: var(--bs-secondary-color-rgb); }
 
+pre,
+code,
+kbd,
+samp {
+  font-family: "Fira Mono", var(--bs-font-monospace); }
+
+.font-monospace {
+  font-family: "Fira Mono", var(--bs-font-monospace) !important; }
+
 @font-face {
-  font-family: "Sevka";
-  font-display: block;
+  font-family: "Fira Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../webfonts/Sevka-Regular.woff2") format("woff2"); }
+  src: url("../fonts/FiraSans-Regular-subset.woff2") format("woff2"); }
 @font-face {
-  font-family: "Sevka";
-  font-display: block;
+  font-family: "Fira Sans";
   font-style: italic;
   font-weight: 400;
-  src: url("../webfonts/Sevka-Italic.woff2") format("woff2"); }
+  src: url("../fonts/FiraSans-Italic-subset.woff2") format("woff2"); }
 @font-face {
-  font-family: "Sevka";
-  font-display: block;
+  font-family: "Fira Sans";
   font-style: normal;
   font-weight: 300;
-  src: url("../webfonts/Sevka-Light.woff2") format("woff2"); }
+  src: url("../fonts/FiraSans-Light-subset.woff2") format("woff2"); }
 @font-face {
-  font-family: "Sevka";
-  font-display: block;
+  font-family: "Fira Sans";
   font-style: normal;
   font-weight: 500;
-  src: url("../webfonts/Sevka-Medium.woff2") format("woff2"); }
+  src: url("../fonts/FiraSans-Medium-subset.woff2") format("woff2"); }
 @font-face {
-  font-family: "Sevka";
-  font-display: block;
+  font-family: "Fira Sans";
   font-style: normal;
   font-weight: 600;
-  src: url("../webfonts/Sevka-SemiBold.woff2") format("woff2"); }
+  src: url("../fonts/FiraSans-SemiBold-subset.woff2") format("woff2"); }
 @font-face {
-  font-family: "Sevka";
-  font-display: block;
+  font-family: "Fira Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../webfonts/Sevka-Bold.woff2") format("woff2"); }
+  src: url("../fonts/FiraSans-Bold-subset.woff2") format("woff2"); }
 @font-face {
-  font-family: "Sevka";
-  font-display: block;
+  font-family: "Fira Sans";
   font-style: italic;
   font-weight: 300;
-  src: url("../webfonts/Sevka-LightItalic.woff2") format("woff2"); }
+  src: url("../fonts/FiraSans-LightItalic-subset.woff2") format("woff2"); }
 @font-face {
-  font-family: "Sevka";
-  font-display: block;
+  font-family: "Fira Sans";
   font-style: italic;
   font-weight: 500;
-  src: url("../webfonts/Sevka-MediumItalic.woff2") format("woff2"); }
+  src: url("../fonts/FiraSans-MediumItalic-subset.woff2") format("woff2"); }
 @font-face {
-  font-family: "Sevka";
-  font-display: block;
+  font-family: "Fira Sans";
   font-style: italic;
   font-weight: 600;
-  src: url("../webfonts/Sevka-SemiBoldItalic.woff2") format("woff2"); }
+  src: url("../fonts/FiraSans-SemiBoldItalic-subset.woff2") format("woff2"); }
 @font-face {
-  font-family: "Sevka";
-  font-display: block;
+  font-family: "Fira Sans";
   font-style: italic;
   font-weight: 700;
-  src: url("../webfonts/Sevka-BoldItalic.woff2") format("woff2"); }
+  src: url("../fonts/FiraSans-BoldItalic-subset.woff2") format("woff2"); }
 @font-face {
-  font-family: "Sevka Slab";
-  font-display: block;
+  font-family: "Fira Mono";
   font-style: normal;
   font-weight: 400;
-  src: url("../webfonts/SevkaSlab-Regular.woff2") format("woff2"); }
+  src: url("../fonts/FiraMono-Regular-subset.woff2") format("woff2"); }
 @font-face {
-  font-family: "Sevka Slab";
-  font-display: block;
-  font-style: italic;
-  font-weight: 400;
-  src: url("../webfonts/SevkaSlab-Italic.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Slab";
-  font-display: block;
-  font-style: normal;
-  font-weight: 300;
-  src: url("../webfonts/SevkaSlab-Light.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Slab";
-  font-display: block;
-  font-style: normal;
-  font-weight: 500;
-  src: url("../webfonts/SevkaSlab-Medium.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Slab";
-  font-display: block;
-  font-style: normal;
-  font-weight: 600;
-  src: url("../webfonts/SevkaSlab-SemiBold.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Slab";
-  font-display: block;
+  font-family: "Fira Mono";
   font-style: normal;
   font-weight: 700;
-  src: url("../webfonts/SevkaSlab-Bold.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Slab";
-  font-display: block;
-  font-style: italic;
-  font-weight: 300;
-  src: url("../webfonts/SevkaSlab-LightItalic.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Slab";
-  font-display: block;
-  font-style: italic;
-  font-weight: 500;
-  src: url("../webfonts/SevkaSlab-MediumItalic.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Slab";
-  font-display: block;
-  font-style: italic;
-  font-weight: 600;
-  src: url("../webfonts/SevkaSlab-SemiBoldItalic.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Slab";
-  font-display: block;
-  font-style: italic;
-  font-weight: 700;
-  src: url("../webfonts/SevkaSlab-BoldItalic.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Fixed";
-  font-display: block;
-  font-style: normal;
-  font-weight: 400;
-  src: url("../webfonts/SevkaFixed-Regular.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Fixed";
-  font-display: block;
-  font-style: italic;
-  font-weight: 400;
-  src: url("../webfonts/SevkaFixed-Italic.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Fixed";
-  font-display: block;
-  font-style: normal;
-  font-weight: 300;
-  src: url("../webfonts/SevkaFixed-Light.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Fixed";
-  font-display: block;
-  font-style: normal;
-  font-weight: 500;
-  src: url("../webfonts/SevkaFixed-Medium.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Fixed";
-  font-display: block;
-  font-style: normal;
-  font-weight: 600;
-  src: url("../webfonts/SevkaFixed-SemiBold.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Fixed";
-  font-display: block;
-  font-style: normal;
-  font-weight: 700;
-  src: url("../webfonts/SevkaFixed-Bold.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Fixed";
-  font-display: block;
-  font-style: italic;
-  font-weight: 300;
-  src: url("../webfonts/SevkaFixed-LightItalic.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Fixed";
-  font-display: block;
-  font-style: italic;
-  font-weight: 500;
-  src: url("../webfonts/SevkaFixed-MediumItalic.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Fixed";
-  font-display: block;
-  font-style: italic;
-  font-weight: 600;
-  src: url("../webfonts/SevkaFixed-SemiBoldItalic.woff2") format("woff2"); }
-@font-face {
-  font-family: "Sevka Fixed";
-  font-display: block;
-  font-style: italic;
-  font-weight: 700;
-  src: url("../webfonts/SevkaFixed-BoldItalic.woff2") format("woff2"); }
+  src: url("../fonts/FiraMono-Bold-subset.woff2") format("woff2"); }
 html,
 body {
   margin: 0;

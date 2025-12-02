@@ -1,9 +1,3 @@
-$faces: (
-  Sevka: "Sevka",
-  SevkaSlab: "Sevka Slab",
-  SevkaFixed: "Sevka Fixed",
-);
-
 $styles: (
   normal: "",
   italic: "Italic",
@@ -16,32 +10,41 @@ $weights: (
   "Bold": 700,
 );
 
-@each $face, $face-value in $faces {
-  @font-face {
-    font-family: "#{$face-value}";
-    font-display: block;
-    font-style: normal;
-    font-weight: 400;
-    src: url("../webfonts/#{$face}-Regular.woff2") format("woff2");
-  }
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/FiraSans-Regular-subset.woff2") format("woff2");
+}
 
-  @font-face {
-    font-family: "#{$face-value}";
-    font-display: block;
-    font-style: italic;
-    font-weight: 400;
-    src: url("../webfonts/#{$face}-Italic.woff2") format("woff2");
-  }
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/FiraSans-Italic-subset.woff2") format("woff2");
+}
 
-  @each $style, $style-value in $styles {
-    @each $weight, $weight-value in $weights {
-      @font-face {
-        font-family: "#{$face-value}";
-        font-display: block;
-        font-style: #{$style};
-        font-weight: #{$weight-value};
-        src: url("../webfonts/#{$face}-#{$weight}#{$style-value}.woff2") format("woff2");
-      }
+@each $style, $style-value in $styles {
+  @each $weight, $weight-value in $weights {
+    @font-face {
+      font-family: "Fira Sans";
+      font-style: #{$style};
+      font-weight: #{$weight-value};
+      src: url("../fonts/FiraSans-#{$weight}#{$style-value}-subset.woff2") format("woff2");
     }
   }
+}
+
+@font-face {
+  font-family: "Fira Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/FiraMono-Regular-subset.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fira Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/FiraMono-Bold-subset.woff2") format("woff2");
 }
