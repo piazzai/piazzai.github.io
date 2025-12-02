@@ -33,7 +33,7 @@
 \newenvironment{cvname}{\centering}{\par}
 \newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em,itemsep=\smallskipamount]}{\end{itemize}\medskip}
 \newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}\medskip}
-
+\newcommand\cvfield[1]{\firasemibold#1}
 \newcommand\cvsection[1]{\textbf{\Large\uppercase{#1}}\hspace{.5em}\hrulefill\par\medskip}
 \newcommand\cvsubsection[1]{\textit{\uppercase{#1}}\par\medskip}
 \newcommand\cvpub[7][.]{\item[] {#2 (#3). #4#1 \textit{\textbf{#5}}\ifthenelse{\isempty{#6}}{.}{\ #6.} \ifthenelse{\isempty{#7}}{Forthcoming.}{\href{https://#7}{#7}}}}
@@ -53,11 +53,11 @@
   \bigskip
   \begin{minipage}{.745\textwidth}
     \renewcommand\tabcolsep{0pt}
-    \begin{tabular}{p{.38\textwidth}p{.38\textwidth}l}
-      \textbf{\uppercase{Email}} & \multicolumn{2}{l}{\textbf{\uppercase{Address}}} \\
+    \begin{tabular}{p{.4\textwidth}p{.4\textwidth}l}
+      \cvfield{Email} & \multicolumn{2}{l}{\cvfield{Address}} \\
       \href{mailto:michele.piazzai@ed.ac.uk}{michele.piazzai@ed.ac.uk} &
       \multicolumn{2}{l}{\href{https://www.openstreetmap.org/way/5325198}{29 Buccleuch Place, Edinburgh, EH8 9JS}} \\[\bigskipamount]
-      \textbf{\uppercase{ORCID}} & \textbf{\uppercase{Scopus Author ID}} & \textbf{\uppercase{Researcher ID}} \\
+      \cvfield{ORCID} & \cvfield{Scopus Author ID} & \cvfield{Researcher ID} \\
       \href{https://orcid.org/0000-0001-9676-7422}{0000-0001-9676-7422} &
       \href{https://www.scopus.com/authid/detail.uri?authorId=56123810600}{56123810600} &
       \href{https://www.webofscience.com/wos/author/record/ABH-6674-2020}{ABH-6674-2020}
