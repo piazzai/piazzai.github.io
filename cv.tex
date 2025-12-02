@@ -8,6 +8,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[american]{babel}
 \usepackage[margin=1in]{geometry}
+\usepackage[sfdefault,lining]{FiraSans}
 \usepackage[hidelinks]{hyperref}
 \usepackage{xurl}
 \usepackage{microtype}
@@ -22,28 +23,23 @@
 \pagestyle{fancy}
 \setlength\parindent{0em}
 \setlength\parskip{0em}
-\setlength\smallskipamount{.5em}
-\setlength\medskipamount{1em}
-\setlength\bigskipamount{2em}
 \setlength\headheight{1.5em}
 \renewcommand\headrulewidth{0em}
-
-\renewcommand{\familydefault}{\sfdefault}
 
 \newenvironment{cvname}{\centering}{\par}
 \newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em,itemsep=\smallskipamount]}{\end{itemize}\medskip}
 \newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}\medskip}
 \newcommand\cvfield[1]{\firasemibold#1}
-\newcommand\cvsection[1]{\textbf{\Large\uppercase{#1}}\hspace{.5em}\hrulefill\par\medskip}
-\newcommand\cvsubsection[1]{\textit{\uppercase{#1}}\par\medskip}
-\newcommand\cvpub[7][.]{\item[] {#2 (#3). #4#1 \textit{\textbf{#5}}\ifthenelse{\isempty{#6}}{.}{\ #6.} \ifthenelse{\isempty{#7}}{Forthcoming.}{\href{https://#7}{#7}}}}
-\newcommand\cvline[4][,]{\item[\textperiodcentered] {#2#1 #3\hfill{#4}}}
+\newcommand\cvsection[1]{\medskip\textbf{\Large\itshape\uppercase{#1}}\hspace{.5em}\hrulefill\par\medskip}
+\newcommand\cvsubsection[1]{\smallskip\textit{\large\firamedium#1}\par\smallskip}
+\newcommand\cvpub[7][.]{\item[] {#2 (#3). #4#1 \textit{\firasemibold#5}\ifthenelse{\isempty{#6}}{.}{\ #6.} \ifthenelse{\isempty{#7}}{Forthcoming.}{\url{https://#7}}}}
+\newcommand\cvline[4][,]{\item {#2#1 #3\hfill{\firatabular#4}}}
 
 \cfoot{\footnotesize \today\ \textperiodcentered\ Page \thepage\ of \pageref{LastPage}}
 
 \newcommand\makecvheader{
   \begin{cvname}
-    \scalebox{3}{\textit{Michele}~\textbf{Piazzai}}\par
+    \scalebox{3}{\textit{\firalight Michele}~{\firamedium Piazzai}}\par
     \medskip
     Senior Lecturer in Creative Industries \par
     University of Edinburgh Business School \par\smallskip
