@@ -25,8 +25,10 @@
 \setlength\parskip{0em}
 \setlength\headheight{1.5em}
 \renewcommand\headrulewidth{0em}
+\renewcommand\tabcolsep{0pt}
 
-\newenvironment{cvname}{\centering}{\par}
+\newenvironment{cvname}{\centering}{\par\bigskip}
+\newenvironment{cvinfo}{\begin{tabular}{p{.38\textwidth}p{.38\textwidth}l}}{\end{tabular}\par\bigskip}
 \newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em,itemsep=\smallskipamount]}{\end{itemize}\medskip}
 \newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}\medskip}
 \newcommand\cvfield[1]{\firasemibold#1}
@@ -39,31 +41,31 @@
 
 \newcommand\makecvheader{
   \begin{cvname}
-    \scalebox{3}{\textit{\firalight Michele}~{\firamedium Piazzai}}\par
-    \medskip
+    \scalebox{3}{\textit{\firalight Michele}~{\firasemibold Piazzai}}\par\medskip
     Senior Lecturer in Creative Industries \par
     University of Edinburgh Business School \par\smallskip
     Director of the MSc Creative Industries \par
-    Edinburgh Futures Institute
+    Edinburgh Futures Institute\par\medskip
   \end{cvname}
-  \bigskip
-  \begin{minipage}{.745\textwidth}
-    \renewcommand\tabcolsep{0pt}
-    \begin{tabular}{p{.4\textwidth}p{.4\textwidth}l}
-      \cvfield{Email} & \multicolumn{2}{l}{\cvfield{Address}} \\
-      \href{mailto:michele.piazzai@ed.ac.uk}{michele.piazzai@ed.ac.uk} &
-      \multicolumn{2}{l}{\href{https://www.openstreetmap.org/way/5325198}{29 Buccleuch Place, Edinburgh, EH8 9JS}} \\[\bigskipamount]
-      \cvfield{ORCID} & \cvfield{Scopus Author ID} & \cvfield{Researcher ID} \\
-      \href{https://orcid.org/0000-0001-9676-7422}{0000-0001-9676-7422} &
-      \href{https://www.scopus.com/authid/detail.uri?authorId=56123810600}{56123810600} &
-      \href{https://www.webofscience.com/wos/author/record/ABH-6674-2020}{ABH-6674-2020}
-    \end{tabular}
-  \end{minipage}
-  \hfill
-  \begin{minipage}{.245\textwidth}
-    \hfill\href{https://www.business-school.ed.ac.uk/staff/michele-piazzai}{\includesvg[width=.6\textwidth]{assets/img/qr}}
-  \end{minipage}
-  \par\bigskip
+  \begin{cvinfo}
+    \cvfield{Address} & \multicolumn{2}{l}{\cvfield{Staff Profile}} \\
+    Adam Ferguson Building & \multicolumn{2}{l}{\url{https://www.business-school.ed.ac.uk/staff/michele-piazzai}} \\
+    29 Buccleuch Place \\
+    Edinburgh & \cvfield{Email} & \cvfield{Website}  \\
+    EH8 9JS  & \href{mailto:michele.piazzai@ed.ac.uk}{michele.piazzai@ed.ac.uk} & \url{https://piazzai.github.io} \\
+    \\
+    \cvfield{Researcher ID} & \cvfield{Scopus Author ID} & \cvfield{ORCID} \\
+    \href{https://www.webofscience.com/wos/author/record/ABH-6674-2020}{ABH-6674-2020} & \href{https://www.scopus.com/authid/detail.uri?authorId=56123810600}{56123810600} & \href{https://orcid.org/0000-0001-9676-7422}{0000-0001-9676-7422}
+  \end{cvinfo}
+    % \begin{tabular}{p{.4\textwidth}p{.4\textwidth}l}
+    %   \cvfield{Email} & \multicolumn{2}{l}{\cvfield{Address}} \\
+    %   \href{mailto:michele.piazzai@ed.ac.uk}{michele.piazzai@ed.ac.uk} &
+    %   \multicolumn{2}{l}{\href{https://www.openstreetmap.org/way/5325198}{29 Buccleuch Place, Edinburgh, EH8 9JS}} \\[\bigskipamount]
+    %   \cvfield{ORCID} & \cvfield{Scopus Author ID} & \cvfield{Researcher ID} \\
+    %   \href{https://orcid.org/0000-0001-9676-7422}{0000-0001-9676-7422} &
+    %   \href{https://www.scopus.com/authid/detail.uri?authorId=56123810600}{56123810600} &
+    %   \href{https://www.webofscience.com/wos/author/record/ABH-6674-2020}{ABH-6674-2020}
+    % \end{tabular}
 }
 
 \begin{document}
@@ -209,7 +211,7 @@
   \cvline{Member of the Strategic Funding Group}{Carlos III University of Madrid}{2023--2025}
   \cvline{Member of the Business Program Committee}{University of Amsterdam}{2018--2019}
 \end{cvlines}
-\cvsubsection{Scientific Activities}
+\cvsubsection{Conference Organization}
 \begin{cvlines}
   \cvline{Co-organizer of the Nagymaros Conference}{Carlos III University of Madrid}{2024}
   \cvline{Member of the Scientific Committee of the Nagymaros Conference}{ESMT Berlin}{2020}
