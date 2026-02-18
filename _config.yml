@@ -10,16 +10,6 @@ exclude:
   - README.md
   - docs/
   - vendor/
-  - svg-inkscape/
-  - '*.aux'
-  - '*.fdb_latexmk'
-  - '*.fls'
-  - '*.log'
-  - '*.out'
-  - '*.pdf_tex'
-  - '*.synctex.gz'
-  - '*.xdv'
-  - '*.tex'
 
 plugins:
   - jekyll-seo-tag
