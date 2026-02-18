@@ -13,4 +13,4 @@ I am a computational social scientist interested in problems of organization, st
 I am currently Senior Lecturer in Creative Industries and Director of the [MSc Creative Industries](https://efi.ed.ac.uk/creative-industries/) at the University of Edinburgh.
 
 {: .fs-5 .mb-4 }
-You can reach me at [hello@piazzai.addy.io](mailto:hello@piazzai.addy.io).
+You can reach me at [michele.piazzai@ed.ac.uk](mailto:michele.piazzai@ed.ac.uk).
