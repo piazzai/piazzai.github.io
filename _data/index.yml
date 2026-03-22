@@ -1,12 +1,3 @@
-copy:
-  heading: Hello!
-  bio:
-    - I am a computational social scientist interested in problems of organization, strategy, and decision-making, particularly in the context of creative product markets.
-    - I am currently Senior Lecturer in Creative Industries and Director of the MSc Creative Industries at the University of Edinburgh.
-  contact:
-    - You can reach me at
-    - michele@piazzai.addy.io
-
 icons:
   - title: University of Edinburgh
     id: university-of-edinburgh
