@@ -3,13 +3,10 @@ layout: home
 title: About
 ---
 
-{: .display-5 .fw-bold }
 # Hello!
 
-I am a computational social scientist interested in problems of organization, strategy, and decision-making, particularly in the context of creative product markets.
+I am a computational social scientist interested in problems of organization, strategy, and decision-making, particularly in the context of creative product markets. I am also a programmer, a chess player, and an open-source software enthusiast.
 
-I am currently Senior Lecturer in Creative Industries and Director of the MSc Creative Industries at the University of Edinburgh.
+I am currently Senior Lecturer in Creative Industries at the [University of Edinburgh Business School](https://www.business-school.ed.ac.uk/) and Director of the [MSc Creative Industries](https://efi.ed.ac.uk/programmes/creative-industries/) at the [Edinburgh Futures Institute](https://efi.ed.ac.uk/).
 
-You can reach me at:  
-[michele.piazzai@ed.ac.uk](mailto:michele.piazzai@ed.ac.uk) (academic)  
-[michele@piazzai.addy.io](mailto:michele@piazzai.addy.io) (personal, E2EE)
+You can reach me at [michele.piazzai@ed.ac.uk](mailto:michele.piazzai@ed.ac.uk) for academic matters and [michele@piazzai.addy.io](mailto:michele@piazzai.addy.io) for anything else.
