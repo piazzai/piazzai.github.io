@@ -12,4 +12,4 @@ I am currently Senior Lecturer in Creative Industries and Director of the MSc Cr
 
 You can reach me at:  
 [michele.piazzai@ed.ac.uk](mailto:michele.piazzai@ed.ac.uk) (academic)  
-[michele@piazzai.addy.io](mailto:michele@piazzai.addy.io) (personal, PGP)
+[michele@piazzai.addy.io](mailto:michele@piazzai.addy.io) (personal, E2EE)
