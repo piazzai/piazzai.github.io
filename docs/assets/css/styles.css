@@ -114,7 +114,7 @@ svg {
   max-width: 42em; }
 
 .nav .nav-link {
-  border-bottom: .25em solid transparent; }
+  border-bottom: 0.25em solid transparent; }
   .nav .nav-link:hover, .nav .nav-link:focus {
     border-bottom-color: var(--bs-nav-link-hover-color) !important; }
   .nav .nav-link + .nav-link {
