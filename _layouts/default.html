@@ -1,14 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="h-100">
 
-{% include head.html %}
+  {% include head.html %}
 
-<body class="d-flex h-100 text-center">
+  <body class="d-flex h-100 text-center">
     {% include icons.html %}
     {{ content }}
     <script src="{{ 'assets/js/bootstrap.js' | relative_url }}"></script>
     <script src="{{ 'assets/js/particles.js' | relative_url }}"></script>
     <script src="{{ 'assets/js/main.js' | relative_url }}"></script>
-</body>
-
+  </body>
 </html>
