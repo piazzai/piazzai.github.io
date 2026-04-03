@@ -27,7 +27,6 @@
 \renewcommand\headrulewidth{0em}
 \renewcommand\tabcolsep{1.75em}
 
-\newenvironment{cvname}{\centering}{\par\bigskip}
 \newenvironment{cvinfo}{\begin{tabular}{lll}}{\end{tabular}\par\bigskip}
 \newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em,itemsep=\smallskipamount]}{\end{itemize}\medskip}
 \newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}\medskip}
@@ -40,27 +39,27 @@
 \cfoot{\footnotesize\today\ \textperiodcentered\ Page \thepage\ of \pageref{LastPage}}
 
 \newcommand\makecvheader{
-  \begin{cvname}
+  \begin{center}
     \scalebox{3}{\textit{\firalight Michele}~{\firasemibold Piazzai}}\par\medskip
     Senior Lecturer in Creative Industries \par
     University of Edinburgh Business School \par\smallskip
     Director of the MSc Creative Industries \par
-    Edinburgh Futures Institute\par\medskip
-  \end{cvname}
-  \begin{cvinfo}
-    \cvfield{Address} & \multicolumn{2}{l}{\cvfield{Staff Profile}} \\
-    Adam Ferguson Building & \multicolumn{2}{l}{\url{https://www.business-school.ed.ac.uk/staff/michele-piazzai}} \\
-    29 Buccleuch Place \\
-    Edinburgh & \cvfield{Email} & \cvfield{Website}  \\
-    EH8 9JS  & \href{mailto:michele.piazzai@ed.ac.uk}{michele.piazzai@ed.ac.uk} & \url{https://piazzai.github.io} \\
-    \\
-    \cvfield{Researcher ID} & \cvfield{Scopus Author ID} & \cvfield{ORCID} \\
-    \href{https://www.webofscience.com/wos/author/record/ABH-6674-2020}{ABH-6674-2020} & \href{https://www.scopus.com/authid/detail.uri?authorId=56123810600}{56123810600} & \href{https://orcid.org/0000-0001-9676-7422}{0000-0001-9676-7422}
-  \end{cvinfo}
+    Edinburgh Futures Institute\par\bigskip
+    \begin{tabular}{lll}
+      \cvfield{Address} & \multicolumn{2}{l}{\cvfield{Staff Profile}} \\
+      UEBS, Room 2.02 & \multicolumn{2}{l}{\url{https://www.business-school.ed.ac.uk/staff/michele-piazzai}} \\
+      29 Buccleuch Place \\
+      Edinburgh & \cvfield{Email} & \cvfield{Website}  \\
+      EH8 9JS  & \href{mailto:michele.piazzai@ed.ac.uk}{michele.piazzai@ed.ac.uk} & \url{https://piazzai.github.io} \\
+      \\
+      \cvfield{Researcher ID} & \cvfield{Scopus Author ID} & \cvfield{ORCID} \\
+      \href{https://www.webofscience.com/wos/author/record/ABH-6674-2020}{ABH-6674-2020} & \href{https://www.scopus.com/authid/detail.uri?authorId=56123810600}{56123810600} & \href{https://orcid.org/0000-0001-9676-7422}{0000-0001-9676-7422}
+    \end{tabular}
+  \end{center}
 }
 
 \begin{document}
-\makecvheader
+\makecvheader\medskip
 \cvsection{Academic Positions}
 \begin{cvlines}
   \cvline{Senior Lecturer in Creative Industries}{University of Edinburgh}{2025--\phantom{0000}}
@@ -181,10 +180,10 @@
 \end{cvlines}
 \cvsection{Grants}
 \begin{cvlines}
-  \cvline{Ramón y Cajal Fellowship, €\,236\,350}{Spanish Ministry of Science}{2021}
-  \cvline{Knowledge Generation Project (co-applicant), €\,41\,420}{Spanish Ministry of Science}{2020}
-  \cvline{Undergraduate scholarship, \$\,34\,265}{Sierra Nevada College}{2010}
-  \cvline{Undergraduate scholarship, \$\,31\,892}{National Italian American Foundation}{2009}
+  \cvline{Ramón y Cajal Fellowship, €\,236350}{Spanish Ministry of Science}{2021}
+  \cvline{Knowledge Generation Project (co-applicant), €\,41420}{Spanish Ministry of Science}{2020}
+  \cvline{Undergraduate scholarship, \$\,34265}{Sierra Nevada College}{2010}
+  \cvline{Undergraduate scholarship, \$\,31892}{National Italian American Foundation}{2009}
 \end{cvlines}
 \cvsection{Awards}
 \begin{cvlines}
