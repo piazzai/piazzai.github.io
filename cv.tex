@@ -30,7 +30,7 @@
 \newenvironment{cvinfo}{\begin{tabular}{lll}}{\end{tabular}\par\bigskip}
 \newenvironment{cvpubs}{\begin{itemize}[nosep,leftmargin=0em,itemsep=\smallskipamount]}{\end{itemize}\medskip}
 \newenvironment{cvlines}{\begin{itemize}[nosep,leftmargin=1em]}{\end{itemize}\medskip}
-\newcommand\cvfield[1]{\firasemibold\textsc{\lowercase{#1}}}
+\newcommand\cvfield[1]{\bfseries\textsc{\lowercase{#1}}}
 \newcommand\cvsection[1]{\medskip\textbf{\Large\itshape\uppercase{#1}}\hspace{.5em}\hrulefill\par\medskip}
 \newcommand\cvsubsection[1]{\smallskip\textit{\large\firamedium#1}\par\smallskip}
 \newcommand\cvpub[7][.]{\item[] {#2 (#3). #4#1 \textit{\firasemibold#5}\ifthenelse{\isempty{#6}}{.}{\ #6.} \ifthenelse{\isempty{#7}}{Forthcoming.}{\url{https://#7}}}}
